@@ -1,0 +1,31 @@
+{
+  "total_num_egg_strains": 570,
+  "percent_w_eggmut_in_gene": 0.014,
+  "egg_mut_freqs": {
+    "3T": 0.0035087719298245615,
+    "9W": 0.0017543859649122807,
+    "13F": 0.0017543859649122807,
+    "6L": 0.0017543859649122807,
+    "11A": 0.0017543859649122807,
+    "7S": 0.0017543859649122807,
+    "14D": 0.0017543859649122807
+  },
+  "egg_muts_above_1percent": {},
+  "egg_muts_above_2_5percent": {},
+  "egg_muts_above_5percent": {},
+  "percent_w_higherfreq_eggmut_in_gene_01": 0.0,
+  "percent_w_higherfreq_eggmut_in_gene_025": 0.0,
+  "percent_w_higherfreq_eggmut_in_gene_05": 0.0,
+  "mutated_sites_freqs": {
+    "3": 0.0035087719298245615,
+    "9": 0.0017543859649122807,
+    "13": 0.0017543859649122807,
+    "6": 0.0017543859649122807,
+    "11": 0.0017543859649122807,
+    "7": 0.0017543859649122807,
+    "14": 0.0017543859649122807
+  },
+  "sites_mutated_above_1percent": {},
+  "sites_mutated_above_2_5percent": {},
+  "sites_mutated_above_5percent": {}
+}

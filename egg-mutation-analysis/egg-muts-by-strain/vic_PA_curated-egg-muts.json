@@ -1,0 +1,3545 @@
+{
+  "B/Akita/27/2001-egg": {
+    "PA": [],
+    "nuc": [
+      "623A",
+      "1424G",
+      "1496G"
+    ]
+  },
+  "B/HongKong/330/2001-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HongKong/6/2001-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HongKong/123/2001-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hawaii/10/2001-egg": {
+    "PA": [],
+    "nuc": [
+      "893G",
+      "1739G"
+    ]
+  },
+  "B/HongKong/1115/2002-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HongKong/167/2002-egg": {
+    "PA": [],
+    "nuc": [
+      "1524T"
+    ]
+  },
+  "B/HongKong/1434/2002-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Nagasaki/635/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Brisbane/27/2002-egg": {
+    "PA": [],
+    "nuc": [
+      "2286A"
+    ]
+  },
+  "B/Brisbane/30/2002-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Brisbane/25/2002-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Brisbane/24/2002-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Taiwan/2643/2002-egg": {
+    "PA": [
+      "313H"
+    ],
+    "nuc": [
+      "966C",
+      "1022C",
+      "1232C",
+      "1277G",
+      "1715T"
+    ]
+  },
+  "B/Iowa/3/2002-egg": {
+    "PA": [
+      "723M"
+    ],
+    "nuc": [
+      "1388C",
+      "2198G"
+    ]
+  },
+  "B/Brisbane/32/2002-egg": {
+    "PA": [
+      "353N"
+    ],
+    "nuc": [
+      "1087A"
+    ]
+  },
+  "B/Taiwan/3246/2002-egg": {
+    "PA": [
+      "44I",
+      "345S"
+    ],
+    "nuc": [
+      "159A",
+      "584T",
+      "1063G",
+      "1460G"
+    ]
+  },
+  "B/Malaysia/2506/2004-egg": {
+    "PA": [
+      "489T"
+    ],
+    "nuc": [
+      "1495C"
+    ]
+  },
+  "B/Taiwan/417/2005-egg": {
+    "PA": [],
+    "nuc": [
+      "308G"
+    ]
+  },
+  "B/Fujian/Gulou1272/2008-egg": {
+    "PA": [],
+    "nuc": [
+      "473T",
+      "713T",
+      "968T",
+      "1091T",
+      "1412C",
+      "1616T",
+      "1688A",
+      "1829T",
+      "1919G",
+      "2219T"
+    ]
+  },
+  "B/HongKong/230/2009-egg": {
+    "PA": [],
+    "nuc": [
+      "38C",
+      "185C",
+      "287A",
+      "350A",
+      "1373T",
+      "1556G",
+      "1899T",
+      "2069A"
+    ]
+  },
+  "B/HongKong/310/2004-egg": {
+    "PA": [],
+    "nuc": [
+      "2293C"
+    ]
+  },
+  "B/Nepal/1331/2005-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Michigan/4/2006-egg": {
+    "PA": [],
+    "nuc": [
+      "461G",
+      "938A"
+    ]
+  },
+  "B/Bolivia/104/2010-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HongKong/90/2008-egg": {
+    "PA": [
+      "617L"
+    ],
+    "nuc": [
+      "506G",
+      "992T",
+      "1490C",
+      "1878T",
+      "1880G"
+    ]
+  },
+  "B/HongKong/1351/2002-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hawaii/11/2004-egg": {
+    "PA": [],
+    "nuc": [
+      "869C",
+      "2293C"
+    ]
+  },
+  "B/Hawaii/13/2004-egg": {
+    "PA": [
+      "203E"
+    ],
+    "nuc": [
+      "636G"
+    ]
+  },
+  "B/Ohio/1/2005-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Illinois/47/2005-egg": {
+    "PA": [
+      "399M"
+    ],
+    "nuc": [
+      "1224A"
+    ]
+  },
+  "B/Illinois/13/2005-egg": {
+    "PA": [],
+    "nuc": [
+      "161C",
+      "1958T"
+    ]
+  },
+  "B/Taiwan/2894/2006-egg": {
+    "PA": [
+      "130N"
+    ],
+    "nuc": [
+      "417A",
+      "578A",
+      "1547C",
+      "2293C"
+    ]
+  },
+  "B/Taiwan/2755/2006-egg": {
+    "PA": [
+      "130N"
+    ],
+    "nuc": [
+      "314G",
+      "417A"
+    ]
+  },
+  "B/Taiwan/3290/2006-egg": {
+    "PA": [
+      "130N"
+    ],
+    "nuc": [
+      "350A",
+      "417A"
+    ]
+  },
+  "B/Taiwan/1838/2006-egg": {
+    "PA": [],
+    "nuc": [
+      "539A",
+      "2285A",
+      "2287C",
+      "2289A",
+      "2290G",
+      "2292A",
+      "2293T"
+    ]
+  },
+  "B/Taiwan/40/2007-egg": {
+    "PA": [
+      "263K",
+      "273G"
+    ],
+    "nuc": [
+      "242G",
+      "817A",
+      "847G"
+    ]
+  },
+  "B/Taiwan/99/2007-egg": {
+    "PA": [],
+    "nuc": [
+      "242G"
+    ]
+  },
+  "B/Taiwan/14/2007-egg": {
+    "PA": [
+      "396R"
+    ],
+    "nuc": [
+      "41C",
+      "1216G"
+    ]
+  },
+  "B/Taiwan/45/2007-egg": {
+    "PA": [
+      "530P"
+    ],
+    "nuc": [
+      "215G",
+      "1379A",
+      "1617C"
+    ]
+  },
+  "B/Taiwan/37/2007-egg": {
+    "PA": [],
+    "nuc": [
+      "1763A"
+    ]
+  },
+  "B/Taiwan/1734/2006-egg": {
+    "PA": [],
+    "nuc": [
+      "1847G"
+    ]
+  },
+  "B/Bulgaria/35/2011-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Panama/307237/2010-egg": {
+    "PA": [
+      "379I"
+    ],
+    "nuc": [
+      "374T",
+      "1164A",
+      "1958T",
+      "1988A"
+    ]
+  },
+  "B/Shanghai-Jingan/1392/2011-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Songjiang/1204/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "860C"
+    ]
+  },
+  "B/Hunan-Suxian/56/2011-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Songjiang/176/2011-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Luwan/1135/2011-egg": {
+    "PA": [
+      "329G",
+      "516I"
+    ],
+    "nuc": [
+      "798C",
+      "1015G",
+      "1575A"
+    ]
+  },
+  "B/Taiwan/11/2010-egg": {
+    "PA": [
+      "352K"
+    ],
+    "nuc": [
+      "1084A",
+      "1310T",
+      "1643A",
+      "2165A"
+    ]
+  },
+  "B/StPetersburg/93/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "38C",
+      "1487G"
+    ]
+  },
+  "B/Murmansk/3/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "596C"
+    ]
+  },
+  "B/Murmansk/2/2010-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Cangshan/192/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "1676A"
+    ]
+  },
+  "B/Fujian-Gulou/1174/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "41C",
+      "1676A"
+    ]
+  },
+  "B/StPetersburg/5/2011-egg": {
+    "PA": [
+      "312R"
+    ],
+    "nuc": [
+      "964G"
+    ]
+  },
+  "B/Bangladesh/5945/2009-egg": {
+    "PA": [],
+    "nuc": [
+      "680T",
+      "818G",
+      "914A",
+      "1055T",
+      "2018A",
+      "2153T"
+    ]
+  },
+  "B/Brisbane/60/2008-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/England/393/2007-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/England/393/2008-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Egypt/46/2010-egg": {
+    "PA": [],
+    "nuc": [
+      "773T",
+      "935A"
+    ]
+  },
+  "B/Egypt/66/2010-egg": {
+    "PA": [],
+    "nuc": [
+      "935A",
+      "1568G"
+    ]
+  },
+  "B/Egypt/65/2010-egg": {
+    "PA": [],
+    "nuc": [
+      "935A",
+      "1137C",
+      "1568G"
+    ]
+  },
+  "B/Shanghai-Luwan/1216/2011-egg": {
+    "PA": [
+      "156S"
+    ],
+    "nuc": [
+      "496C"
+    ]
+  },
+  "B/Nevada/3/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "98G",
+      "101C",
+      "452C",
+      "900C"
+    ]
+  },
+  "B/Shanghai-Luwan/1169/2011-egg": {
+    "PA": [],
+    "nuc": [
+      "368C",
+      "1586T"
+    ]
+  },
+  "B/NewJersey/1/2012-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Johannesburg/3952/2012-egg": {
+    "PA": [],
+    "nuc": [
+      "104C",
+      "1871A",
+      "2174G"
+    ]
+  },
+  "B/Johannesburg/3964/2012-egg": {
+    "PA": [
+      "387Y"
+    ],
+    "nuc": [
+      "1189A"
+    ]
+  },
+  "B/Johannesburg/3958/2012-egg": {
+    "PA": [
+      "304A"
+    ],
+    "nuc": [
+      "939G"
+    ]
+  },
+  "B/Johannesburg/3462/2012-egg": {
+    "PA": [
+      "304A"
+    ],
+    "nuc": [
+      "939G"
+    ]
+  },
+  "B/Andalucia/358/2012-egg": {
+    "PA": [],
+    "nuc": [
+      "1289T"
+    ]
+  },
+  "B/NewCaledonia/27/2015-egg": {
+    "PA": [
+      "642K",
+      "643D",
+      "644N"
+    ],
+    "nuc": [
+      "1954A",
+      "1956G",
+      "1959A"
+    ]
+  },
+  "B/Malta/MV457/2011-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Utah/8/2012-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Texas/2/2013-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Florida/43/2014-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Maryland/14/2015-egg": {
+    "PA": [],
+    "nuc": [
+      "1847G"
+    ]
+  },
+  "B/Missouri/1/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Dinghai/1466/2016-egg": {
+    "PA": [
+      "352T"
+    ],
+    "nuc": [
+      "134G",
+      "1083A",
+      "1349G"
+    ]
+  },
+  "B/Hawaii/14/2015-egg": {
+    "PA": [
+      "451T"
+    ],
+    "nuc": [
+      "1380A"
+    ]
+  },
+  "B/Idaho/21/2015-egg": {
+    "PA": [
+      "584V"
+    ],
+    "nuc": [
+      "1779G",
+      "2016T"
+    ]
+  },
+  "B/Idaho/25/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Indiana/25/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Florida/78/2015-egg": {
+    "PA": [],
+    "nuc": [
+      "935A"
+    ]
+  },
+  "B/Florida/79/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Florida/84/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Connecticut/61/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Brisbane/46/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jilin-Nanguan/1223/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Indiana/8/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Pennsylvania/19/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hawaii/55/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/California/104/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Florida/94/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Pennsylvania/60/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HongKong/286/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HongKong/269/2017-egg": {
+    "PA": [
+      "625A"
+    ],
+    "nuc": [
+      "1903C"
+    ]
+  },
+  "B/Louisiana/16/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Martinique/86/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Slovenia/1584/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Oregon/11/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Lebanon/16/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Stockholm/10/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guyane/310/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Macedonia/421/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/SouthAfrica/1921/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "348T"
+    ]
+  },
+  "B/NewJersey/9/2017-egg": {
+    "PA": [
+      "393T"
+    ],
+    "nuc": [
+      "1207C"
+    ]
+  },
+  "B/Iowa/14/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Colorado/6/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/ElSalvador/690/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Santiago/47361/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Alabama/2/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Maryland/15/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Norway/2409/2017-egg": {
+    "PA": [
+      "379I",
+      "475R"
+    ],
+    "nuc": [
+      "185C",
+      "1145T",
+      "1164A",
+      "1391C",
+      "1453G"
+    ]
+  },
+  "B/ElSalvador/697/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Montana/34/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Kentucky/25/2015-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Michigan/18/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Singapore/Infkk-16-0575/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hawaii/26/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Singapore/EN0958/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/StPetersburg/293/2016-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Kazakhstan/128/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Kazakhstan/54/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Baoan/1325/2017-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Jiaojiang/11018/2019-egg": {
+    "PA": [],
+    "nuc": [
+      "722T"
+    ]
+  },
+  "B/Hunan-Kaifu/1276/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1373T"
+    ]
+  },
+  "B/Zhejiang-Yongkang/1370/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1373T"
+    ]
+  },
+  "B/Brisbane/35/2018-egg": {
+    "PA": [],
+    "nuc": [
+      "56T"
+    ]
+  },
+  "B/Victoria/705/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/1523/2019-egg": {
+    "PA": [],
+    "nuc": [
+      "626G",
+      "2153T"
+    ]
+  },
+  "B/Zhejiang-Wenling/2273/2021-egg": {
+    "PA": [
+      "123V",
+      "315I"
+    ],
+    "nuc": [
+      "396G",
+      "623A",
+      "973T",
+      "1364G"
+    ]
+  },
+  "B/Guangdong-Nanshan/2018-33566/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Nanshan/38/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Netherlands/10894/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Yunnan-Qilin/1133/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Yunnan-Qilin/1130/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Yunnan-Qilin/1121/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Kanagawa/AC1867/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Kanagawa/IC18169/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Santiago/1391/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "1583C"
+    ]
+  },
+  "B/Santiago/14751/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "1583C"
+    ]
+  },
+  "B/HongKong/574/2019-egg": {
+    "PA": [
+      "360Y"
+    ],
+    "nuc": [
+      "1107T"
+    ]
+  },
+  "B/Sichuan-Gaoxin/531/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Jishou/1433/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hawaii/7/2019-egg": {
+    "PA": [
+      "542S"
+    ],
+    "nuc": [
+      "1190T",
+      "1653A"
+    ]
+  },
+  "B/Washington/2/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Daxaing/120/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "2214A"
+    ]
+  },
+  "B/Bahrain/6/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Cyprus/F938/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/NorthCarolina/1/2021-egg": {
+    "PA": [
+      "607N"
+    ],
+    "nuc": [
+      "1848A"
+    ]
+  },
+  "B/Niger/6134/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/RhodeIsland/1/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Jingyang/12048/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Texas/43/2019-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/CoteDIvoire/948/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11071/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "660T"
+    ]
+  },
+  "B/Guizhou-Kaili/11090/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "660T",
+      "1988A"
+    ]
+  },
+  "B/Neimenggu-Dongsheng/1558/2021-egg": {
+    "PA": [
+      "228G"
+    ],
+    "nuc": [
+      "416C",
+      "711G",
+      "758G"
+    ]
+  },
+  "B/Hunan-Kaifu/126/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Chancheng/1180/2022-egg": {
+    "PA": [
+      "586S"
+    ],
+    "nuc": [
+      "878C",
+      "1346A",
+      "1604C",
+      "1643A",
+      "1785T"
+    ]
+  },
+  "B/Sichuan-Fucheng/1868/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Gaoxin/1534/2021-egg": {
+    "PA": [
+      "96S"
+    ],
+    "nuc": [
+      "315T",
+      "1682G"
+    ]
+  },
+  "B/Yunnan-Anning/1239/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "809A",
+      "1118G",
+      "1529A"
+    ]
+  },
+  "B/Sichuan-Qingyang/11361/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Linchuan/1197/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Tianyuan/386/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "221G"
+    ]
+  },
+  "B/Jiangsu-Sucheng/72/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "101C",
+      "221G"
+    ]
+  },
+  "B/Hubei-Qiaokou/21/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/17/2021-egg": {
+    "PA": [
+      "686V"
+    ],
+    "nuc": [
+      "2085G"
+    ]
+  },
+  "B/Hunan-Lusong/1232/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Gaoxin/1591/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Tianqiao/179/2021-egg": {
+    "PA": [
+      "218S"
+    ],
+    "nuc": [
+      "681T",
+      "1904G"
+    ]
+  },
+  "B/Guizhou-Douyun/11113/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Yuhua/1170/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11102/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11089/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/1104/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1526A",
+      "1952A"
+    ]
+  },
+  "B/Guizhou-Huichuan/1158/2021-egg": {
+    "PA": [
+      "399M"
+    ],
+    "nuc": [
+      "1224A"
+    ]
+  },
+  "B/Guizhou-Douyun/112/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Yanping/11232/2021-egg": {
+    "PA": [
+      "436N"
+    ],
+    "nuc": [
+      "563A",
+      "1336A",
+      "1358C"
+    ]
+  },
+  "B/Neimenggu-Xincheng/1370/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Ningjin/310/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Ningjin/31/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Ningjin/33/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Ningjin/32/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/13/2021-egg": {
+    "PA": [
+      "530L"
+    ],
+    "nuc": [
+      "1618T"
+    ]
+  },
+  "B/Guizhou-Douyun/198/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "444C"
+    ]
+  },
+  "B/Hubei-Xianan/1164/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hebei-Hanshan/1463/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "2295A"
+    ]
+  },
+  "B/Guizhou-Kaili/348/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Dongsheng/1233/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "881G",
+      "1352T"
+    ]
+  },
+  "B/Neimenggu-Xincheng/1358/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "881G",
+      "1352T"
+    ]
+  },
+  "B/Hubei-Xiling/1280/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Sanyuan/2541/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Huichuan/125/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "485G",
+      "866C",
+      "935A"
+    ]
+  },
+  "B/Gansu-Linxia/1558/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Nanhu/1184/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Qingyang/1885/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Pengjiang/1903/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "575C"
+    ]
+  },
+  "B/Guizhou-Huichuan/1251/2021-egg": {
+    "PA": [
+      "87V"
+    ],
+    "nuc": [
+      "288G"
+    ]
+  },
+  "B/Neimenggu-Dongsheng/1276/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Xianan/1346/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Xianan/31/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11085/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11104/2020-egg": {
+    "PA": [
+      "488G"
+    ],
+    "nuc": [
+      "1492G"
+    ]
+  },
+  "B/Zhejiang-Yuecheng/1279/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1550A"
+    ]
+  },
+  "B/Jiangxi-Xinzhou/1186/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11079/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "293T"
+    ]
+  },
+  "B/Hubei-Xianan/545/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HubeiWujiagang/185/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Qiaokou/223/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/317/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/142/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Huichuan/1175/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/137/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/120/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/110/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/138/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/141/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Changning/1249/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "239G"
+    ]
+  },
+  "B/Ningxia-Shapotou/1200/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Yuhua/1334/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Ningxia-Shapotou/1174/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Ningxia-Shapotou/1226/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Huaiyin/19/2022-egg": {
+    "PA": [
+      "356I"
+    ],
+    "nuc": [
+      "1095A"
+    ]
+  },
+  "B/Shandong-Kuiwen/361/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11077/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Qiaokou/124/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Zhongyuan/1291/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Xihu/1218/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Kaifu/1433/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Donghu/1751/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Shanyang/37/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Shanyang/311/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Zhushan/1104/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/346/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/345/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11069/2020-egg": {
+    "PA": [],
+    "nuc": [
+      "2162A"
+    ]
+  },
+  "B/Guizhou-Douyun/16/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Donghe/1330/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1784A"
+    ]
+  },
+  "B/Neimenggu-Donghe/1323/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1784A"
+    ]
+  },
+  "B/Guizhou-Douyun/18/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/344/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/347/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Yuhua/1404/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1226T"
+    ]
+  },
+  "B/Qinghai-Yushu/194/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Gaoxin/1667/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1424A"
+    ]
+  },
+  "B/Sichuan-Gaoxin/1701/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Jiangan/1224/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Jianou/324/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Yanfeng/1309/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Maonan/316/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Duanzhou/149/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1706A"
+    ]
+  },
+  "B/Guangxi-Xixiangtang/351/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Xixiangtang/141/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HubeiWujiagang/1299/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Chongyang/215/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Chongyang/286/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Xihu/1356/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1145T"
+    ]
+  },
+  "B/Guizhou-Douyun/11092/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Yuhua/194/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Zhangpu/34/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Zhangpu/318/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Futian/1748/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "894T",
+      "1670C",
+      "1757C"
+    ]
+  },
+  "B/Hunan-Tianyuan/1345/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1370T"
+    ]
+  },
+  "B/Hunan-Tianyuan/338/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1370T"
+    ]
+  },
+  "B/Neimenggu-Donghe/1394/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Luolong/174/2021-egg": {
+    "PA": [
+      "352T"
+    ],
+    "nuc": [
+      "836C",
+      "1083A"
+    ]
+  },
+  "B/Henan-Luolong/169/2021-egg": {
+    "PA": [
+      "352T"
+    ],
+    "nuc": [
+      "836C",
+      "1083A"
+    ]
+  },
+  "B/Henan-Luolong/1122/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "149T"
+    ]
+  },
+  "B/Henan-Luolong/187/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Kaifu/162/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/545/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Tianyuan/348/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "779G"
+    ]
+  },
+  "B/Hubei-Jiangan/1403/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Zhengxiang/322/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Yuncheng/1502/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1259A",
+      "1262T"
+    ]
+  },
+  "B/Hubei-Qiaokou/113/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Xianan/180/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1697T"
+    ]
+  },
+  "B/HubeiWujiagang/1411/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Kaili/11098/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/17/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HubeiWujiagang/1375/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/318/2020-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Zhenjiang/1193/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Zhushan/1161/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Linshu/312/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Echeng/1322/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Qiaokou/1334/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Liangzihu/32/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangsu-Xuzhougulou/1142/2022-egg": {
+    "PA": [
+      "588I"
+    ],
+    "nuc": [
+      "1791A",
+      "1835T",
+      "2006A"
+    ]
+  },
+  "B/Guangdong-Zhongshan/1225/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "161G"
+    ]
+  },
+  "B/Henan-Jinshui/1318/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Boshan/1114/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hebei-Cixian/1108/2022-egg": {
+    "PA": [
+      "298R",
+      "397Y"
+    ],
+    "nuc": [
+      "689T",
+      "922G",
+      "1046C",
+      "1219A"
+    ]
+  },
+  "B/Beijing-Chaoyang/164/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "188C",
+      "923A"
+    ]
+  },
+  "B/Henan-Beiguan/193/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "554C",
+      "599A",
+      "1631C"
+    ]
+  },
+  "B/Henan-Weidong/1952/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Liaoning-Huanggu/1276/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1253C"
+    ]
+  },
+  "B/Liaoning-Shuncheng/196/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Beijing-Chaoyang/1540/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Victoria/2113/2019-egg": {
+    "PA": [
+      "673S"
+    ],
+    "nuc": [
+      "1331G",
+      "2046A"
+    ]
+  },
+  "B/Victoria/2110/2019-egg": {
+    "PA": [
+      "446T"
+    ],
+    "nuc": [
+      "1366C",
+      "1496G"
+    ]
+  },
+  "B/NewHampshire/1/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Yunnan-Anning/11070/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangxi-Zhushan/1203/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "374T"
+    ]
+  },
+  "B/Gansu-Wudou/1184/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Tianyuan/1288/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Gansu-Jingyuan/1410/2021-egg": {
+    "PA": [
+      "723I"
+    ],
+    "nuc": [
+      "2196A"
+    ]
+  },
+  "B/Hunan-Yuhu/1245/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Jiaojiang/1209/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Heilongjiang-Nangang/164/2022-egg": {
+    "PA": [
+      "47A",
+      "720M"
+    ],
+    "nuc": [
+      "101C",
+      "169C",
+      "539A",
+      "1520T",
+      "2187A"
+    ]
+  },
+  "B/Liaoning-Donggang/1142/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Wulian/326/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1706A"
+    ]
+  },
+  "B/Hubei-Xiaonan/11859/2021-egg": {
+    "PA": [
+      "248L",
+      "665V"
+    ],
+    "nuc": [
+      "772T",
+      "905T",
+      "1373T",
+      "1706A",
+      "2022G",
+      "2168A"
+    ]
+  },
+  "B/Guangdong-Renhua/34/2021-egg": {
+    "PA": [
+      "330R"
+    ],
+    "nuc": [
+      "1018G"
+    ]
+  },
+  "B/Guangdong-Xiangzhou/11323/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Xiangzhou/8316/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanxi-Luzhou/1551/2021-egg": {
+    "PA": [
+      "381M",
+      "486I"
+    ],
+    "nuc": [
+      "1172G",
+      "1485A"
+    ]
+  },
+  "B/Hubei-Dangyang/2305/2021-egg": {
+    "PA": [
+      "203N"
+    ],
+    "nuc": [
+      "638C"
+    ]
+  },
+  "B/Jilin-Chaoyang/12395/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jilin-Chaoyang/1135/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Xiacheng/11000/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Qiaokou/1425/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "980A"
+    ]
+  },
+  "B/Hubei-Jiangan/1555/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Dongxihu/2144/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Qiaokou/1178/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Jingzhou/311/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Youjiang/542/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1163G"
+    ]
+  },
+  "B/Shanghai-Qingpu/1658/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Taierzhuang/320/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Jianou/31/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "779G",
+      "1178T",
+      "1259A",
+      "1835A"
+    ]
+  },
+  "B/Gansu-Baiyin/1281/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Gansu-Baiyin/1269/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Jingan/12767/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "578A"
+    ]
+  },
+  "B/Shanghai-Changning/1900/2021-egg": {
+    "PA": [
+      "605N"
+    ],
+    "nuc": [
+      "488T",
+      "1844T"
+    ]
+  },
+  "B/Shanghai-Huangpu/1922/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Louxin/1171/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Beihu/1596/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1262T"
+    ]
+  },
+  "B/Hunan-Beihu/1542/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Yanfeng/1205/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Linhai/1328/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Yuecheng/1484/2022-egg": {
+    "PA": [
+      "248L"
+    ],
+    "nuc": [
+      "772T",
+      "935A",
+      "1316C"
+    ]
+  },
+  "B/Hainan-Meilan/311/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hainan-Meilan/32/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hainan-Meilan/316/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hainan-Meilan/31/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Xiacheng/11085/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Zengdou/37/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1835T"
+    ]
+  },
+  "B/Sichuan-Yucheng/1409/2022-egg": {
+    "PA": [
+      "233V"
+    ],
+    "nuc": [
+      "413C",
+      "726G",
+      "956C"
+    ]
+  },
+  "B/Guizhou-Kaili/143/2022-egg": {
+    "PA": [
+      "720L"
+    ],
+    "nuc": [
+      "2187T"
+    ]
+  },
+  "B/Henan-Lushi/34/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "839T"
+    ]
+  },
+  "B/Heilongjiang-Gongnong/1213/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "947A",
+      "1076C",
+      "1622G",
+      "2174G"
+    ]
+  },
+  "B/Guizhou-Xixiu/1218/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Xigong/1118/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Beijing-Huairou/11876/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Xinning/1940/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Beijing-Chaoyang/13011/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Huicheng/131/2022-egg": {
+    "PA": [
+      "424V",
+      "625I"
+    ],
+    "nuc": [
+      "1299G",
+      "1902A"
+    ]
+  },
+  "B/Henan-Luolong/1258/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1487G"
+    ]
+  },
+  "B/Henan-Luolong/1328/2021-egg": {
+    "PA": [
+      "313H"
+    ],
+    "nuc": [
+      "966C"
+    ]
+  },
+  "B/Henan-Beiguan/112/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hebei-Chengde/11244/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Chuanhui/128/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hebei-Ningjin/1220/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "983C"
+    ]
+  },
+  "B/Beijing-Huairou/177/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Pudongxin/140/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Xiangcheng/129/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "348T"
+    ]
+  },
+  "B/Liaoning-Xigang/163/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Wulanhaote/1478/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "737G",
+      "2285A",
+      "2289G",
+      "2295A"
+    ]
+  },
+  "B/Hebei-Hejian/1111/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "2159G"
+    ]
+  },
+  "B/Neimenggu-Xincheng/142/2022-egg": {
+    "PA": [
+      "326I"
+    ],
+    "nuc": [
+      "965A",
+      "1007A"
+    ]
+  },
+  "B/Henan-Xigong/1326/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanxi-Luzhou/1650/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1844A"
+    ]
+  },
+  "B/Shanxi-Gaoping/322/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanxi-Chengqu/1113/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Shishou/268/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Xilinhaote/1300/2022-egg": {
+    "PA": [
+      "222D"
+    ],
+    "nuc": [
+      "693G",
+      "1289T",
+      "1304A",
+      "1784G"
+    ]
+  },
+  "B/Neimenggu-Xilinhaote/1347/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1202C",
+      "1304A",
+      "1784G"
+    ]
+  },
+  "B/Hunan-Beihu/1675/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "626G",
+      "1304A",
+      "1784G"
+    ]
+  },
+  "B/Shaanxi-Linwei/1163/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "116G",
+      "1304A",
+      "1604C",
+      "1784G"
+    ]
+  },
+  "B/Shaanxi-Baota/1439/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "116G",
+      "1304A",
+      "1784G",
+      "2060T"
+    ]
+  },
+  "B/Jiangsu-Xuzhougulou/126/2022-egg": {
+    "PA": [
+      "329K",
+      "594V"
+    ],
+    "nuc": [
+      "1014A",
+      "1706A",
+      "1809G",
+      "1997T"
+    ]
+  },
+  "B/Hebei-Ningjin/19/2022-egg": {
+    "PA": [
+      "446V"
+    ],
+    "nuc": [
+      "1365G"
+    ]
+  },
+  "B/Zhejiang-Nanhu/1854/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Tianyuan/1282/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Xinluo/11063/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1292G"
+    ]
+  },
+  "B/Fujian-Xinluo/1898/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Putuo/132/2022-egg": {
+    "PA": [
+      "612S",
+      "714N"
+    ],
+    "nuc": [
+      "1863T",
+      "2170A"
+    ]
+  },
+  "B/Ningxia-Xinqing/1416/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "338C"
+    ]
+  },
+  "B/Zhejiang-Liandou/1146/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Tianyuan/1329/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Futian/1745/2022-egg": {
+    "PA": [
+      "609I"
+    ],
+    "nuc": [
+      "935A",
+      "1854A"
+    ]
+  },
+  "B/Guangdong-Zhenjiang/1485/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HubeiWujiagang/1782/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1043A",
+      "1343G",
+      "2000A"
+    ]
+  },
+  "B/Guangdong-Zhenjiang/1516/2021-egg": {
+    "PA": [
+      "47L"
+    ],
+    "nuc": [
+      "168T"
+    ]
+  },
+  "B/Shanxi-Chengqu/119/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "212T",
+      "1046C",
+      "1094A",
+      "1607A",
+      "2057G"
+    ]
+  },
+  "B/Sichuan-Jingyang/1119/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "740G",
+      "965A",
+      "1202C",
+      "1607A",
+      "2129G"
+    ]
+  },
+  "B/Neimenggu-Hongshan/132/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "530G",
+      "1088C",
+      "1934G"
+    ]
+  },
+  "B/Neimenggu-Wulanhaote/1271/2022-egg": {
+    "PA": [
+      "415N"
+    ],
+    "nuc": [
+      "530G",
+      "1088C",
+      "1273A",
+      "1934G",
+      "2048A"
+    ]
+  },
+  "B/Shaanxi-Baota/1278/2022-egg": {
+    "PA": [
+      "485I"
+    ],
+    "nuc": [
+      "1482A"
+    ]
+  },
+  "B/Sichuan-Lizhou/11143/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Qingyang/1769/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Xinjiang-Midong/1254/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1028G"
+    ]
+  },
+  "B/Beijing-Xicheng/1205/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Alashanzuoqi/1300/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "902A",
+      "2214A"
+    ]
+  },
+  "B/Sichuan-Gaoxin/1188/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "527G",
+      "2214A"
+    ]
+  },
+  "B/Shaanxi-Baota/1208/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jilin-Nanguan/177/2022-egg": {
+    "PA": [
+      "87T"
+    ],
+    "nuc": [
+      "289C",
+      "347C"
+    ]
+  },
+  "B/Heilongjiang-Yimei/1427/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1256G"
+    ]
+  },
+  "B/Liaoning-Tiexi/1292/2022-egg": {
+    "PA": [
+      "415N"
+    ],
+    "nuc": [
+      "1273A",
+      "2123A"
+    ]
+  },
+  "B/Hebei-Luquan/1400/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "77A",
+      "215T"
+    ]
+  },
+  "B/Liaoning-Xinlongtai/31/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanxi-Xinfu/133/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Dongqu/191/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Chongming/38/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Fengxian/163/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1583C"
+    ]
+  },
+  "B/Henan-Yicheng/1316/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1613A",
+      "2039T"
+    ]
+  },
+  "B/Liaoning-Xinlongtai/135/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Huimin/1526/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Linhe/1117/2022-egg": {
+    "PA": [
+      "60T"
+    ],
+    "nuc": [
+      "207A"
+    ]
+  },
+  "B/Heilongjiang-Yimei/1494/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Haibowan/1411/2022-egg": {
+    "PA": [
+      "349S"
+    ],
+    "nuc": [
+      "872T",
+      "1075G"
+    ]
+  },
+  "B/Guangdong-Chancheng/1860/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "743G",
+      "1091T"
+    ]
+  },
+  "B/Neimenggu-Keerqin/19/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Keerqin/11348/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Keerqin/16/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Xinjiang-Hutubi/142/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "2000A"
+    ]
+  },
+  "B/Liaoning-Huanggu/1454/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "923A"
+    ]
+  },
+  "B/Liaoning-Huanggu/11581/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/1674/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "269C"
+    ]
+  },
+  "B/Fujian-Gulou/1118/2022-egg": {
+    "PA": [
+      "720I"
+    ],
+    "nuc": [
+      "449A",
+      "1469G",
+      "1706T",
+      "2187A",
+      "2189A"
+    ]
+  },
+  "B/Fujian-Xinluo/1753/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1883G",
+      "2018A",
+      "2239C"
+    ]
+  },
+  "B/Fujian-Xiangcheng/22/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1883G",
+      "2018A"
+    ]
+  },
+  "B/Neimenggu-Etuokeqi/31/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Xinyi/136/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "206G",
+      "2039T"
+    ]
+  },
+  "B/Guizhou-Ceheng/311/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Zhongshan/363/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Xixiu/1222/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1658T",
+      "2207G"
+    ]
+  },
+  "B/Shaanxi-Hanbin/155/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "158A",
+      "227G"
+    ]
+  },
+  "B/Hubei-Hefeng/2401/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "686G",
+      "1346G"
+    ]
+  },
+  "B/Guangdong-Zhenjiang/865/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "62C"
+    ]
+  },
+  "B/Guangdong-Duanzhou/11143/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Huicheng/1982/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangsu-Hailing/154/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/1290/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1094A"
+    ]
+  },
+  "B/Jiangsu-Hailing/1202/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Ruyuanyaozuzizhi/346/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Jining/1772/2021-egg": {
+    "PA": [],
+    "nuc": [
+      "1739G"
+    ]
+  },
+  "B/Gansu-Wudou/1183/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jiangsu-Qingjiangpu/194/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "2219C"
+    ]
+  },
+  "B/Sichuan-Cuiping/11189/2021-egg": {
+    "PA": [
+      "357K"
+    ],
+    "nuc": [
+      "1098A"
+    ]
+  },
+  "B/Sichuan-Cuiping/1130/2022-egg": {
+    "PA": [
+      "315I"
+    ],
+    "nuc": [
+      "973T",
+      "1073C"
+    ]
+  },
+  "B/Guangdong-Yuancheng/118/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Duodao/511/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Maonan/35/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Maonan/326/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Maonan/1250/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Qingxiu/11013/2022-egg": {
+    "PA": [
+      "489E",
+      "609I"
+    ],
+    "nuc": [
+      "28C",
+      "206G",
+      "572G",
+      "1494G",
+      "1854A"
+    ]
+  },
+  "B/Guangxi-Gaoxinjishuchanyekaifa/51/2022-egg": {
+    "PA": [
+      "609I"
+    ],
+    "nuc": [
+      "206G",
+      "668C",
+      "1854A"
+    ]
+  },
+  "B/Guangxi-Qingxiu/11052/2022-egg": {
+    "PA": [
+      "609I"
+    ],
+    "nuc": [
+      "206G",
+      "668C",
+      "1854A"
+    ]
+  },
+  "B/Guangdong-Zhenjiang/11/2022-egg": {
+    "PA": [
+      "252V"
+    ],
+    "nuc": [
+      "784T",
+      "1484G",
+      "1658T"
+    ]
+  },
+  "B/Beijing-Haidian/1231/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1253C"
+    ]
+  },
+  "B/Heilongjiang-Tiefeng/1173/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "215T",
+      "494T",
+      "1253C"
+    ]
+  },
+  "B/Guangdong-Zhongshan/1309/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "155G",
+      "1284T",
+      "1442T"
+    ]
+  },
+  "B/Hunan-Lusong/1356/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1763C",
+      "2150A"
+    ]
+  },
+  "B/Guangdong-Xiangzhou/11264/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1904G"
+    ]
+  },
+  "B/Guangdong-Maonan/1616/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "776G"
+    ]
+  },
+  "B/Gansu-Suzhou/1359/2022-egg": {
+    "PA": [
+      "440R"
+    ],
+    "nuc": [
+      "626G",
+      "896G",
+      "1348G"
+    ]
+  },
+  "B/Hebei-Guangyang/1154/2022-egg": {
+    "PA": [
+      "625I"
+    ],
+    "nuc": [
+      "932G",
+      "1598C",
+      "1902A"
+    ]
+  },
+  "B/Hebei-Lunan/1517/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1211G",
+      "1223G",
+      "1952A",
+      "1988A",
+      "2021A"
+    ]
+  },
+  "B/Henan-Yicheng/1210/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "272A"
+    ]
+  },
+  "B/Hubei-Huangzhou/1406/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Zhongshan/1853/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "938A"
+    ]
+  },
+  "B/Guangdong-Zhongshan/1809/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "938A"
+    ]
+  },
+  "B/Guangdong-Haizhu/1601/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Liwan/1547/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Chancheng/1421/2022-egg": {
+    "PA": [],
+    "nuc": [
+      "1037G"
+    ]
+  },
+  "B/Hubei-Songzi/1409/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Maryland/28/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Maryland/27/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Maryland/29/2018-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Maryland/1/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Netherlands/10335/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Haishu/1528/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Moscow/29/2022-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Michigan/1/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Austria/1359417/2021-egg": {
+    "PA": [
+      "357R"
+    ],
+    "nuc": [
+      "1099G"
+    ]
+  },
+  "B/Singapore/WUH0784/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Huangpu/1955/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Catalonia/3514402NS/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Connecticut/1/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Massachusetts/1/2021-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Changning/1481/2023-egg": {
+    "PA": [
+      "395K"
+    ],
+    "nuc": [
+      "917A",
+      "1091T",
+      "1214A",
+      "1622G",
+      "2227A"
+    ]
+  },
+  "B/Fujian-Xinluo/1894/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "999C"
+    ]
+  },
+  "B/Sichuan-Qingyang/1363/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Xixiangtang/1935/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Yiwu/1366/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/India/Pun-Nivcov24_4405/2024-egg": {
+    "PA": [
+      "415N",
+      "523G",
+      "529N",
+      "623R"
+    ],
+    "nuc": [
+      "578C",
+      "635C",
+      "764A",
+      "1273A",
+      "1529A",
+      "1559C",
+      "1596G",
+      "1614A",
+      "1625A",
+      "1897G"
+    ]
+  },
+  "B/Shanghai-Huangpu/12755/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Greece/5509/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Catalonia/2279261NS/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Minxing/160/2025-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Duanzhou/1852/2023-egg": {
+    "PA": [
+      "268Q",
+      "529N"
+    ],
+    "nuc": [
+      "554T",
+      "803G",
+      "833A",
+      "1614A"
+    ]
+  },
+  "B/Jiangsu-Gaoyou/1700/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "503C"
+    ]
+  },
+  "B/Switzerland/329/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/India/PUN-NIV24_3276/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/India/Pun-NIV24_3276/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/HubeiWujiagang/11596/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shandong-Boshan/1321/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Yuzhou/11259/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/2973/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/StPetersburg/RII-23/2025-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Gansu-Xifeng/1255/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "521A"
+    ]
+  },
+  "B/Henan-Huixian/2125/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "521A"
+    ]
+  },
+  "B/Hubei-Xiaochang/2471/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Maonan/11172/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/StPetersburg/RII-24/2025-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Songjiang/18/2025-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Cangshan/1927/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "1103G",
+      "1559C",
+      "2060T"
+    ]
+  },
+  "B/Guangxi-Beiliu/2298/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Anhui-Huashan/1320/2024-egg": {
+    "PA": [
+      "711R"
+    ],
+    "nuc": [
+      "2161G",
+      "2162G"
+    ]
+  },
+  "B/Jilin-Nanguan/15/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Songjiang/1839/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Fujian-Gulou/11090/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Qinnan/11128/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Yuncheng/11476/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Shihe/11032/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/21160/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "1943C"
+    ]
+  },
+  "B/Guizhou-Kaili/1180/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "356T",
+      "1943C"
+    ]
+  },
+  "B/Guangxi-Yuzhou/11063/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Zhongshan/1796/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "800A"
+    ]
+  },
+  "B/Guangdong-Yuancheng/1891/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Zhenjiang/1296/2024-egg": {
+    "PA": [
+      "320I",
+      "708D"
+    ],
+    "nuc": [
+      "988T",
+      "2152A"
+    ]
+  },
+  "B/Hubei-Tianmen/317/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "2274T"
+    ]
+  },
+  "B/Hubei-Duodao/1223/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "2060T"
+    ]
+  },
+  "B/Guangdong-Pengjiang/11021/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "350A"
+    ]
+  },
+  "B/Guangxi-Yuzhou/2351/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Yunnan-Shuifu/2181/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1415C"
+    ]
+  },
+  "B/Hunan-Kaifu/1284/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "917A",
+      "1208T"
+    ]
+  },
+  "B/Guangdong-Dongwanbendi/1797/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Bijiang/1901/2023-egg": {
+    "PA": [
+      "47I"
+    ],
+    "nuc": [
+      "168A",
+      "695C"
+    ]
+  },
+  "B/Shandong-Zhangdian/1260/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "153T",
+      "698C",
+      "2150A"
+    ]
+  },
+  "B/Hainan-Xiuying/1898/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "854C"
+    ]
+  },
+  "B/Sichuan-Dongpo/1177/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1073C",
+      "1610A"
+    ]
+  },
+  "B/Henan-Beiguan/1941/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Yuzhou/2349/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Liunan/3105/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Qinnan/5267/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Qingxiu/1797/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "1667T"
+    ]
+  },
+  "B/Guangxi-Beiliu/2425/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "839T",
+      "1499G"
+    ]
+  },
+  "B/Anhui-Yingjiang/12146/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Fengxian/1960/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Gaoxin/1104/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "98G",
+      "1073C",
+      "1856G"
+    ]
+  },
+  "B/Henan-Chuanhui/1923/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Futian/11706/2024-egg": {
+    "PA": [
+      "443I"
+    ],
+    "nuc": [
+      "1356A"
+    ]
+  },
+  "B/Liaoning-Lianshan/184/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanghai-Jingan/1672/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "28C",
+      "269C"
+    ]
+  },
+  "B/Heilongjiang-Daowai/18/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Jilin-Chaoyang/123/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Weibin/112/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1841T"
+    ]
+  },
+  "B/Guangdong-Futian/11726/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "497G",
+      "1268A",
+      "1289T",
+      "1559C",
+      "1841T",
+      "2178C"
+    ]
+  },
+  "B/Tianjin-Jinnan/12/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1659T"
+    ]
+  },
+  "B/Beijing-Haidian/1313/2024-egg": {
+    "PA": [
+      "418T"
+    ],
+    "nuc": [
+      "62C",
+      "785A",
+      "1124A",
+      "1281A"
+    ]
+  },
+  "B/Beijing-Haidian/12389/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Qingcheng/2209/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hainan-Meilan/1100/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Weibin/1134/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "374T",
+      "599A",
+      "1475A",
+      "2148C"
+    ]
+  },
+  "B/Henan-Weibin/15/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1178T"
+    ]
+  },
+  "B/Shanxi-Jiexiu/257/2024-egg": {
+    "PA": [
+      "531R"
+    ],
+    "nuc": [
+      "1620A"
+    ]
+  },
+  "B/Hubei-Dongbao/289/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Gansu-Chengguan/123/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1622G"
+    ]
+  },
+  "B/Anhui-Qiaocheng/512/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Enshi/12402/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/1729/2023-egg": {
+    "PA": [],
+    "nuc": [
+      "1997A"
+    ]
+  },
+  "B/Guangxi-Diecai/1258/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1739G",
+      "1926T"
+    ]
+  },
+  "B/Hunan-Yuhu/19/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Huangshigang/299/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Zengdou/1597/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1511T"
+    ]
+  },
+  "B/Sichuan-Qingyang/11735/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Shanxi-Xinfu/2296/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangxi-Beiliu/2368/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guizhou-Douyun/1995/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Zhenjiang/1228/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "44C"
+    ]
+  },
+  "B/Guangdong-Dongwanbendi/1859/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Renshou/2370/2024-egg": {
+    "PA": [
+      "159D"
+    ],
+    "nuc": [
+      "506T"
+    ]
+  },
+  "B/Guangdong-Jinping/1342/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "539A",
+      "584C"
+    ]
+  },
+  "B/Beijing-Chaoyang/12796/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hunan-Heshan/2582/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Neimenggu-Zizhijining/115/2024-egg": {
+    "PA": [
+      "456V"
+    ],
+    "nuc": [
+      "1190T",
+      "1395G"
+    ]
+  },
+  "B/Beijing-Chaoyang/121/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "317C",
+      "1430C"
+    ]
+  },
+  "B/Guangxi-Fangcheng/11122/2023-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Huaying/246/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Xiangqiao/1499/2024-egg": {
+    "PA": [
+      "228S"
+    ],
+    "nuc": [
+      "712G",
+      "1610A",
+      "1655T"
+    ]
+  },
+  "B/Hunan-Tianyuan/1355/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Anhui-Xuanzhou/1439/2024-egg": {
+    "PA": [
+      "239V"
+    ],
+    "nuc": [
+      "744G"
+    ]
+  },
+  "B/Anhui-Tianjiaan/1245/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hebei-Haigang/2211/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Dongwanbendi/1862/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "413C",
+      "2214A",
+      "2216G",
+      "2217G",
+      "2218G"
+    ]
+  },
+  "B/Shanghai-Jinshan/1864/2024-egg": {
+    "PA": [
+      "720M"
+    ],
+    "nuc": [
+      "2187A"
+    ]
+  },
+  "B/Liaoning-Yinzhou/1221/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Zhejiang-Wenling/2863/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Xiangzhou/51/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Liaoning-Laobian/1103/2024-egg": {
+    "PA": [
+      "34V"
+    ],
+    "nuc": [
+      "129G"
+    ]
+  },
+  "B/Neimenggu-Zizhihaibowan/1369/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "653C"
+    ]
+  },
+  "B/Guangdong-Zhongshan/2420/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "900C",
+      "1619G",
+      "2081A"
+    ]
+  },
+  "B/Hubei-Zengdou/2842/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1046A",
+      "1199A",
+      "2265C"
+    ]
+  },
+  "B/Shanghai-Yangpu/2301/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Hubei-Shishou/2323/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "125G",
+      "1139G",
+      "1349G",
+      "1451G"
+    ]
+  },
+  "B/Gansu-Jinchuan/1113/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Henan-Changyuan/288/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Sichuan-Renshou/1177/2024-egg": {
+    "PA": [
+      "548R"
+    ],
+    "nuc": [
+      "1001G",
+      "1671A",
+      "2270C"
+    ]
+  },
+  "B/Jiangsu-Zhangjiagang/328/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1721A",
+      "1982A"
+    ]
+  },
+  "B/Guangdong-Zhongshan/1875/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "560C",
+      "935A",
+      "1949T"
+    ]
+  },
+  "B/Chongqing-Yongchuan/1480/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1316G"
+    ]
+  },
+  "B/Anhui-Guichi/1227/2024-egg": {
+    "PA": [],
+    "nuc": [
+      "1520T"
+    ]
+  },
+  "B/Shanxi-Jiexiu/2124/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Rongcheng/1526/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Qingcheng/2619/2024-egg": {
+    "PA": [],
+    "nuc": []
+  },
+  "B/Guangdong-Qingcheng/2539/2024-egg": {
+    "PA": [],
+    "nuc": []
+  }
+}

@@ -1,0 +1,11848 @@
+{
+  "A/Nanchang/933/1995-egg": {
+    "HA1": [
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646T"
+    ]
+  },
+  "A/Wuhan/359/1995-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Auckland/5/1996-egg": {
+    "HA1": [
+      "L194I",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C657A",
+      "G753A"
+    ]
+  },
+  "A/Bangkok/1/1997-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Auckland/19/1996-egg": {
+    "HA1": [
+      "S193R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C656A"
+    ]
+  },
+  "A/Canberra/1/1996-egg": {
+    "HA1": [
+      "D190V",
+      "N246S",
+      "I274V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646T",
+      "A814G",
+      "A897G"
+    ]
+  },
+  "A/SouthAfrica/D1147/1996-egg": {
+    "HA1": [],
+    "HA2": [
+      "R216K"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C657T",
+      "C944T",
+      "A1700G",
+      "G1711A"
+    ]
+  },
+  "A/SouthAfrica/1147/1996-egg": {
+    "HA1": [
+      "S186I",
+      "D190E",
+      "S219Y"
+    ],
+    "HA2": [
+      "R216K"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C647A",
+      "C657T",
+      "C733A",
+      "C944T",
+      "A1700G",
+      "G1711A"
+    ]
+  },
+  "A/Shenzhen/1718/1998-egg": {
+    "HA1": [
+      "T167A",
+      "S227Y",
+      "R229K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A576G",
+      "C757A",
+      "G763A"
+    ]
+  },
+  "A/Sydney/5/1997-egg": {
+    "HA1": [
+      "Y233H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T774C"
+    ]
+  },
+  "A/Fukushima/1999/1998-egg": {
+    "HA1": [
+      "A131T",
+      "L157P",
+      "L194I",
+      "R220S",
+      "M268L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A140G",
+      "G275A",
+      "G468A",
+      "T546C",
+      "T547C",
+      "C657A",
+      "A737C",
+      "A879C",
+      "A980T"
+    ]
+  },
+  "A/Johannesburg/15/1998-egg": {
+    "HA1": [
+      "K158N",
+      "R229G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G434A",
+      "A551T",
+      "A762G"
+    ]
+  },
+  "A/Sichuan/346/1998-egg": {
+    "HA1": [
+      "K158N",
+      "V182F",
+      "L194I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A551T",
+      "G621T",
+      "C657A"
+    ]
+  },
+  "A/SouthAfrica/21/1998-egg": {
+    "HA1": [
+      "V226I",
+      "P289S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G753A",
+      "C761T",
+      "C942T"
+    ]
+  },
+  "A/SouthAfrica/8/1998-egg": {
+    "HA1": [
+      "S186I",
+      "L194I",
+      "P289S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C657A",
+      "C942T"
+    ]
+  },
+  "A/Johannesburg/7/1998-egg": {
+    "HA1": [
+      "A138V",
+      "K140Q",
+      "S193R",
+      "L194I",
+      "P289S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C490T",
+      "A495C",
+      "C656A",
+      "C657A",
+      "C942T"
+    ]
+  },
+  "A/Johannesburg/3/1998-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/308/1998-egg": {
+    "HA1": [
+      "R141G",
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A498G",
+      "A646T"
+    ]
+  },
+  "A/Victoria/309/1998-egg": {
+    "HA1": [
+      "R141G",
+      "D190V",
+      "R220S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C89G",
+      "A498G",
+      "A646T",
+      "A737C"
+    ]
+  },
+  "A/Sydney/68/1998-egg": {
+    "HA1": [
+      "R57Q",
+      "K158N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G247A",
+      "C356A",
+      "A551T"
+    ]
+  },
+  "A/Victoria/318/1998-egg": {
+    "HA1": [
+      "K158E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A549G"
+    ]
+  },
+  "A/Victoria/605/1998-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Tehran/83/1999-egg": {
+    "HA1": [
+      "R220S",
+      "K276R",
+      "E280K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G107A",
+      "C119T",
+      "T389C",
+      "T623C",
+      "A737T",
+      "A904G",
+      "G915A"
+    ]
+  },
+  "A/Victoria/512/1998-egg": {
+    "HA1": [
+      "R141G",
+      "R220S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G107A",
+      "A498G",
+      "A737T"
+    ]
+  },
+  "A/Victoria/312/1998-egg": {
+    "HA1": [
+      "H183L",
+      "T192I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C89G",
+      "A625T",
+      "C652T"
+    ]
+  },
+  "A/Johannesburg/92/1999-egg": {
+    "HA1": [
+      "L194I",
+      "R229G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C657A",
+      "A762G"
+    ]
+  },
+  "A/Johannesburg/72/1999-egg": {
+    "HA1": [
+      "L194I",
+      "R220S",
+      "R229I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G122T",
+      "C657A",
+      "A737T",
+      "G763T"
+    ]
+  },
+  "A/Johannesburg/57/1999-egg": {
+    "HA1": [
+      "P4S",
+      "K158N",
+      "L194I",
+      "I194V",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C87T",
+      "A551C",
+      "C657A",
+      "A657G",
+      "G753A"
+    ]
+  },
+  "A/Moscow/10/1999-egg": {
+    "HA1": [
+      "K145N",
+      "A196T",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A512C",
+      "G663A",
+      "G753A"
+    ]
+  },
+  "A/Victoria/3/1999-egg": {
+    "HA1": [
+      "L194I",
+      "R229I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T38C",
+      "C657A",
+      "G763T"
+    ]
+  },
+  "A/Tehran/14/1999-egg": {
+    "HA1": [
+      "L194I",
+      "R220S",
+      "K238R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T24G",
+      "C657A",
+      "A737T",
+      "A790G"
+    ]
+  },
+  "A/California/32/1999-egg": {
+    "HA1": [
+      "L194I",
+      "R220K",
+      "P221H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A140T",
+      "C657A",
+      "G736A",
+      "C739A"
+    ]
+  },
+  "A/Johannesburg/31/2000-egg": {
+    "HA1": [
+      "I144T",
+      "V182I",
+      "S265G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G107A",
+      "T508C",
+      "T509C",
+      "G621A",
+      "T635C",
+      "C695A",
+      "A870G",
+      "T899C"
+    ]
+  },
+  "A/UlanUde/1/2000-egg": {
+    "HA1": [
+      "K158N",
+      "L194I",
+      "R229G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A551T",
+      "C657A",
+      "A762G"
+    ]
+  },
+  "A/Ireland/10586/1999-egg": {
+    "HA1": [
+      "L194I",
+      "R229G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C657A",
+      "A762G",
+      "T911C"
+    ]
+  },
+  "A/SouthAfrica/57/2000-egg": {
+    "HA1": [
+      "T128A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A459G",
+      "G794A"
+    ]
+  },
+  "A/Victoria/577/1999-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Panama/2007/1999-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Argentina/1/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Philippines/26/1999-egg": {
+    "HA1": [
+      "R142G",
+      "L194T",
+      "I252L"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "L11F"
+    ],
+    "nuc": [
+      "A62T",
+      "A501G",
+      "C657A",
+      "T658C",
+      "A831C"
+    ]
+  },
+  "A/Philippines/26A/1999-egg": {
+    "HA1": [
+      "R142G",
+      "L194T",
+      "I252L"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "L11F"
+    ],
+    "nuc": [
+      "A62T",
+      "A501G",
+      "C657A",
+      "T658C",
+      "A831C"
+    ]
+  },
+  "A/Fujian/140/2000-egg": {
+    "HA1": [
+      "K158N",
+      "L194V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A551T",
+      "C657G"
+    ]
+  },
+  "A/Perth/201/2001-egg": {
+    "HA1": [
+      "K158N",
+      "L194I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A551C",
+      "C657A",
+      "C1499T"
+    ]
+  },
+  "A/Chile/8266a/2003-egg": {
+    "HA1": [
+      "D7G",
+      "S45N",
+      "N122S",
+      "A138S",
+      "S189N",
+      "L194I"
+    ],
+    "HA2": [
+      "F3L"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A97G",
+      "G203A",
+      "G211A",
+      "C362T",
+      "A442G",
+      "G489T",
+      "G643A",
+      "C657A",
+      "C740A",
+      "G884A",
+      "T944C",
+      "G1034A",
+      "C1073A"
+    ]
+  },
+  "A/Brisbane/3/2003-egg": {
+    "HA1": [
+      "L194I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A83G",
+      "C657A"
+    ]
+  },
+  "A/Sydney/44/2001-egg": {
+    "HA1": [
+      "S193N",
+      "L194V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G655A",
+      "C657G"
+    ]
+  },
+  "A/Wellington/33/2002-egg": {
+    "HA1": [
+      "S193R",
+      "L194I"
+    ],
+    "HA2": [
+      "F9S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G149A",
+      "C656A",
+      "C657A"
+    ]
+  },
+  "A/Bangkok/109/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/102/2003-egg": {
+    "HA1": [
+      "T128N",
+      "A138S",
+      "T328I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C460A",
+      "G489T",
+      "C1060T",
+      "T1076C",
+      "A1080T"
+    ]
+  },
+  "A/Victoria/101/2003-egg": {
+    "HA1": [
+      "T328I"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "F15L",
+      "A16V"
+    ],
+    "nuc": [
+      "C1060T",
+      "T1076C"
+    ]
+  },
+  "A/Brisbane/24/2002-egg": {
+    "HA1": [
+      "N96S",
+      "R141K",
+      "S193R",
+      "L194I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A364G",
+      "G499A",
+      "C542T",
+      "A563G",
+      "C656A",
+      "C657A",
+      "A1064G"
+    ]
+  },
+  "A/Brazil/1404/2003-egg": {
+    "HA1": [
+      "T48A",
+      "R50K",
+      "Q57H",
+      "D190G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A219G",
+      "G226A",
+      "A248C",
+      "T288C",
+      "A646G",
+      "C773A",
+      "C1082T",
+      "C1088T"
+    ]
+  },
+  "A/Egypt/130/2002-egg": {
+    "HA1": [
+      "A163S",
+      "G263R",
+      "R299K",
+      "N312K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T206G",
+      "G564T",
+      "G864A",
+      "G973A",
+      "C1013A"
+    ]
+  },
+  "A/Brisbane/34/2002-egg": {
+    "HA1": [
+      "H183L",
+      "D291G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A62T",
+      "A625T",
+      "G866A",
+      "A949G",
+      "T1076C",
+      "C1088T"
+    ]
+  },
+  "A/Chile/6416/2001-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/NewYork/55/2001-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Fukuoka/15/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Romania/972/2003-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/Sofia/141/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/67/2002-egg": {
+    "HA1": [
+      "N81D",
+      "N122D",
+      "L194I"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "F15L",
+      "A16V"
+    ],
+    "nuc": [
+      "A318G",
+      "A441G",
+      "C657A"
+    ]
+  },
+  "A/Victoria/512/2002-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [
+      "F9Q"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C273T",
+      "A625T",
+      "G674A",
+      "T1076C",
+      "C1088T"
+    ]
+  },
+  "A/Brisbane/11/2002-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [
+      "F9Q"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "T1076C",
+      "C1088T"
+    ]
+  },
+  "A/Brisbane/12/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/6/2002-egg": {
+    "HA1": [
+      "G186S",
+      "L194I",
+      "V226I"
+    ],
+    "HA2": [
+      "G8V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "C657A",
+      "G753A",
+      "G1087T"
+    ]
+  },
+  "A/HongKong/1550/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Perth/200/2002-egg": {
+    "HA1": [
+      "L194V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C657G"
+    ]
+  },
+  "A/Sichuan/262/2003-egg": {
+    "HA1": [
+      "H183L",
+      "D188Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "G639T",
+      "G1085A"
+    ]
+  },
+  "A/Brisbane/5/2002-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T74C",
+      "G431T",
+      "A596G",
+      "A625T",
+      "T1088G",
+      "-1092A",
+      "-1094A"
+    ]
+  },
+  "A/Singapore/30/2003-egg": {
+    "HA1": [
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "V14G"
+    ],
+    "nuc": [
+      "T70G",
+      "C89T",
+      "A646T"
+    ]
+  },
+  "A/Singapore/25/2003-egg": {
+    "HA1": [
+      "I25L",
+      "R307I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A150T",
+      "G997T"
+    ]
+  },
+  "A/Singapore/54/2003-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A83G",
+      "C398A",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Malaysia/294/2003-egg": {
+    "HA1": [
+      "G186S",
+      "T248I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T77C",
+      "A83G",
+      "G633A",
+      "C820T",
+      "C908T"
+    ]
+  },
+  "A/Singapore/8/2003-egg": {
+    "HA1": [
+      "K160H",
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A83G",
+      "A545C",
+      "A646T",
+      "-1089T"
+    ]
+  },
+  "A/Malaysia/233/2003-egg": {
+    "HA1": [
+      "Y94H",
+      "D190G"
+    ],
+    "HA2": [
+      "G8V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T357C",
+      "A646G",
+      "G1087T"
+    ]
+  },
+  "A/Singapore/31/2003-egg": {
+    "HA1": [
+      "I25M",
+      "K158N",
+      "D190G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A152G",
+      "A551T",
+      "A646G",
+      "A701G"
+    ]
+  },
+  "A/Singapore/58/2003-egg": {
+    "HA1": [
+      "G186S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C251T",
+      "C347T",
+      "G633A"
+    ]
+  },
+  "A/Philippines/472/2002-egg": {
+    "HA1": [],
+    "HA2": [
+      "L198F"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C1656T"
+    ]
+  },
+  "A/Kumamoto/102/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/26/2003-egg": {
+    "HA1": [
+      "V186G",
+      "S227Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T488A",
+      "T634G",
+      "C757A"
+    ]
+  },
+  "A/Singapore/24/2003-egg": {
+    "HA1": [
+      "P21S",
+      "S227Y"
+    ],
+    "HA2": [
+      "F9S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A137G",
+      "C138T",
+      "C757A",
+      "T1073C"
+    ]
+  },
+  "A/Singapore/40/2003-egg": {
+    "HA1": [
+      "V182I",
+      "S227Y"
+    ],
+    "HA2": [
+      "F9S"
+    ],
+    "SigPep": [
+      "V14L"
+    ],
+    "nuc": [
+      "C143T",
+      "G621A",
+      "C757A",
+      "T1073C"
+    ]
+  },
+  "A/Singapore/55/2003-egg": {
+    "HA1": [
+      "S227Y"
+    ],
+    "HA2": [
+      "F9S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C757A",
+      "T1073C"
+    ]
+  },
+  "A/Chita/6/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jilin/18/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jilin/17/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jilin/14/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jilin/16/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/HongKong/1052/2003-egg": {
+    "HA1": [
+      "A69V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T185G",
+      "C283T",
+      "C285T",
+      "A1160G",
+      "A1196C"
+    ]
+  },
+  "A/Osaka-C/70/2002-egg": {
+    "HA1": [
+      "A138S",
+      "D190V",
+      "A196T",
+      "V309I"
+    ],
+    "HA2": [
+      "G8V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A646T",
+      "G663A",
+      "G1002A",
+      "G1087T"
+    ]
+  },
+  "A/Fujian/411/2002-egg": {
+    "HA1": [
+      "H183L",
+      "S193R",
+      "V309I"
+    ],
+    "HA2": [
+      "H106Y"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "C656A",
+      "G1002A",
+      "C1380T"
+    ]
+  },
+  "A/Victoria/507/2004-egg": {
+    "HA1": [
+      "G186V",
+      "V204I",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "G687A",
+      "A751G"
+    ]
+  },
+  "A/Victoria/505/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/500/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Chile/8299/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/HongKong/4593e/2004-egg": {
+    "HA1": [
+      "G78S",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G309A",
+      "A464G",
+      "G645A"
+    ]
+  },
+  "A/Fukuoka/37/2002-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Fukuoka/55/2002-egg": {
+    "HA1": [],
+    "HA2": [
+      "K82E"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A83G",
+      "C1073T",
+      "A1308G"
+    ]
+  },
+  "A/Mexico/InDRE756/2003-egg": {
+    "HA1": [],
+    "HA2": [
+      "D184N"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T59C",
+      "G1614A"
+    ]
+  },
+  "A/Mexico/InDRE940/2003-egg": {
+    "HA1": [
+      "P103S"
+    ],
+    "HA2": [
+      "E150G"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C356A",
+      "C384T",
+      "T941C",
+      "A1513G",
+      "C1622T"
+    ]
+  },
+  "A/Mexico/InDRE835/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A857C",
+      "T1223C",
+      "G1289A"
+    ]
+  },
+  "A/Auckland/6/2003-egg": {
+    "HA1": [
+      "G186D",
+      "D190V",
+      "I214V",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634A",
+      "A646T",
+      "A717G",
+      "G753A",
+      "T1090C"
+    ]
+  },
+  "A/Auckland/22/2003-egg": {
+    "HA1": [
+      "G186V",
+      "I214V",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A717G",
+      "G753A",
+      "T1073C",
+      "T1090C"
+    ]
+  },
+  "A/Wyoming/3e/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A110T"
+    ]
+  },
+  "A/Wyoming/3/2003-egg": {
+    "HA1": [
+      "D190E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C647A"
+    ]
+  },
+  "A/Wyoming/3e5/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A1196C"
+    ]
+  },
+  "A/Wyoming/3e8/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/UnitedKingdom/1861/2003-egg": {
+    "HA1": [
+      "H183L",
+      "D188Y",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T546C",
+      "A625T",
+      "G639T",
+      "G663A",
+      "G824A"
+    ]
+  },
+  "A/Mexico/InDRE2662/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/342/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/340/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Texas/40e/2003-egg": {
+    "HA1": [
+      "G186S",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "C733A"
+    ]
+  },
+  "A/Texas/141/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Texas/140/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Arizona/62e/2003-egg": {
+    "HA1": [
+      "I29F",
+      "D190G",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A162T",
+      "A646G",
+      "G753A",
+      "A1112G",
+      "C1157G"
+    ]
+  },
+  "A/Victoria/584/2003-egg": {
+    "HA1": [
+      "G186D",
+      "D190V",
+      "R201K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634A",
+      "A646T",
+      "G679A"
+    ]
+  },
+  "A/Brisbane/265/2003-egg": {
+    "HA1": [
+      "G50E",
+      "G186D",
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G226A",
+      "G634A",
+      "A646T"
+    ]
+  },
+  "A/Brisbane/72/2003-egg": {
+    "HA1": [
+      "G186D",
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634A",
+      "A646T",
+      "C944A",
+      "T992C"
+    ]
+  },
+  "A/Christchurch/28/2003-egg": {
+    "HA1": [
+      "A138S",
+      "G186D",
+      "D190V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "G634A",
+      "A646T"
+    ]
+  },
+  "A/Brisbane/327/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Romania/802/2003-egg": {
+    "HA1": [
+      "H183L",
+      "D188Y",
+      "V226A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C311A",
+      "A625T",
+      "G639T",
+      "T754C"
+    ]
+  },
+  "A/Shanghai/369/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/HongKong/1186/2003-egg": {
+    "HA1": [
+      "S124G",
+      "A138S",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C60T",
+      "A62C",
+      "T77G",
+      "A447G",
+      "G489T",
+      "T665C",
+      "C719T",
+      "G753A"
+    ]
+  },
+  "A/Fujian/445/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/9/2004-egg": {
+    "HA1": [],
+    "HA2": [
+      "V18M"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G1116A"
+    ]
+  },
+  "A/Colombo/166/2003-egg": {
+    "HA1": [
+      "V226I"
+    ],
+    "HA2": [
+      "F205L"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T506C",
+      "G753A",
+      "T1677C"
+    ]
+  },
+  "A/Colombo/159/2003-egg": {
+    "HA1": [],
+    "HA2": [
+      "I186V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T77C",
+      "T506C",
+      "G1418A",
+      "A1620G"
+    ]
+  },
+  "A/Colombo/143/2003-egg": {
+    "HA1": [],
+    "HA2": [
+      "I186V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T77C",
+      "T506C",
+      "G1418A",
+      "A1620G"
+    ]
+  },
+  "A/Anhui/1247/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brazil/1499/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brazil/1742/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Thailand/5107/2004-egg": {
+    "HA1": [
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G663A"
+    ]
+  },
+  "A/Malaysia/1/2004-egg": {
+    "HA1": [
+      "N189Y",
+      "S193R",
+      "V226I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A642T",
+      "C656A",
+      "G753A"
+    ]
+  },
+  "A/Colombo/190/2003-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A1079G"
+    ]
+  },
+  "A/Wellington/1/2004-egg": {
+    "HA1": [
+      "I226V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A753G"
+    ]
+  },
+  "A/Sofia/682/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/1/2005-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "D190E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "T623G",
+      "G634T",
+      "C647A"
+    ]
+  },
+  "A/Brisbane/3/2005-egg": {
+    "HA1": [
+      "G186V",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C815A"
+    ]
+  },
+  "A/Brisbane/3e/2005-egg": {
+    "HA1": [
+      "G186V",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C815A"
+    ]
+  },
+  "A/Mississippi/5e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "S193R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A654C",
+      "G722A"
+    ]
+  },
+  "A/Victoria/500/2005-egg": {
+    "HA1": [
+      "D225G",
+      "P227S",
+      "P239Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G",
+      "C756T",
+      "C793A"
+    ]
+  },
+  "A/Brisbane/23/2005-egg": {
+    "HA1": [
+      "D190E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C647A",
+      "A1625G"
+    ]
+  },
+  "A/Victoria/512/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/503/2005-egg": {
+    "HA1": [
+      "D190E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A152T",
+      "C647A"
+    ]
+  },
+  "A/Wyoming/28e/2005-egg": {
+    "HA1": [
+      "N145K",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C512A",
+      "G663A"
+    ]
+  },
+  "A/Wisconsin/21e/2004-egg": {
+    "HA1": [
+      "N145K",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C512A",
+      "G663A",
+      "T671A",
+      "A680G",
+      "A962G"
+    ]
+  },
+  "A/NewCaledonia/7/2004-egg": {
+    "HA1": [
+      "N145K",
+      "A196T",
+      "T212I",
+      "T248I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C46G",
+      "T48C",
+      "C512A",
+      "G663A",
+      "T671A",
+      "C712T",
+      "C820T"
+    ]
+  },
+  "A/Brazil/2363/2005-egg": {
+    "HA1": [
+      "I25V",
+      "S193R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A92G",
+      "A150G",
+      "C656A",
+      "G1109A"
+    ]
+  },
+  "A/Wyoming/5e/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G1085A"
+    ]
+  },
+  "A/Brazil/2353/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T665C",
+      "G1085A"
+    ]
+  },
+  "A/NewYork/55/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/NewYork/55e/2004-egg": {
+    "HA1": [
+      "N6D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A93G",
+      "A1196C",
+      "C1349T",
+      "C1351A"
+    ]
+  },
+  "A/NewYork/39e/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A1196C",
+      "C1349T",
+      "C1351A"
+    ]
+  },
+  "A/Wyoming/7e/2005-egg": {
+    "HA1": [
+      "A138S",
+      "R150K",
+      "D190N",
+      "R307K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A344G",
+      "G489T",
+      "G526A",
+      "G645A",
+      "G997A",
+      "C1082A",
+      "A1145G"
+    ]
+  },
+  "A/NewYork/40e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "H156R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G383A",
+      "G489T",
+      "A544G",
+      "A671T"
+    ]
+  },
+  "A/Hawaii/15e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "H156R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A544G"
+    ]
+  },
+  "A/Venezuela/6971/2005-egg": {
+    "HA1": [
+      "G78S",
+      "A138S",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G309A",
+      "G489T",
+      "G645A"
+    ]
+  },
+  "A/Victoria/511/2004-egg": {
+    "HA1": [
+      "N189Y",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A642T",
+      "G663A"
+    ]
+  },
+  "A/Alaska/3e/2004-egg": {
+    "HA1": [
+      "D188N",
+      "D190N",
+      "V223I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C425A",
+      "T545C",
+      "G639A",
+      "G645A",
+      "G744A",
+      "A1064G"
+    ]
+  },
+  "A/Montana/3e/2005-egg": {
+    "HA1": [
+      "D190N",
+      "V223I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T212C",
+      "G645A",
+      "G744A"
+    ]
+  },
+  "A/NewHampshire/9/2004-egg": {
+    "HA1": [
+      "A138S",
+      "N145S",
+      "D188N",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G113A",
+      "G489T",
+      "A511G",
+      "G639A",
+      "G645A"
+    ]
+  },
+  "A/Wyoming/25e/2005-egg": {
+    "HA1": [
+      "A138S",
+      "D188N",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "G639A",
+      "G645A"
+    ]
+  },
+  "A/Missouri/1e/2005-egg": {
+    "HA1": [
+      "A106V",
+      "A138S",
+      "D190N",
+      "N190D",
+      "A196T",
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C394T",
+      "G489T",
+      "G645A",
+      "A645G",
+      "G663A",
+      "A814C"
+    ]
+  },
+  "A/Bangladesh/1817/2005-egg": {
+    "HA1": [
+      "A106V",
+      "A138S",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C347A",
+      "C394T",
+      "G489T",
+      "G645A",
+      "A1415G",
+      "C1538T",
+      "G1580A",
+      "A1710C"
+    ]
+  },
+  "A/Hawaii/16e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "G645A"
+    ]
+  },
+  "A/Wyoming/8e/2005-egg": {
+    "HA1": [
+      "A138S",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T308C",
+      "G489T",
+      "G645A"
+    ]
+  },
+  "A/Wyoming/9e/2005-egg": {
+    "HA1": [
+      "A138S",
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T308C",
+      "G489T",
+      "G645A"
+    ]
+  },
+  "A/Kentucky/6e/2004-egg": {
+    "HA1": [
+      "T248I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C820T",
+      "A1058G"
+    ]
+  },
+  "A/Alaska/11e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "D190G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A646G"
+    ]
+  },
+  "A/California/7/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T1073C"
+    ]
+  },
+  "A/Missouri/13e/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C773T",
+      "C896A",
+      "A1625G"
+    ]
+  },
+  "A/Kentucky/13e/2005-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T437C",
+      "G634T"
+    ]
+  },
+  "A/Washington/1e/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Christchurch/280/2004-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Christchurch/10/2004-egg": {
+    "HA1": [
+      "G186V",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A814G"
+    ]
+  },
+  "A/Victoria/512/2004-egg": {
+    "HA1": [
+      "H18Y",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C129T",
+      "C545T",
+      "G634T"
+    ]
+  },
+  "A/Singapore/36/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/38/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T1090C"
+    ]
+  },
+  "A/Singapore/37/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/DistrictofColumbia/1/2004-egg": {
+    "HA1": [
+      "S193N",
+      "T248I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G655A",
+      "C820T"
+    ]
+  },
+  "A/NorthDakota/1e/2004-egg": {
+    "HA1": [
+      "N189Y"
+    ],
+    "HA2": [
+      "I48F"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A642T",
+      "A1206T"
+    ]
+  },
+  "A/Wisconsin/19e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "G634T"
+    ]
+  },
+  "A/Wisconsin/16e/2004-egg": {
+    "HA1": [
+      "A138S",
+      "S193R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A654C"
+    ]
+  },
+  "A/Victoria/523/2004-egg": {
+    "HA1": [
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545T",
+      "A813C"
+    ]
+  },
+  "A/Victoria/513/2004-egg": {
+    "HA1": [
+      "T167A",
+      "D190E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C398T",
+      "A576G",
+      "C647G"
+    ]
+  },
+  "A/Missouri/13e/2004-egg": {
+    "HA1": [
+      "D7G",
+      "A106V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A97G",
+      "C394T",
+      "C545T",
+      "C733A"
+    ]
+  },
+  "A/Japan/120/2004-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/79/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "N189S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G200A",
+      "T299C",
+      "T476C",
+      "C545A",
+      "A643G",
+      "T983C",
+      "G1034A"
+    ]
+  },
+  "A/California/20e/2005-egg": {
+    "HA1": [
+      "H156R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A446G",
+      "A544G",
+      "A893C"
+    ]
+  },
+  "A/Wisconsin/67/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/NewJersey/2e/2006-egg": {
+    "HA1": [
+      "I25V",
+      "A138S",
+      "H156Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A150G",
+      "G489T",
+      "G500A",
+      "C545A",
+      "C653T",
+      "C728T",
+      "A741C",
+      "T926C"
+    ]
+  },
+  "A/NewYork/2e/2006-egg": {
+    "HA1": [
+      "I25V",
+      "F193Y",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A150G",
+      "G500A",
+      "T655A",
+      "C728T",
+      "C733A",
+      "T926C"
+    ]
+  },
+  "A/Anhui/1239/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Hiroshima/52/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Mexico/InDRE2601/2003-egg": {
+    "HA1": [
+      "V323I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G809A",
+      "G1044A"
+    ]
+  },
+  "A/Mexico/InDRE2160/2005-egg": {
+    "HA1": [
+      "V223I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C719T",
+      "G744A"
+    ]
+  },
+  "A/Mexico/InDRE2112/2005-egg": {
+    "HA1": [
+      "A106V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C394T",
+      "T506C",
+      "C1466A"
+    ]
+  },
+  "A/NewJersey/3e/2006-egg": {
+    "HA1": [
+      "L194P",
+      "N225D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G203A",
+      "T658C",
+      "A750G",
+      "A1625G"
+    ]
+  },
+  "A/Wyoming/1e/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G107A",
+      "A707G",
+      "C770T"
+    ]
+  },
+  "A/NewHampshire/3/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Peru/5102/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Peru/5107/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Wyoming/2/2006-egg": {
+    "HA1": [
+      "Y195H"
+    ],
+    "HA2": [
+      "I77V"
+    ],
+    "SigPep": [
+      "C12R"
+    ],
+    "nuc": [
+      "T63C",
+      "A260G",
+      "C467T",
+      "T660C",
+      "A1293G",
+      "A1394G"
+    ]
+  },
+  "A/NewYork/3e/2006-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Honduras/3112/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/503/2006-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/Florida/2e/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Kentucky/3e/2006-egg": {
+    "HA1": [
+      "Y195H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T660C"
+    ]
+  },
+  "A/Sendai-H/F131/2006-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Brisbane/11/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Zagreb/1216/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Wisconsin/68e/2005-egg": {
+    "HA1": [
+      "L194P",
+      "Y233F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C728A",
+      "A775T"
+    ]
+  },
+  "A/Mexico/29/2006-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Brazil/1898/2006-egg": {
+    "HA1": [],
+    "HA2": [
+      "D184N"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T206C",
+      "T1103C",
+      "A1157G",
+      "G1614A"
+    ]
+  },
+  "A/Santiago/7981/2006-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Mexico/InDRE2227/2005-egg": {
+    "HA1": [
+      "V223I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C89T",
+      "G744A",
+      "C1349T"
+    ]
+  },
+  "A/Mexico/InDRE29/2006-egg": {
+    "HA1": [
+      "V223I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G744A"
+    ]
+  },
+  "A/Mexico/InDRE2246/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A956G",
+      "C1349T"
+    ]
+  },
+  "A/Hiroshima/33/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Wisconsin/67e5/2005-egg": {
+    "HA1": [
+      "N122D",
+      "Y195H",
+      "V223I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A441G",
+      "T660C",
+      "G744A"
+    ]
+  },
+  "A/Brisbane/7/2007-egg": {
+    "HA1": [
+      "H183L",
+      "D188N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "G639A"
+    ]
+  },
+  "A/Taiwan/70307/2007-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "T899C"
+    ]
+  },
+  "A/Taiwan/70002/2007-egg": {
+    "HA1": [
+      "A138S",
+      "L194P",
+      "N225D"
+    ],
+    "HA2": [
+      "A192T"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T658C",
+      "A750G",
+      "G1638A"
+    ]
+  },
+  "A/Hanoi/BM38/2007-egg": {
+    "HA1": [
+      "R150K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G526A",
+      "T658C",
+      "G1352A"
+    ]
+  },
+  "A/Brisbane/4/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/70113/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C395A",
+      "T1397G"
+    ]
+  },
+  "A/Taiwan/1452/2007-egg": {
+    "HA1": [
+      "S124N",
+      "N165K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G290A",
+      "G448A",
+      "C572A",
+      "A1112G",
+      "C1416T"
+    ]
+  },
+  "A/HubeiWujiagang/1121/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Chongqing/Yuzhong159/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/ChongqingYuzhong/169/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Uruguay/34/2005-egg": {
+    "HA1": [
+      "V223I",
+      "N225D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G744A",
+      "A750G",
+      "C858A"
+    ]
+  },
+  "A/Georgia/4e/2006-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G125A",
+      "C908T"
+    ]
+  },
+  "A/Anhui/1238/2005-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Nepal/921/2006-egg": {
+    "HA1": [
+      "I6N",
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T94A",
+      "A625T"
+    ]
+  },
+  "A/Serres/77/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Hanoi/TX023/2007-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/Hanoi/TX058/2007-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C114T",
+      "A625T"
+    ]
+  },
+  "A/Netherlands/363/2006-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "C704T"
+    ]
+  },
+  "A/Hanoi/N015/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C251T"
+    ]
+  },
+  "A/Hanoi/Q148/2007-egg": {
+    "HA1": [
+      "R208I"
+    ],
+    "HA2": [
+      "V200I"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G659T",
+      "G700T",
+      "A1193C",
+      "C1232T",
+      "G1662A"
+    ]
+  },
+  "A/Sofia/319/2007-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/NewCaledonia/9/2006-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A677G",
+      "C733A"
+    ]
+  },
+  "A/NewCaledonia/12/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/Brisbane/9/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "A620G",
+      "G634T"
+    ]
+  },
+  "A/NewCaledonia/11/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "K158N",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "A551T",
+      "G634T"
+    ]
+  },
+  "A/NewCaledonia/10/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219Y",
+      "A304P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733A",
+      "G987C"
+    ]
+  },
+  "A/NewCaledonia/8/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/NewCaledonia/7/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/Singapore/78/2006-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/SriLanka/23/2007-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "A814C"
+    ]
+  },
+  "A/Malaysia/1530/2007-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C356T",
+      "A605G",
+      "T658C",
+      "C989A"
+    ]
+  },
+  "A/Brisbane/229/2007-egg": {
+    "HA1": [
+      "H156R",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T288C",
+      "A544G",
+      "G634T",
+      "G866A"
+    ]
+  },
+  "A/Brisbane/203/2007-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T288C",
+      "T658C",
+      "G866A"
+    ]
+  },
+  "A/Taiwan/2361/2007-egg": {
+    "HA1": [
+      "S9R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A102C",
+      "G638A"
+    ]
+  },
+  "A/Uruguay/716/2007-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Wisconsin/3/2007-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [
+      "V84A"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T",
+      "T1315C"
+    ]
+  },
+  "A/Illinois/14/2008-egg": {
+    "HA1": [
+      "L157S",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T547C",
+      "G634T",
+      "C733T",
+      "G1214A",
+      "G1601A"
+    ]
+  },
+  "A/Malaysia/1199/2007-egg": {
+    "HA1": [
+      "L3I",
+      "G186V",
+      "S219F",
+      "I226N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C84A",
+      "C467A",
+      "G634T",
+      "T662C",
+      "C733T",
+      "T754A"
+    ]
+  },
+  "A/Washington/42/2007-egg": {
+    "HA1": [
+      "F159S",
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G113A",
+      "T553C",
+      "G634T",
+      "A813C",
+      "G1601A"
+    ]
+  },
+  "A/Arkansas/6/2007-egg": {
+    "HA1": [
+      "D53G",
+      "A138S",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A235G",
+      "T389C",
+      "G489T",
+      "G634T",
+      "C733A",
+      "G1034A",
+      "G1370A"
+    ]
+  },
+  "A/Brisbane/2/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Malaysia/1620/2007-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Taiwan/70120/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G1433A",
+      "G1712A"
+    ]
+  },
+  "A/Taiwan/72106/2007-egg": {
+    "HA1": [
+      "T30M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C166T"
+    ]
+  },
+  "A/Brisbane/202/2007-egg": {
+    "HA1": [
+      "N96S",
+      "P169T",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A364G",
+      "C416A",
+      "C582A",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/187/2007-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Brisbane/48/2007-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "D190E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C647A"
+    ]
+  },
+  "A/Brisbane/10/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/471/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Perth/4/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/21/2008-egg": {
+    "HA1": [],
+    "HA2": [
+      "M17L",
+      "E177D"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A1113T",
+      "G1595T"
+    ]
+  },
+  "A/Singapore/215/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/24/2008-egg": {
+    "HA1": [
+      "D53N",
+      "A138S",
+      "G186V",
+      "D188Y",
+      "D291G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C215T",
+      "G234A",
+      "C371T",
+      "G489T",
+      "G634T",
+      "G639T",
+      "A949G"
+    ]
+  },
+  "A/Virginia/4/2007-egg": {
+    "HA1": [
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A813C"
+    ]
+  },
+  "A/Brisbane/28/2007-egg": {
+    "HA1": [
+      "Q173K",
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C594A",
+      "G634T",
+      "T758C",
+      "A813C"
+    ]
+  },
+  "A/Pennsylvania/4/2007-egg": {
+    "HA1": [
+      "H156R",
+      "Q173K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "C594A",
+      "G634T",
+      "T758C"
+    ]
+  },
+  "A/Victoria/500/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Sydney/603/2009-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Sydney/602/2009-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Missouri/5/2008-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Mississippi/4/2008-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "A710G",
+      "C733A",
+      "C989A"
+    ]
+  },
+  "A/Perth/201/2008-egg": {
+    "HA1": [
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A813C"
+    ]
+  },
+  "A/Brisbane/54/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Colorado/6/2009-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T506C",
+      "G634T",
+      "C689T",
+      "A707G",
+      "T1556C"
+    ]
+  },
+  "A/Perth/16/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Perth/15/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Pennsylvania/15/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2009334C/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2009332C/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/210/2009-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [
+      "D160N"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "G1542A"
+    ]
+  },
+  "A/Victoria/209/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/53/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/33/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/37/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2009471C/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/851/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/ShanghaiLuwan/188/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jiangsu-Xinpu/1205/2012-egg": {
+    "HA1": [
+      "S279Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C913A",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Jiangsu-Donghai/57/2012-egg": {
+    "HA1": [
+      "G186A",
+      "S279Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634C",
+      "C913A",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Jiangsu-Xinpu/1385/2012-egg": {
+    "HA1": [
+      "S279Y"
+    ],
+    "HA2": [
+      "D160N"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C913A",
+      "G1542A",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Jiangsu-Danyang/1647/2012-egg": {
+    "HA1": [
+      "S279Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C913A",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Jiangsu-Wujin/318/2013-egg": {
+    "HA1": [
+      "S279Y"
+    ],
+    "HA2": [
+      "R216S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C913A",
+      "A1700G",
+      "T1722C",
+      "T1728C",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/PortMoresby/2/2009-egg": {
+    "HA1": [
+      "Y161S",
+      "G186V"
+    ],
+    "HA2": [
+      "N169S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A559C",
+      "G634T",
+      "A1570G"
+    ]
+  },
+  "A/Guangdong-Luohu/1257/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guangdong-Luohu/1256/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/GuangdongFutian/1253/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/HongKong/26560/2009-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Fujian-Tongan/196/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/839/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Qingdao/505/2009-egg": {
+    "HA1": [
+      "F147L",
+      "T283A",
+      "P293S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T516C",
+      "T833C",
+      "T899C",
+      "A924G",
+      "C954T",
+      "A1046G"
+    ]
+  },
+  "A/Qingdao/522/2009-egg": {
+    "HA1": [],
+    "HA2": [
+      "T59A"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T635G",
+      "A701G",
+      "A1239G"
+    ]
+  },
+  "A/Philippines/2191/2009-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Wisconsin/15/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/240/2009-egg": {
+    "HA1": [
+      "S45N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G107T",
+      "G211A",
+      "C215T"
+    ]
+  },
+  "A/Perth/5/2008-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Wellington/2/2008-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Kenya/1544/2008-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Brisbane/14/2009-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A",
+      "-1737A",
+      "-1738A"
+    ]
+  },
+  "A/Bangladesh/5014/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/208/2009-egg": {
+    "HA1": [
+      "D241E",
+      "R269K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C800A",
+      "G883A",
+      "C902T"
+    ]
+  },
+  "A/Bangladesh/3012/2009-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Geneva/4149722/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/256/2011-egg": {
+    "HA1": [
+      "F79L",
+      "G186V",
+      "I214T",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T188C",
+      "T312C",
+      "A353G",
+      "G634T",
+      "T718C",
+      "A813C",
+      "C944T"
+    ]
+  },
+  "A/SouthAustralia/30/2012-egg": {
+    "HA1": [
+      "I140K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "T658C"
+    ]
+  },
+  "A/Sydney/195/2012-egg": {
+    "HA1": [
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A813C"
+    ]
+  },
+  "A/SouthAustralia/34/2011-egg": {
+    "HA1": [
+      "G186V",
+      "F193S",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "T655C",
+      "C733A",
+      "C1178T",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Hawaii/27/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Alaska/23/2012-egg": {
+    "HA1": [
+      "G186V",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A814G"
+    ]
+  },
+  "A/Alaska/22/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Alaska/24/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Singapore/H2010564C/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010559C/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/563/2010-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Hunan-Beihu/1143/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2011140C/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Perth/10/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Townsville/87/2010-egg": {
+    "HA1": [
+      "I140M",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A497G",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/220/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/210/2010-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Montana/5/2011-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/Acores/SU43/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Delaware/23/2012-egg": {
+    "HA1": [
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A813C"
+    ]
+  },
+  "A/Stockholm/40/2012-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/Guadeloupe/202/2010-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Kentucky/5/2011-egg": {
+    "HA1": [
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A482C",
+      "A701G",
+      "C733T"
+    ]
+  },
+  "A/Arizona/13/2010-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Alaska/5/2010-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Christchurch/28/2011-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Brisbane/299/2011-egg": {
+    "HA1": [
+      "A138S",
+      "G186D",
+      "D190G",
+      "N290T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "G634A",
+      "A646G",
+      "A946C"
+    ]
+  },
+  "A/Victoria/362/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "T1133C",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Iowa/19/2010-egg": {
+    "HA1": [
+      "G186S",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G663A"
+    ]
+  },
+  "A/Iowa/119/2010-egg": {
+    "HA1": [
+      "G186S",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G663A"
+    ]
+  },
+  "A/Florida/21/2011-egg": {
+    "HA1": [
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A813C"
+    ]
+  },
+  "A/Missouri/2/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Micronesia/6689/2012-egg": {
+    "HA1": [
+      "E62G",
+      "G186V",
+      "S209G",
+      "T248K",
+      "R261Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T71G",
+      "C74T",
+      "A262G",
+      "T443C",
+      "G634T",
+      "A702G",
+      "C820A",
+      "G859A",
+      "C959T",
+      "C1017T"
+    ]
+  },
+  "A/PuertoRico/36/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/PuertoRico/38/2011-egg": {
+    "HA1": [
+      "T248K"
+    ],
+    "HA2": [
+      "S151A"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T752C",
+      "C820A",
+      "A1493G",
+      "T1515G"
+    ]
+  },
+  "A/PuertoRico/36/2011-egg": {
+    "HA1": [
+      "A196T",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G663A",
+      "A813C"
+    ]
+  },
+  "A/Florida/68/2012-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/Lisbon/SU91/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Kentucky/24/2012-egg": {
+    "HA1": [
+      "T248I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C820T"
+    ]
+  },
+  "A/SouthCarolina/24/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Virginia/16/2012-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/DominicanRepublic/3668/2009-egg": {
+    "HA1": [
+      "H183L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T"
+    ]
+  },
+  "A/HongKong/4547/2009-egg": {
+    "HA1": [
+      "T248I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C820T"
+    ]
+  },
+  "A/RhodeIsland/1/2010-egg": {
+    "HA1": [
+      "H183L",
+      "D188Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A625T",
+      "G639T"
+    ]
+  },
+  "A/Victoria/8/2010-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Austria/64/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010321C/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010666C/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010370C/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010471C/2010-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/11/2010-egg": {
+    "HA1": [
+      "L194P",
+      "V309I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "G1002A"
+    ]
+  },
+  "A/Perth/501/2010-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Singapore/H2011460cC/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/C2011545C/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/H2011704C/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Virginia/5/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Nevada/20/2012-egg": {
+    "HA1": [
+      "G186V",
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C104T",
+      "G634T",
+      "A814C"
+    ]
+  },
+  "A/Christchurch/512/2012-egg": {
+    "HA1": [
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A813C"
+    ]
+  },
+  "A/Maryland/2/2012-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Singapore/H2011504C/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/SouthAustralia/2/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Ohio/2/2012-egg": {
+    "HA1": [
+      "R142G",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A501G",
+      "T658C"
+    ]
+  },
+  "A/Cairo/51/2012-egg": {
+    "HA1": [],
+    "HA2": [
+      "F196L"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C251T",
+      "G431T",
+      "T1650C",
+      "G1712A"
+    ]
+  },
+  "A/Victoria/361/2011-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Victoria/304/2011-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Victoria/527/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Hawaii/22/2012-egg": {
+    "HA1": [
+      "G186V",
+      "I226S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "T754G"
+    ]
+  },
+  "A/Hawaii/25/2012-egg": {
+    "HA1": [
+      "S124G",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A447G",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Hawaii/26/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/NewHampshire/11/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/NewYork/38/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Taiwan/1363/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/NewHampshire/10/2012-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Pennsylvania/9/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Hawaii/23/2012-egg": {
+    "HA1": [
+      "H156R",
+      "G186S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G633A"
+    ]
+  },
+  "A/Taiwan/426/2012-egg": {
+    "HA1": [
+      "G186V",
+      "D190G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A646G"
+    ]
+  },
+  "A/NewHampshire/16/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [
+      "A201V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T299C",
+      "T537C",
+      "G634T",
+      "A764G",
+      "C1666T"
+    ]
+  },
+  "A/Glasgow/407664/2012-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G125A",
+      "T658C"
+    ]
+  },
+  "A/Berlin/93/2011-egg": {
+    "HA1": [
+      "H156R",
+      "G186S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G633A"
+    ]
+  },
+  "A/Brisbane/402/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Norway/1292/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/1/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Maine/5/2012-egg": {
+    "HA1": [
+      "Y98F",
+      "I226N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A370T",
+      "T754A"
+    ]
+  },
+  "A/Taiwan/613/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C858A",
+      "C1487T",
+      "G1607A"
+    ]
+  },
+  "A/Singapore/H2011808bC/2011-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Taiwan/285/2012-egg": {
+    "HA1": [
+      "D190G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646G",
+      "T1256C"
+    ]
+  },
+  "A/Brisbane/6/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Texas/50/2012-egg": {
+    "HA1": [
+      "G186V",
+      "S219F",
+      "I226N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T",
+      "T754A",
+      "A1741G"
+    ]
+  },
+  "A/Almaty/3277/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Alaska/4/2012-egg": {
+    "HA1": [
+      "G186V",
+      "N246S",
+      "K264N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A814G",
+      "A869C"
+    ]
+  },
+  "A/Florida/40/2012-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "T692C"
+    ]
+  },
+  "A/Vermont/28/2012-egg": {
+    "HA1": [
+      "N144S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A508G",
+      "T658C"
+    ]
+  },
+  "A/Stockholm/36/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/CostaRica/4009/2013-egg": {
+    "HA1": [
+      "G186V",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A814G"
+    ]
+  },
+  "A/CostaRica/4700/2013-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Oklahoma/5/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Arizona/9/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Wyoming/5/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/NewYork/39/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Switzerland/7587197/2012-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Massachusetts/11/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Kenya/118/2013-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/SriLanka/56/2013-egg": {
+    "HA1": [
+      "L157S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T509C",
+      "T547C",
+      "T658C"
+    ]
+  },
+  "A/Texas/6/2014-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Victoria/505/2013-egg": {
+    "HA1": [
+      "S145N",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "G634T",
+      "C733T",
+      "A1226G"
+    ]
+  },
+  "A/AthensGR/14/2013-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C685A"
+    ]
+  },
+  "A/Arkansas/13/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Washington/18/2013-egg": {
+    "HA1": [
+      "I140K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "T658C"
+    ]
+  },
+  "A/Washington/17/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Auckland/21/2013-egg": {
+    "HA1": [
+      "H156R",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Sydney/37/2014-egg": {
+    "HA1": [
+      "I140R",
+      "S145N",
+      "H156Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496G",
+      "G511A",
+      "C545A"
+    ]
+  },
+  "A/Singapore/GP1599/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A584G",
+      "G634T",
+      "C733T",
+      "G1247A",
+      "G1580A",
+      "C1691T",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Perth/1/2014-egg": {
+    "HA1": [
+      "G186V",
+      "S219F",
+      "F219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C350T",
+      "G634T",
+      "C733A",
+      "G1580A"
+    ]
+  },
+  "A/Perth/2/2014-egg": {
+    "HA1": [
+      "G186V",
+      "S219F",
+      "F219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C350T",
+      "G634T",
+      "C733A",
+      "G1580A"
+    ]
+  },
+  "A/Pennsylvania/8/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Arizona/17/2013-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G659A",
+      "A953G"
+    ]
+  },
+  "A/Sydney/30/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T38C",
+      "A953G",
+      "G1445A",
+      "G1574A"
+    ]
+  },
+  "A/Fiji/1/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T38C",
+      "G290A",
+      "A953G",
+      "G1445A"
+    ]
+  },
+  "A/Utah/7/2013-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T521C",
+      "C1076T"
+    ]
+  },
+  "A/California/61/2013-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/NewMexico/9/2014-egg": {
+    "HA1": [
+      "S145N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A"
+    ]
+  },
+  "A/Nevada/9/2014-egg": {
+    "HA1": [
+      "Y94H",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T357C",
+      "T506C",
+      "T658C"
+    ]
+  },
+  "A/Guadeloupe/4127/2014-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/CzechRepublic/63/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/1000/2015-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/Tasmania/1012/2015-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/CzechRepublic/35/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T206C",
+      "T1151A"
+    ]
+  },
+  "A/CzechRepublic/33/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/34/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/30/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/32/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/31/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A678C",
+      "C983T"
+    ]
+  },
+  "A/CzechRepublic/38/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G1586A",
+      "C1734T"
+    ]
+  },
+  "A/CzechRepublic/37/2015-egg": {
+    "HA1": [
+      "T10A"
+    ],
+    "HA2": [
+      "I173V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A105G",
+      "A1581G"
+    ]
+  },
+  "A/CzechRepublic/64/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/19/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/18/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/36/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/25/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T1016C"
+    ]
+  },
+  "A/Victoria/503/2014-egg": {
+    "HA1": [
+      "G186V",
+      "F193S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "T655C"
+    ]
+  },
+  "A/Newcastle/25/2014-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Newcastle/22/2014-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/CzechRepublic/60/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G608A",
+      "G1007A"
+    ]
+  },
+  "A/Victoria/6001/2015-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [
+      "A43S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "G1191T"
+    ]
+  },
+  "A/Victoria/511/2015-egg": {
+    "HA1": [
+      "I140K",
+      "H156Q",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "C545A",
+      "C733T"
+    ]
+  },
+  "A/Almaty/2958/2013-egg": {
+    "HA1": [
+      "I140K",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Newcastle/1/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Glasgow/RVL5/2012-egg": {
+    "HA1": [
+      "H156R",
+      "G186V"
+    ],
+    "HA2": [
+      "V200F"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G634T",
+      "G1662T"
+    ]
+  },
+  "A/Canberra/2/2014-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/Bangladesh/9334/2013-egg": {
+    "HA1": [
+      "N144K",
+      "H156Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T509A",
+      "C545A"
+    ]
+  },
+  "A/Stockholm/6/2014-egg": {
+    "HA1": [
+      "G186V",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "G750A"
+    ]
+  },
+  "A/SouthAustralia/40/2014-egg": {
+    "HA1": [
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A813C"
+    ]
+  },
+  "A/Singapore/GP1940/2013-egg": {
+    "HA1": [
+      "H156R",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "A16T"
+    ],
+    "nuc": [
+      "G75A",
+      "A544G",
+      "A751G"
+    ]
+  },
+  "A/NewYork/5/2014-egg": {
+    "HA1": [
+      "D225G",
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G",
+      "A814C",
+      "T1364C"
+    ]
+  },
+  "A/Norway/466/2014-egg": {
+    "HA1": [
+      "H156R",
+      "G186E",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G634A",
+      "T635G",
+      "A751G"
+    ]
+  },
+  "A/Tasmania/11/2014-egg": {
+    "HA1": [
+      "Q1K",
+      "G186D",
+      "D190G",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C78A",
+      "G634A",
+      "A646G",
+      "A751G"
+    ]
+  },
+  "A/Palau/6720/2014-egg": {
+    "HA1": [
+      "L3I",
+      "D225G",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C84A",
+      "A751G",
+      "A813C"
+    ]
+  },
+  "A/Palau/6759/2014-egg": {
+    "HA1": [
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Palau/6775/2014-egg": {
+    "HA1": [
+      "H156R",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "A751G"
+    ]
+  },
+  "A/Texas/34/2014-egg": {
+    "HA1": [
+      "I140K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "G634T"
+    ]
+  },
+  "A/SouthAustralia/24/2014-egg": {
+    "HA1": [
+      "H156R",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "A751G",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/SouthAustralia/55/2014-egg": {
+    "HA1": [
+      "S145N",
+      "G186V",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "G634T",
+      "A751G"
+    ]
+  },
+  "A/Southaustralia/55/2014-egg": {
+    "HA1": [
+      "S145N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "A751G"
+    ]
+  },
+  "A/Switzerland/9715293/2013-egg": {
+    "HA1": [
+      "I140R",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496G",
+      "G634T",
+      "C733T"
+    ]
+  },
+  "A/Shandong-Laicheng/1104/2016-egg": {
+    "HA1": [
+      "D225G",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T257C",
+      "A716G",
+      "A751G",
+      "A813C",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Shandong-Laicheng/1760/2016-egg": {
+    "HA1": [
+      "D225G",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T257C",
+      "A716G",
+      "A751G",
+      "A814G",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/CzechRepublic/39/2015-egg": {
+    "HA1": [
+      "N216S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A724G"
+    ]
+  },
+  "A/CzechRepublic/20/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shandong-Laicheng/1763/2016-egg": {
+    "HA1": [
+      "I140M",
+      "G186I",
+      "I214T",
+      "D225G",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A497G",
+      "G633A",
+      "G634T",
+      "T718C",
+      "A751G",
+      "A813C"
+    ]
+  },
+  "A/NorthCarolina/13/2014-egg": {
+    "HA1": [
+      "I140K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "G634T",
+      "A854G"
+    ]
+  },
+  "A/Jiangsu-Xinpu/1963/2014-egg": {
+    "HA1": [
+      "G186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A287G",
+      "G633C",
+      "T1649C"
+    ]
+  },
+  "A/Jiangsu-Qingpu/1660/2015-egg": {
+    "HA1": [
+      "G186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A287G",
+      "G633C",
+      "T1649C"
+    ]
+  },
+  "A/Jiangsu-Sucheng/1309/2016-egg": {
+    "HA1": [
+      "G186R",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A287G",
+      "G633C",
+      "A814G",
+      "T1649C"
+    ]
+  },
+  "A/Jiangsu-Sucheng/1489/2017-egg": {
+    "HA1": [
+      "G186R",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A287G",
+      "G633C",
+      "A814G",
+      "T1649C"
+    ]
+  },
+  "A/Jiangsu-Sucheng/1834/2017-egg": {
+    "HA1": [
+      "G186R",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A287G",
+      "G633C",
+      "A814G",
+      "T1649C"
+    ]
+  },
+  "A/Jiangsu-Sucheng/1694/2018-egg": {
+    "HA1": [
+      "G186R",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A287G",
+      "G633C",
+      "A814G",
+      "T1649C"
+    ]
+  },
+  "A/Idaho/33/2016-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/SouthAustralia/54/2016-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Sydney/142/2016-egg": {
+    "HA1": [
+      "H156Q",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "A751G"
+    ]
+  },
+  "A/Minnesota/1/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/4/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [
+      "A16T"
+    ],
+    "nuc": [
+      "G75A"
+    ]
+  },
+  "A/Brisbane/1/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Texas/71/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Arkansas/18/2017-egg": {
+    "HA1": [
+      "D190N",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G645A",
+      "A814G"
+    ]
+  },
+  "A/Newcastle/78/2017-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Brisbane/34/2018-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Kansas/14/2017-egg": {
+    "HA1": [
+      "G186V",
+      "D190N",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "G645A",
+      "C733A"
+    ]
+  },
+  "A/SouthAustralia/218/2019-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/SouthDakota/60/2018-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Vermont/14/2019-egg": {
+    "HA1": [
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G645A"
+    ]
+  },
+  "A/Vermont/11/2019-egg": {
+    "HA1": [
+      "D190N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G645A"
+    ]
+  },
+  "A/Beijing/2019-15554/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/703/2019-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Paris/2572/2018-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Belgium/G0023/2019-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Newcastle/623/2019-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Victoria/700/2013-egg": {
+    "HA1": [
+      "H156R",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G634T"
+    ]
+  },
+  "A/Victoria/710/2013-egg": {
+    "HA1": [
+      "S145N",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "T658C"
+    ]
+  },
+  "A/Switzerland/7586983/2012-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Singapore/22/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/HongKong/32/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Colorado/18/2012-egg": {
+    "HA1": [
+      "H156R",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "G634T"
+    ]
+  },
+  "A/Brisbane/1/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219F",
+      "I226S"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "C12Y"
+    ],
+    "nuc": [
+      "G64A",
+      "G634T",
+      "C733T",
+      "T754G"
+    ]
+  },
+  "A/Ohio/1/2013-egg": {
+    "HA1": [
+      "H156Q",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "G634T"
+    ]
+  },
+  "A/SouthDakota/16/2012-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/SouthDakota/12/2012-egg": {
+    "HA1": [
+      "G186V",
+      "N246S",
+      "R299K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A814G",
+      "G973A"
+    ]
+  },
+  "A/SouthDakota/15/2012-egg": {
+    "HA1": [
+      "S145N",
+      "G186V",
+      "S219Y",
+      "R299K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "G634T",
+      "C733A",
+      "G973A"
+    ]
+  },
+  "A/Missouri/4/2013-egg": {
+    "HA1": [
+      "A138S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T658C"
+    ]
+  },
+  "A/AmericanSamoa/4786/2013-egg": {
+    "HA1": [
+      "G186V",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A814G",
+      "A1562G"
+    ]
+  },
+  "A/Oregon/1/2013-egg": {
+    "HA1": [
+      "A138S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/21/2013-egg": {
+    "HA1": [
+      "G186V",
+      "F193S",
+      "S219F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "T655C",
+      "C733T"
+    ]
+  },
+  "A/Victoria/504/2013-egg": {
+    "HA1": [
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Victoria/506/2013-egg": {
+    "HA1": [
+      "A138S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T658C"
+    ]
+  },
+  "A/Taiwan/502/2013-egg": {
+    "HA1": [
+      "D190G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646G",
+      "G1601A"
+    ]
+  },
+  "A/Singapore/CGH05/2013-egg": {
+    "HA1": [
+      "N96S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A364G",
+      "T658C"
+    ]
+  },
+  "A/Canberra/3/2014-egg": {
+    "HA1": [
+      "S124N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C233T",
+      "G448A",
+      "G1445A"
+    ]
+  },
+  "A/Singapore/GP637/2013-egg": {
+    "HA1": [
+      "G186V",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A92G",
+      "G634T",
+      "A813C"
+    ]
+  },
+  "A/Georgia/3/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Brisbane/198/2013-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "-1736C",
+      "-1737T",
+      "-1739A"
+    ]
+  },
+  "A/Brisbane/204/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Perth/98/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Perth/239/2013-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Bangladesh/9269/2013-egg": {
+    "HA1": [
+      "S145N",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "T658C",
+      "C728T"
+    ]
+  },
+  "A/Washington/13/2013-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T"
+    ]
+  },
+  "A/Singapore/GP1523/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T242C",
+      "G500A",
+      "C556A",
+      "T658C",
+      "G750A",
+      "A1271G",
+      "C1349T",
+      "T1721C"
+    ]
+  },
+  "A/Brisbane/27/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/29/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/32/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Kanagawa/AC1627/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Kanagawa/ZC1710/2017-egg": {
+    "HA1": [
+      "T160K",
+      "G186V",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T",
+      "G750A"
+    ]
+  },
+  "A/Hawaii/44/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194V",
+      "D225G",
+      "I226T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T657G",
+      "A751G",
+      "T754C"
+    ]
+  },
+  "A/Kanagawa/IC1608/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/SouthAustralia/209/2017-egg": {
+    "HA1": [
+      "T160I",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Victoria/746/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Victoria/5006/2014-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "G866A"
+    ]
+  },
+  "A/HongKong/4801/2014-egg": {
+    "HA1": [
+      "N96S",
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A364G",
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/HongKong/5738/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I",
+      "S312N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A230C",
+      "C556A",
+      "T658C",
+      "C685T",
+      "G1012A"
+    ]
+  },
+  "A/Southaustralia/9/2015-egg": {
+    "HA1": [
+      "I140K",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "T506C",
+      "C556A",
+      "T578C",
+      "T635C",
+      "T658C",
+      "T662C"
+    ]
+  },
+  "A/SouthAustralia/9/2015-egg": {
+    "HA1": [
+      "I140K",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T496A",
+      "T506C",
+      "C556A",
+      "T578C",
+      "T635C",
+      "T658C",
+      "T662C"
+    ]
+  },
+  "A/CzechRepublic/700/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/5060/2014-egg": {
+    "HA1": [
+      "A138S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C371T",
+      "G489T",
+      "T658C"
+    ]
+  },
+  "A/CzechRepublic/28/2015-egg": {
+    "HA1": [
+      "I25V"
+    ],
+    "HA2": [
+      "Q172L"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A150G",
+      "A1579T"
+    ]
+  },
+  "A/CzechRepublic/29/2015-egg": {
+    "HA1": [
+      "I25V"
+    ],
+    "HA2": [
+      "Q172L"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A150G",
+      "A1579T"
+    ]
+  },
+  "A/Saitama/103/2014-egg": {
+    "HA1": [
+      "Q57K",
+      "D225G"
+    ],
+    "HA2": [
+      "H106L"
+    ],
+    "SigPep": [
+      "S8G"
+    ],
+    "nuc": [
+      "A51G",
+      "C246A",
+      "A751G",
+      "A1381T",
+      "G1442A"
+    ]
+  },
+  "A/Newcaledonia/71/2014-egg": {
+    "HA1": [
+      "S9N",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C29T",
+      "G103A",
+      "T658C",
+      "A751G"
+    ]
+  },
+  "A/NewCaledonia/71/2014-egg": {
+    "HA1": [
+      "S9N",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [
+      "G150E"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C29T",
+      "G103A",
+      "T658C",
+      "A751G",
+      "G1513A"
+    ]
+  },
+  "A/Canberra/82/2014-egg": {
+    "HA1": [
+      "L194P",
+      "D225G",
+      "A304P"
+    ],
+    "HA2": [
+      "K82R"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "A751G",
+      "G987C",
+      "A1309G"
+    ]
+  },
+  "A/Fiji/4/2015-egg": {
+    "HA1": [
+      "L194P",
+      "D225G",
+      "S262N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T320C",
+      "T658C",
+      "A686G",
+      "A743G",
+      "A751G",
+      "G862A"
+    ]
+  },
+  "A/Fiji/7/2015-egg": {
+    "HA1": [
+      "L194P",
+      "D225G",
+      "G225D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "A686G",
+      "A743G",
+      "A751G",
+      "G751A"
+    ]
+  },
+  "A/Fiji/2/2015-egg": {
+    "HA1": [
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "A686G",
+      "A743G",
+      "A751G"
+    ]
+  },
+  "A/SouthAfrica/2982/2015-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/CzechRepublic/43/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G500A",
+      "G1229A"
+    ]
+  },
+  "A/Nebraska/19/2015-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Singapore/GP2050/2015-egg": {
+    "HA1": [
+      "L194P",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T380C",
+      "T658C",
+      "G750A",
+      "T1175C"
+    ]
+  },
+  "A/Brisbane/82/2015-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G200A",
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/71/2015-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [
+      "K179T"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A1600C"
+    ]
+  },
+  "A/Brisbane/174/2015-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "I10T"
+    ],
+    "nuc": [
+      "T58C",
+      "T59C",
+      "T443C",
+      "T455C",
+      "T658C",
+      "T758C"
+    ]
+  },
+  "A/Auckland/10/2015-egg": {
+    "HA1": [
+      "D175N",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G600A",
+      "T658C",
+      "-1753C",
+      "-1754C",
+      "-1755T",
+      "-1756T",
+      "-1757G",
+      "-1758T",
+      "-1759T",
+      "A1762T",
+      "A1764C"
+    ]
+  },
+  "A/CzechRepublic/94/2015-egg": {
+    "HA1": [
+      "G49D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G149T",
+      "G223A",
+      "A869G"
+    ]
+  },
+  "A/CzechRepublic/42/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G149T",
+      "A869G"
+    ]
+  },
+  "A/CzechRepublic/40/2015-egg": {
+    "HA1": [
+      "N6D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A93G",
+      "G149T",
+      "A869G"
+    ]
+  },
+  "A/CzechRepublic/93/2015-egg": {
+    "HA1": [
+      "N6D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A93G",
+      "G149T",
+      "A869G"
+    ]
+  },
+  "A/CzechRepublic/41/2015-egg": {
+    "HA1": [
+      "N6D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A93G",
+      "G149T",
+      "A869G"
+    ]
+  },
+  "A/Singapore/KK1100/2016-egg": {
+    "HA1": [
+      "T160K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A"
+    ]
+  },
+  "A/Norway/4849/2016-egg": {
+    "HA1": [
+      "T160K",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "A751G",
+      "T807C",
+      "T1727C"
+    ]
+  },
+  "A/Tasmania/219/2016-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Kanagawa/AC1620/2017-egg": {
+    "HA1": [
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/Kanagawa/AC1619/2017-egg": {
+    "HA1": [
+      "A138S",
+      "G186V",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "G634T",
+      "A646G",
+      "A751G"
+    ]
+  },
+  "A/Singapore/TT1374/2016-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A646G"
+    ]
+  },
+  "A/Ohio/31/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/VIctoria/673/2014-egg": {
+    "HA1": [
+      "N96S",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A364G",
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Victoria/673/2014-egg": {
+    "HA1": [
+      "N96S",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A364G",
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/HongKong/7127/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A751G",
+      "G1700A"
+    ]
+  },
+  "A/Victoria/265/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "T1460C",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Norway/2178/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I",
+      "I226T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T",
+      "T754C",
+      "C1622T"
+    ]
+  },
+  "A/Brisbane/341/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C143T",
+      "C556A",
+      "T658C",
+      "C685T",
+      "T1460C"
+    ]
+  },
+  "A/Singapore/KK943/2014-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T",
+      "C818T",
+      "A1562G",
+      "G1712A"
+    ]
+  },
+  "A/Alaska/240/2015-egg": {
+    "HA1": [
+      "A138S",
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/CzechRepublic/27/2015-egg": {
+    "HA1": [
+      "I140M",
+      "V204I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A497G",
+      "G687A"
+    ]
+  },
+  "A/CzechRepublic/21/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A905G"
+    ]
+  },
+  "A/CzechRepublic/22/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/45/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/503/2015-egg": {
+    "HA1": [
+      "T160A",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [
+      "D158N"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A555G",
+      "T658C",
+      "A751G",
+      "G1536A"
+    ]
+  },
+  "A/CzechRepublic/44/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/47/2015-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [
+      "F24Y"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "T1135A"
+    ]
+  },
+  "A/CzechRepublic/23/2014-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T1016C"
+    ]
+  },
+  "A/SouthAustralia/21/2015-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/CzechRepublic/46/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/CzechRepublic/26/2015-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Fiji/60/2016-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1618/2017-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Norway/4465/2016-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A584T",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Washington/16/2017-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G209A",
+      "C551T",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Wisconsin/19/2017-egg": {
+    "HA1": [
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "C685T",
+      "A1064G",
+      "G1154A"
+    ]
+  },
+  "A/Shaanxi-Hanbin/11305/2016-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/321/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Brisbane/318/2016-egg": {
+    "HA1": [
+      "D225G",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G",
+      "A814G"
+    ]
+  },
+  "A/Kanagawa/IC1710/2017-egg": {
+    "HA1": [
+      "D190G",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646G",
+      "A814G"
+    ]
+  },
+  "A/Kanagawa/IC1610/2017-egg": {
+    "HA1": [
+      "A138S",
+      "H183L",
+      "L194M",
+      "D225G",
+      "P227H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A625T",
+      "C657A",
+      "A751G",
+      "C757A"
+    ]
+  },
+  "A/SouthAustralia/10/2018-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556T",
+      "T658C"
+    ]
+  },
+  "A/Connecticut/25/2018-egg": {
+    "HA1": [
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/Brisbane/43/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Bretagne/1565/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T",
+      "G1731A"
+    ]
+  },
+  "A/Brisbane/190/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Maine/2/2018-egg": {
+    "HA1": [
+      "K160I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A556T",
+      "G1574T"
+    ]
+  },
+  "A/Kentucky/1/2018-egg": {
+    "HA1": [
+      "K160I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A556T",
+      "T1616C"
+    ]
+  },
+  "A/Brisbane/192/2017-egg": {
+    "HA1": [
+      "T167S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A576T"
+    ]
+  },
+  "A/SouthAustralia/274/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G1436A"
+    ]
+  },
+  "A/Kentucky/3/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A737G",
+      "C1538T"
+    ]
+  },
+  "A/Tasmania/18/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Christchurch/516/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T65C"
+    ]
+  },
+  "A/HongKong/4946/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T1211C",
+      "C1490T"
+    ]
+  },
+  "A/SouthAustralia/273/2017-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Switzerland/8060/2017-egg": {
+    "HA1": [
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C685T"
+    ]
+  },
+  "A/Kanagawa/IC1718/2018-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Kanagawa/IC1739/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/RhodeIsland/2/2018-egg": {
+    "HA1": [
+      "T160K",
+      "H183L",
+      "L194M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C86T",
+      "C556A",
+      "A625T",
+      "C657A"
+    ]
+  },
+  "A/Brisbane/36/2018-egg": {
+    "HA1": [
+      "H183L",
+      "L194M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C408T",
+      "A625T",
+      "C657A"
+    ]
+  },
+  "A/Singapore/KK0259/2018-egg": {
+    "HA1": [
+      "E62K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G261A"
+    ]
+  },
+  "A/Slovenia/2792/2017-egg": {
+    "HA1": [
+      "E62K",
+      "Q261R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A83G",
+      "G261A",
+      "A859G",
+      "G1436A"
+    ]
+  },
+  "A/Nebraska/1/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1745/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C332T",
+      "G638A"
+    ]
+  },
+  "A/Singapore/KK0199/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T239C"
+    ]
+  },
+  "A/Brisbane/28/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A680G"
+    ]
+  },
+  "A/Kanagawa/IC1734/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G386A"
+    ]
+  },
+  "A/Wisconsin/4/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/32/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/RhodeIsland/1/2018-egg": {
+    "HA1": [
+      "R201G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A678G",
+      "G1700A"
+    ]
+  },
+  "A/Brisbane/1/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/40/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G1307A",
+      "T1653C",
+      "-1737T",
+      "-1738A",
+      "-1739G"
+    ]
+  },
+  "A/Kanagawa/AC1740/2018-egg": {
+    "HA1": [
+      "V88I",
+      "T203I"
+    ],
+    "HA2": [
+      "I193T"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G339A",
+      "C685T",
+      "T1642C"
+    ]
+  },
+  "A/Kanagawa/AC1704/2017-egg": {
+    "HA1": [
+      "H156R",
+      "Y161H",
+      "G186S",
+      "D190S",
+      "S219F",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "T558C",
+      "G633A",
+      "G645A",
+      "A646G",
+      "C733T",
+      "G750A"
+    ]
+  },
+  "A/Kanagawa/AC1709/2017-egg": {
+    "HA1": [
+      "D188Y",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G639T",
+      "T658C",
+      "-1737T",
+      "-1738A",
+      "-1739G"
+    ]
+  },
+  "A/Thessaloniki/62/2018-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Brisbane/183/2015-egg": {
+    "HA1": [
+      "A138S",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T658C"
+    ]
+  },
+  "A/HongKong/50/2016-egg": {
+    "HA1": [
+      "A138S",
+      "L194P",
+      "S312R"
+    ],
+    "HA2": [
+      "E155G"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T623C",
+      "T658C",
+      "A743G",
+      "T833A",
+      "C1013A",
+      "A1528G"
+    ]
+  },
+  "A/SriLanka/61/2015-egg": {
+    "HA1": [
+      "A138S",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T658C",
+      "C685T",
+      "C944A",
+      "A1415G"
+    ]
+  },
+  "A/Alaska/232/2015-egg": {
+    "HA1": [
+      "A138S",
+      "F193Y",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "T655A",
+      "T658C"
+    ]
+  },
+  "A/SouthAustralia/135/2016-egg": {
+    "HA1": [
+      "A138S",
+      "H156R",
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A544G",
+      "C556A",
+      "G634T",
+      "A746T",
+      "A1589G"
+    ]
+  },
+  "A/Singapore/Inftt-16-0612/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [
+      "I56V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A1230G"
+    ]
+  },
+  "A/Singapore/INFTT-16-0612/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [
+      "I56V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A1230G"
+    ]
+  },
+  "A/Antananarivo/1067/2016-egg": {
+    "HA1": [
+      "T160K",
+      "G186V",
+      "I226S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T",
+      "C733T",
+      "T754G"
+    ]
+  },
+  "A/Singapore/INFIMH-16-0019/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A751G"
+    ]
+  },
+  "A/Singapore/Infimh-16-0019/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A751G"
+    ]
+  },
+  "A/Kanagawa/IC1624/2017-egg": {
+    "HA1": [
+      "A138S",
+      "D190G",
+      "D225G",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A646G",
+      "A751G",
+      "A813C"
+    ]
+  },
+  "A/Brisbane/285/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Kanagawa/ZC1613/2017-egg": {
+    "HA1": [
+      "A138S",
+      "T160I",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "C556T",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Delaware/32/2016-egg": {
+    "HA1": [
+      "T128N",
+      "A138S",
+      "T160I",
+      "G186V",
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T368C",
+      "C460A",
+      "G489T",
+      "C556T",
+      "G634T",
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Washington/106/2016-egg": {
+    "HA1": [
+      "Y94H",
+      "T160K",
+      "L194P",
+      "S198P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T357C",
+      "C556A",
+      "T635C",
+      "T658C",
+      "T669C"
+    ]
+  },
+  "A/Norway/3806/2016-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Idaho/37/2016-egg": {
+    "HA1": [
+      "R142G",
+      "T160K",
+      "L164V",
+      "G186D",
+      "D190G",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A501G",
+      "C556A",
+      "T567G",
+      "G634A",
+      "A646G",
+      "A751G"
+    ]
+  },
+  "A/Greece/35/2017-egg": {
+    "HA1": [
+      "H156Q",
+      "T160K",
+      "G186D",
+      "D190N",
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A479G",
+      "C545A",
+      "C556A",
+      "G634A",
+      "G645A",
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Kalamata/540/2017-egg": {
+    "HA1": [
+      "R142G",
+      "G186I",
+      "D190S",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A501G",
+      "G633A",
+      "G634T",
+      "G645A",
+      "A646G",
+      "A813C"
+    ]
+  },
+  "A/Greece/4/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Brisbane/299/2016-egg": {
+    "HA1": [
+      "T160K",
+      "Y161F",
+      "L194M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "A559T",
+      "C657A"
+    ]
+  },
+  "A/Singapore/GP2646/2016-egg": {
+    "HA1": [
+      "T160A",
+      "G186V",
+      "D190N",
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T242C",
+      "A555G",
+      "G634T",
+      "G645A",
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Kanagawa/IC1619/2017-egg": {
+    "HA1": [
+      "N122D",
+      "H156R",
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A441G",
+      "A544G",
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/Newcastle/35/2017-egg": {
+    "HA1": [
+      "S124N",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G448A",
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/SouthAustralia/90/2017-egg": {
+    "HA1": [
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/Sydney/103/2017-egg": {
+    "HA1": [
+      "Y94H",
+      "A138S",
+      "T160K",
+      "D190N",
+      "D225G",
+      "K264E"
+    ],
+    "HA2": [
+      "D79G"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T357C",
+      "G489T",
+      "C556A",
+      "G645A",
+      "A751G",
+      "A867G",
+      "A1300G",
+      "A1586G",
+      "G1670A"
+    ]
+  },
+  "A/Tasmania/37/2017-egg": {
+    "HA1": [
+      "A138S",
+      "T160K",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "C556A",
+      "A751G"
+    ]
+  },
+  "A/Sydney/52/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T",
+      "A751G"
+    ]
+  },
+  "A/Newcastle/36/2017-egg": {
+    "HA1": [
+      "T160R",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556G",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Kanagawa/ZC1617/2017-egg": {
+    "HA1": [
+      "H156Q",
+      "T160K",
+      "G186V",
+      "I242V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "C556A",
+      "G634T",
+      "A801G"
+    ]
+  },
+  "A/HongKong/2277/2017-egg": {
+    "HA1": [
+      "N133S",
+      "A138S",
+      "G186V",
+      "S219F",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A475G",
+      "G489T",
+      "G634T",
+      "C733T",
+      "A751G"
+    ]
+  },
+  "A/Brisbane/185/2017-egg": {
+    "HA1": [
+      "S149G",
+      "H156Q",
+      "G186V",
+      "S219F",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A522G",
+      "C545A",
+      "G634T",
+      "C733T",
+      "A751G",
+      "C977T",
+      "A1034G",
+      "G1700A"
+    ]
+  },
+  "A/Netherlands/10260/2018-egg": {
+    "HA1": [
+      "T128A",
+      "G186V",
+      "S219F",
+      "D225G",
+      "R261L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A459G",
+      "G634T",
+      "C733T",
+      "A751G",
+      "G859T"
+    ]
+  },
+  "A/HongKong/2286/2017-egg": {
+    "HA1": [
+      "Q75H",
+      "T160K",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G302T",
+      "C556A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Kanagawa/ZC1709/2017-egg": {
+    "HA1": [
+      "A138S",
+      "T160K",
+      "G186V",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "C556A",
+      "G634T",
+      "A751G"
+    ]
+  },
+  "A/SriLanka/93/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Kanagawa/IC1725/2018-egg": {
+    "HA1": [
+      "T131N",
+      "A138S",
+      "D190G",
+      "D225G",
+      "P227S",
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C469A",
+      "G489T",
+      "A646G",
+      "A751G",
+      "C756T",
+      "A814C"
+    ]
+  },
+  "A/Kanagawa/AC1736/2018-egg": {
+    "HA1": [
+      "T160K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A"
+    ]
+  },
+  "A/Singapore/GP0077/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G149A",
+      "C556A",
+      "T658C",
+      "A680G",
+      "C685T"
+    ]
+  },
+  "A/Singapore/GP0454/2018-egg": {
+    "HA1": [
+      "A138S",
+      "H156R",
+      "T160K",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A544G",
+      "C556A",
+      "G634A",
+      "A751G"
+    ]
+  },
+  "A/Singapore/KK0130/2018-egg": {
+    "HA1": [
+      "H156Q",
+      "T160K",
+      "D190N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "C556A",
+      "G645A",
+      "A751G",
+      "G1733A"
+    ]
+  },
+  "A/Sydney/22/2018-egg": {
+    "HA1": [
+      "A138S",
+      "R142G",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A501G",
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Victoria/624/2017-egg": {
+    "HA1": [
+      "G78D",
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G310A",
+      "C556A",
+      "T658C",
+      "C685T",
+      "G1373A"
+    ]
+  },
+  "A/Victoria/653/2017-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/AbuDhabi/240/2018-egg": {
+    "HA1": [
+      "T160K",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/HongKong/674/2018-egg": {
+    "HA1": [
+      "T160K",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/HongKong/681/2018-egg": {
+    "HA1": [
+      "D190A",
+      "D225G",
+      "P227S"
+    ],
+    "HA2": [
+      "I66S"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A646C",
+      "A751G",
+      "C756T",
+      "T1261G"
+    ]
+  },
+  "A/Kanagawa/ZC1841/2019-egg": {
+    "HA1": [
+      "T160K",
+      "G186V",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T",
+      "G663A"
+    ]
+  },
+  "A/SouthAustralia/4/2019-egg": {
+    "HA1": [
+      "L137R",
+      "T160K",
+      "G186D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T487G",
+      "C556T",
+      "T556A",
+      "G634A"
+    ]
+  },
+  "A/SouthAustralia/2/2019-egg": {
+    "HA1": [
+      "L137R",
+      "T160K",
+      "K160I",
+      "G186D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T487G",
+      "C556T",
+      "G634A"
+    ]
+  },
+  "A/Pennsylvania/1025/2019-egg": {
+    "HA1": [
+      "N144H",
+      "T160I",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A507C",
+      "C556T",
+      "G634T"
+    ]
+  },
+  "A/Pennsylvania/1026/2019-egg": {
+    "HA1": [
+      "T160K",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Darwin/726/2019-egg": {
+    "HA1": [
+      "A106V",
+      "T160A",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C394T",
+      "A555G",
+      "G634T"
+    ]
+  },
+  "A/Oregon/28/2019-egg": {
+    "HA1": [
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/Vermont/25/2019-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C119T",
+      "G634T"
+    ]
+  },
+  "A/California/194/2019-egg": {
+    "HA1": [
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G634T",
+      "A1040G",
+      "A1328G"
+    ]
+  },
+  "A/HongKong/2671/2019-egg": {
+    "HA1": [
+      "T160I",
+      "G186V",
+      "S219F",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556T",
+      "G634T",
+      "C733T",
+      "G750A"
+    ]
+  },
+  "A/Singapore/KK0001/2020-egg": {
+    "HA1": [
+      "T160K",
+      "G186D"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G634A"
+    ]
+  },
+  "A/Hunan-Jishou/12953/2019-egg": {
+    "HA1": [
+      "T160K",
+      "G186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635G",
+      "G1700A"
+    ]
+  },
+  "A/Kanagawa/ZC1836/2019-egg": {
+    "HA1": [
+      "T160I",
+      "G186V",
+      "S219Y",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556T",
+      "G634T",
+      "C733A",
+      "G750A"
+    ]
+  },
+  "A/Brisbane/148/2019-egg": {
+    "HA1": [
+      "R150I",
+      "T160K",
+      "G186V",
+      "S219Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G526T",
+      "C556A",
+      "G634T",
+      "C733A"
+    ]
+  },
+  "A/Beijing-Miyun/51/2019-egg": {
+    "HA1": [
+      "T160A",
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A555G",
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Beijing-Miyun/53/2020-egg": {
+    "HA1": [
+      "G78S",
+      "T160I",
+      "S219F",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G309A",
+      "C556T",
+      "C733T",
+      "A751G",
+      "A1040G"
+    ]
+  },
+  "A/Beijing-Miyun/51/2020-egg": {
+    "HA1": [
+      "T160I",
+      "S219F",
+      "D225G"
+    ],
+    "HA2": [
+      "V18M"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C556T",
+      "C733T",
+      "A751G",
+      "A1040G",
+      "G1116A"
+    ]
+  },
+  "A/Beijing-Daxin/33/2020-egg": {
+    "HA1": [
+      "T160K",
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G760C"
+    ]
+  },
+  "A/Beijing-Miyun/54/2020-egg": {
+    "HA1": [
+      "D186V",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634T",
+      "A751G"
+    ]
+  },
+  "A/Brunei/39/2020-egg": {
+    "HA1": [
+      "Y159D",
+      "T160K",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T552G",
+      "C556A",
+      "C815A"
+    ]
+  },
+  "A/Paris/2554/2019-egg": {
+    "HA1": [
+      "T160I",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C395A",
+      "C556T",
+      "A751G"
+    ]
+  },
+  "A/Perth/20/2020-egg": {
+    "HA1": [
+      "T160K",
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Austria/1108601/2018-egg": {
+    "HA1": [
+      "T160K",
+      "H183L",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "A625T",
+      "A751G",
+      "T1616C"
+    ]
+  },
+  "A/Newcastle/104/2018-egg": {
+    "HA1": [
+      "I140M",
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A497G",
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Newcastle/83/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/Newcastle/42/2019-egg": {
+    "HA1": [
+      "G78S",
+      "T160K",
+      "G186V",
+      "S219F"
+    ],
+    "HA2": [
+      "S29Y"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G309A",
+      "C556A",
+      "G634T",
+      "C733T",
+      "C1150A"
+    ]
+  },
+  "A/Newcastle/82/2018-egg": {
+    "HA1": [
+      "H156Q",
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545A",
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/Austria/1105514/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "A751G"
+    ]
+  },
+  "A/SouthAustralia/39/2019-egg": {
+    "HA1": [
+      "T160K",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C"
+    ]
+  },
+  "A/SouthAustralia/34/2019-egg": {
+    "HA1": [
+      "T160K",
+      "G186I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "G633A",
+      "G634T"
+    ]
+  },
+  "A/Sydney/53/2019-egg": {
+    "HA1": [
+      "A138S",
+      "T160K",
+      "G186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "C556A",
+      "G634T"
+    ]
+  },
+  "A/SouthAustralia/82/2019-egg": {
+    "HA1": [
+      "T160K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T845C"
+    ]
+  },
+  "A/Kanagawa/ZC1861/2019-egg": {
+    "HA1": [
+      "H156R",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "A751G",
+      "T1727C"
+    ]
+  },
+  "A/Kanagawa/IC1830/2019-egg": {
+    "HA1": [
+      "F193S",
+      "R197Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C359T",
+      "T655C",
+      "G667A"
+    ]
+  },
+  "A/Kanagawa/ZC1805/2019-egg": {
+    "HA1": [
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A814G"
+    ]
+  },
+  "A/Christchurch/516/2019-egg": {
+    "HA1": [
+      "D53N",
+      "T160K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A92G",
+      "G234A",
+      "C556A"
+    ]
+  },
+  "A/NewCaledonia/59/2019-egg": {
+    "HA1": [
+      "S144G",
+      "T160K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A507G",
+      "C556A",
+      "A797G"
+    ]
+  },
+  "A/SouthAfrica/R06421/2019-egg": {
+    "HA1": [
+      "T160K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A"
+    ]
+  },
+  "A/Christchurch/514/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Christchurch/515/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Kanagawa/IC1893/2019-egg": {
+    "HA1": [
+      "T160I",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556T",
+      "A751G"
+    ]
+  },
+  "A/Victoria/169/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Victoria/223/2019-egg": {
+    "HA1": [
+      "I58V",
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A249G",
+      "T658C"
+    ]
+  },
+  "A/Darwin/402/2019-egg": {
+    "HA1": [
+      "L194P",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "G750A"
+    ]
+  },
+  "A/Victoria/718/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/SouthAustralia/320/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/SouthAustralia/36/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Canberra/109/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Darwin/384/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Darwin/177/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Norway/3275/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T658C",
+      "C685T"
+    ]
+  },
+  "A/Egypt/6213/2018-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [
+      "V14G"
+    ],
+    "nuc": [
+      "T70G",
+      "C556A",
+      "T658C",
+      "C685T",
+      "G1007A",
+      "C1199T"
+    ]
+  },
+  "A/Kanagawa/IC1815/2019-egg": {
+    "HA1": [
+      "T160K",
+      "L194P",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C119T",
+      "C556A",
+      "T658C",
+      "C685T",
+      "C728T"
+    ]
+  },
+  "A/Norway/2279/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C",
+      "G1229A"
+    ]
+  },
+  "A/Canberra/407/2019-egg": {
+    "HA1": [
+      "L194P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T658C"
+    ]
+  },
+  "A/Saitama/92/2020-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Darwin/1/2021-egg": {
+    "HA1": [
+      "T160K",
+      "D225G",
+      "P227S",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T578C",
+      "A751G",
+      "C756T",
+      "C815A"
+    ]
+  },
+  "A/Darwin/2/2021-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635G"
+    ]
+  },
+  "A/Finland/183/2020-egg": {
+    "HA1": [
+      "T160K",
+      "H183F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "C624T",
+      "A625T"
+    ]
+  },
+  "A/Tasmania/503/2020-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635G"
+    ]
+  },
+  "A/Cambodia/E0826360/2020-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A"
+    ]
+  },
+  "A/Cambodia/e0826360/2020-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A"
+    ]
+  },
+  "A/Zhejiang-Gongshu/1920/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635G"
+    ]
+  },
+  "A/Zhejiang-Shangcheng/1876/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635G"
+    ]
+  },
+  "A/Zhejiang-Shangcheng/1930/2022-egg": {
+    "HA1": [
+      "S186R",
+      "R299K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C545T",
+      "T635A",
+      "G973A",
+      "G1118A"
+    ]
+  },
+  "A/Sichuan-Qingyang/12161/2022-egg": {
+    "HA1": [
+      "D190G"
+    ],
+    "HA2": [
+      "G181E"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C143T",
+      "A646G",
+      "G1606A",
+      "A1646G"
+    ]
+  },
+  "A/Shanghai-Huangpu/1637/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Huangpu/1629/2022-egg": {
+    "HA1": [
+      "H56Y",
+      "T160K",
+      "D190G",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C243T",
+      "C556A",
+      "A646G",
+      "A751G"
+    ]
+  },
+  "A/Fujian/13355/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Zhejiang-Shangcheng/1915/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635G"
+    ]
+  },
+  "A/Guizhou-xinyi/1715/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Liuzhite/318/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Liuzhite/326/2022-egg": {
+    "HA1": [
+      "T160I",
+      "D190A",
+      "D225G",
+      "P227S",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556T",
+      "A646C",
+      "A751G",
+      "C756T",
+      "C815A"
+    ]
+  },
+  "A/Guizhou-Liuzhite/325/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Liuzhite/315/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Liuzhite/327/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Liuzhite/328/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Liuzhite/324/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Huangpu/1658/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A"
+    ]
+  },
+  "A/Sichuan-Santai/1778/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A",
+      "A1553G"
+    ]
+  },
+  "A/Sichuan-Fucheng/11625/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A",
+      "A1553G"
+    ]
+  },
+  "A/Sichuan-Fucheng/12110/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R",
+      "T203I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A",
+      "C685T",
+      "A1553G"
+    ]
+  },
+  "A/Sichuan-Fucheng/12058/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A",
+      "A1553G"
+    ]
+  },
+  "A/Sichuan-Beichuanqiangzuzizhi/36/2023-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A",
+      "A1553G"
+    ]
+  },
+  "A/Sichuan-Fucheng/12156/2022-egg": {
+    "HA1": [
+      "T160K",
+      "S186R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C556A",
+      "T635A",
+      "A1553G"
+    ]
+  },
+  "A/Michigan/173/2020-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Singapore/INFKK0001/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G",
+      "P227S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G",
+      "C756T"
+    ]
+  },
+  "A/Pennsylvania/1/2021-egg": {
+    "HA1": [
+      "D186G",
+      "D225G",
+      "P227S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634G",
+      "A751G",
+      "C756T"
+    ]
+  },
+  "A/SouthAfrica/R08953/2022-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Singapore/INFKK0002/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Darwin/36/2021-egg": {
+    "HA1": [
+      "D186N",
+      "P227S",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "C756T",
+      "C815A"
+    ]
+  },
+  "A/Bangladesh/4002/2020-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G",
+      "A1112C",
+      "C1391T"
+    ]
+  },
+  "A/Bangladesh/3011/2020-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G",
+      "G1247A"
+    ]
+  },
+  "A/Bangladesh/3005/2020-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Bangladesh/911009/2020-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Norway/29511/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Victoria/260/2023-egg": {
+    "HA1": [
+      "I223R",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T745G",
+      "A813C"
+    ]
+  },
+  "A/Victoria/196/2023-egg": {
+    "HA1": [
+      "D186V",
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634T",
+      "A814C"
+    ]
+  },
+  "A/Montana/8/2023-egg": {
+    "HA1": [
+      "S107P",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T396C",
+      "T661A",
+      "A1403T"
+    ]
+  },
+  "A/Singapore/GP12876/2022-egg": {
+    "HA1": [
+      "P185S",
+      "F195Y"
+    ],
+    "HA2": [
+      "R76K"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C630T",
+      "T661A",
+      "G1291A"
+    ]
+  },
+  "A/Switzerland/28719/2022-egg": {
+    "HA1": [
+      "H183F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C624T",
+      "A625T"
+    ]
+  },
+  "A/SouthAustralia/389/2022-egg": {
+    "HA1": [
+      "F195Y",
+      "A196T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "G663A"
+    ]
+  },
+  "A/Georgia/2/2022-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/SouthAfrica/R08120/2022-egg": {
+    "HA1": [
+      "H156R",
+      "I226M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A544G",
+      "T755G"
+    ]
+  },
+  "A/PuertoRico/31/2022-egg": {
+    "HA1": [
+      "H183F",
+      "S193F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C624T",
+      "A625T",
+      "C655T"
+    ]
+  },
+  "A/Victoria/5290/2022-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Darwin/11/2021-egg": {
+    "HA1": [
+      "I226N",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T754A",
+      "C815A"
+    ]
+  },
+  "A/Darwin/9/2021-egg": {
+    "HA1": [
+      "S46P"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T68G",
+      "T213C"
+    ]
+  },
+  "A/Delaware/1/2021-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Norway/16606/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Darwin/6/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Slovenia/9318/2022-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Slovenia/9216/2022-egg": {
+    "HA1": [
+      "S219F",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733T",
+      "A751G"
+    ]
+  },
+  "A/Victoria/6/2022-egg": {
+    "HA1": [
+      "D186N",
+      "N246T"
+    ],
+    "HA2": [
+      "A43T"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A814C",
+      "G1191A"
+    ]
+  },
+  "A/Maryland/2/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/RhodeIsland/4/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Wyoming/1/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Iowa/8/2021-egg": {
+    "HA1": [
+      "F195Y",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "C815A"
+    ]
+  },
+  "A/Iowa/7/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Netherlands/7/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Catalonia/NSVH161512067/2022-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Catalonia/Nsvh161512067/2022-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Michigan/60/2022-egg": {
+    "HA1": [
+      "D186A",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634C",
+      "T661A"
+    ]
+  },
+  "A/Henan-Shihe/1657/2023-egg": {
+    "HA1": [
+      "D186N",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "T661A",
+      "G1373A"
+    ]
+  },
+  "A/Henan-Shihe/1480/2023-egg": {
+    "HA1": [
+      "F195Y",
+      "N246S",
+      "E280G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "A814G",
+      "A916G",
+      "G1373A"
+    ]
+  },
+  "A/Henan-Shihe/1638/2023-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "G1373A"
+    ]
+  },
+  "A/Shandong-Lanshan/1706/2023-egg": {
+    "HA1": [
+      "N190I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646T"
+    ]
+  },
+  "A/Henan-Shihe/1977/2023-egg": {
+    "HA1": [
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G116A",
+      "G760C",
+      "C1130T"
+    ]
+  },
+  "A/Sichuan-Gaoxin/1138/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Victoria/39/2022-egg": {
+    "HA1": [
+      "S219F",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733T",
+      "A751G",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/Tasmania/5/2022-egg": {
+    "HA1": [
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Darwin/22/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [
+      "M207I"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G",
+      "G1685A"
+    ]
+  },
+  "A/Darwin/24/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Darwin/17/2021-egg": {
+    "HA1": [
+      "D186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634T"
+    ]
+  },
+  "A/Sydney/732/2022-egg": {
+    "HA1": [
+      "D225G",
+      "P227H",
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G",
+      "C757A",
+      "A814G"
+    ]
+  },
+  "A/Alaska/1/2021-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G"
+    ]
+  },
+  "A/Norway/24873/2021-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Florida/2/2021-egg": {
+    "HA1": [
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A751G"
+    ]
+  },
+  "A/Florida/4/2021-egg": {
+    "HA1": [
+      "S219Y",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733A",
+      "A751G"
+    ]
+  },
+  "A/Georgia/2/2021-egg": {
+    "HA1": [
+      "N190I",
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646T",
+      "G750A",
+      "G1118A"
+    ]
+  },
+  "A/Canberra/1/2022-egg": {
+    "HA1": [
+      "D186N",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A751G",
+      "-1737T",
+      "-1738A",
+      "-1739A"
+    ]
+  },
+  "A/France/IDF-IPP29542/2023-egg": {
+    "HA1": [
+      "F195Y",
+      "I230M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "A767G"
+    ]
+  },
+  "A/Brisbane/837/2022-egg": {
+    "HA1": [
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G760C"
+    ]
+  },
+  "A/Thailand/8/2022-egg": {
+    "HA1": [
+      "V182I",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G621A",
+      "T661A"
+    ]
+  },
+  "A/Brandenburg/15/2022-egg": {
+    "HA1": [
+      "D186G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634G"
+    ]
+  },
+  "A/Sydney/316/2023-egg": {
+    "HA1": [
+      "G129W",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G462T",
+      "T661A"
+    ]
+  },
+  "A/StPetersburg/RII-171/2023-egg": {
+    "HA1": [
+      "N190I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646T"
+    ]
+  },
+  "A/Shandong-Lanshan/1450/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T392C",
+      "G633A"
+    ]
+  },
+  "A/California/122/2022-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Xinjiang-Tianshan/1430/2023-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [
+      "I200T"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "T524C",
+      "T661A",
+      "T1663C"
+    ]
+  },
+  "A/Sichuan-Dongpo/1326/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [
+      "I200V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C815A",
+      "T833A",
+      "A1662G"
+    ]
+  },
+  "A/Sichuan-Pidou/53/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Sichuan-Qianfeng/327/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Shanghai-Qingpu/1143/2024-egg": {
+    "HA1": [
+      "S145N",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T206C",
+      "G511A",
+      "C815A"
+    ]
+  },
+  "A/Hunan-Tianyuan/1371/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Sichuan-Pidou/36/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Henan-Suiyang/1499/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A",
+      "C1241A"
+    ]
+  },
+  "A/Shanghai-Fengxian/1293/2023-egg": {
+    "HA1": [
+      "N246K",
+      "S279Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A",
+      "C913A"
+    ]
+  },
+  "A/Sichuan-Tongchuan/1298/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Shanghai-Huangpu/11639/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Huangpu/11841/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Huangpu/11797/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Jiading/1766/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A854G"
+    ]
+  },
+  "A/Henan-Wolong/1878/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Hubei-Xiangcheng/1575/2023-egg": {
+    "HA1": [
+      "N246T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A814C"
+    ]
+  },
+  "A/Hunan-Hecheng/1382/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634C"
+    ]
+  },
+  "A/Shanghai-Jingan/5163/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Hubei-Yiling/2133/2023-egg": {
+    "HA1": [
+      "D186Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633T"
+    ]
+  },
+  "A/Jiangsu-Runzhou/1889/2023-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Shanghai-Changning/11244/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/HubeiWujiagang/11543/2023-egg": {
+    "HA1": [
+      "D186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634T"
+    ]
+  },
+  "A/Henan-Suiyang/1525/2023-egg": {
+    "HA1": [
+      "P4H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C88A",
+      "A1565G"
+    ]
+  },
+  "A/Shanghai-Fengxian/1893/2023-egg": {
+    "HA1": [],
+    "HA2": [
+      "A201V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "C1666T",
+      "C1679T"
+    ]
+  },
+  "A/Anhui-Jinan/11028/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Jiading/1914/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Baoshan/1854/2024-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Sichuan-Pidou/55/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Hubei-Echeng/1529/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A869G"
+    ]
+  },
+  "A/Sichuan-Qingyang/1254/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Yangpu/5267/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [
+      "I206T"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "T1681C"
+    ]
+  },
+  "A/Shanghai-Changning/11229/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [
+      "M207V"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A1079G",
+      "A1604T",
+      "A1683G"
+    ]
+  },
+  "A/Sichuan-Shizhong/282/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Hubei-Xinshan/259/2023-egg": {
+    "HA1": [
+      "I25M",
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A152G",
+      "G633A"
+    ]
+  },
+  "A/Anhui-Yaohai/11364/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [
+      "M133V"
+    ],
+    "SigPep": [
+      "I4T"
+    ],
+    "nuc": [
+      "T40C",
+      "G633A",
+      "A1461G"
+    ]
+  },
+  "A/Zhejiang-Longwan/11156/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Shanghai-Songjiang/1732/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Anhui-Jinan/11110/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Darwin/2472/2022-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Sichuan-Pengzhou/32/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Sichuan-Pengzhou/31/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Henan-Jinshui/1326/2023-egg": {
+    "HA1": [
+      "P103Q",
+      "A138S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C385A",
+      "G489T"
+    ]
+  },
+  "A/Darwin/344/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Guangxi-Longzhou/52/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Sydney/856/2023-egg": {
+    "HA1": [
+      "N190T",
+      "I226M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646C",
+      "C755G"
+    ]
+  },
+  "A/Canberra/331/2023-egg": {
+    "HA1": [
+      "A138S",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G489T",
+      "A751G"
+    ]
+  },
+  "A/Idaho/47/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Beijing-Chaoyang/13168/2024-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Singapore/MOH0334/2024-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Guangxi-Changzhou/3527/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Vladivostok/RII-1/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Henan-Beiguan/1951/2023-egg": {
+    "HA1": [
+      "S145N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A"
+    ]
+  },
+  "A/Guangdong-Rongcheng/1287/2024-egg": {
+    "HA1": [
+      "D186Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633T",
+      "T845C",
+      "T1004C"
+    ]
+  },
+  "A/Shanghai-Putuo/1727/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guangdong-Pengjiang/1884/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Henan-Qibin/350/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Xinjiang-Tianshan/1512/2023-egg": {
+    "HA1": [
+      "E83G",
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G203A",
+      "A325G",
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Minxing/1155/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Jiangxi-Xihu/1243/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shandong-Lanshan/1608/2023-egg": {
+    "HA1": [
+      "N63S",
+      "P239S",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A265G",
+      "C792T",
+      "C815A"
+    ]
+  },
+  "A/Zhejiang-Nanhu/1420/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A",
+      "G1586A"
+    ]
+  },
+  "A/Jiangsu-Hailing/11651/2023-egg": {
+    "HA1": [
+      "D186Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T197C",
+      "G633T"
+    ]
+  },
+  "A/Hunan-Zhuhui/1372/2023-egg": {
+    "HA1": [
+      "N190I",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G491T",
+      "A646T",
+      "A746G",
+      "A751G",
+      "A1193G"
+    ]
+  },
+  "A/Ningxia-Xinqing/1335/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A182G",
+      "G633A"
+    ]
+  },
+  "A/Ningxia-Lingwu/227/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [
+      "K139E"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A1479G",
+      "C1610T"
+    ]
+  },
+  "A/California/45/2023-egg": {
+    "HA1": [
+      "L194M",
+      "Q197R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C657A",
+      "A667G"
+    ]
+  },
+  "A/Neimenggu-Linhe/1145/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Liaoning-Guta/1495/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Hebei-Chengde/1212/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Zhejiang-Nanhu/1438/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G1586A"
+    ]
+  },
+  "A/Henan-Weidou/1211/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Neimenggu-Haibowan/1275/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Anhui-Baohe/1462/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T254C"
+    ]
+  },
+  "A/Henan-Wugang/217/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Albania/289813/2022-egg": {
+    "HA1": [
+      "F195Y",
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "G760C"
+    ]
+  },
+  "A/Albania/290243/2022-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Niedersachsen/57/2022-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Albania/290270/2022-egg": {
+    "HA1": [
+      "N190T",
+      "S228G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646C",
+      "A759G"
+    ]
+  },
+  "A/Sichuan-Gaoxin/1144/2023-egg": {
+    "HA1": [
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A813C"
+    ]
+  },
+  "A/Beijing-Huairou/1502/2023-egg": {
+    "HA1": [
+      "T128I",
+      "Q197R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C460T",
+      "A667G"
+    ]
+  },
+  "A/Shandong-Lanshan/1321/2023-egg": {
+    "HA1": [
+      "D186A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634C"
+    ]
+  },
+  "A/Shandong-Donggang/363/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Henan-Chuanhui/1293/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Hebei-Taocheng/1367/2023-egg": {
+    "HA1": [
+      "A93S",
+      "N246K",
+      "I260L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G354T",
+      "C815A",
+      "A855T"
+    ]
+  },
+  "A/Sichuan-Jianyang/35/2023-egg": {
+    "HA1": [
+      "D186V",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634T",
+      "T661A"
+    ]
+  },
+  "A/Shandong-Shibei/1537/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Tianjin-Hedong/1184/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A1064G"
+    ]
+  },
+  "A/Beijing-Chaoyang/1591/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Henan-Zhaoling/1171/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Baoshan/1470/2024-egg": {
+    "HA1": [
+      "S96N",
+      "T135A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G364A",
+      "A464G",
+      "A480G",
+      "A584G",
+      "G809A",
+      "A860G"
+    ]
+  },
+  "A/Oklahoma/5/2024-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Sichuan-Ziliujing/11106/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Sichuan-Cuiping/1835/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Canberra/373/2023-egg": {
+    "HA1": [
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G760C"
+    ]
+  },
+  "A/Lisbon/216/2023-egg": {
+    "HA1": [
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G760C"
+    ]
+  },
+  "A/Perth/722/2024-egg": {
+    "HA1": [
+      "S219Y",
+      "I226M"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733A",
+      "C755G"
+    ]
+  },
+  "A/Canberra/614/2024-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Tasmania/780/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/2159/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/756/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Sydney/982/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/SouthAustralia/298/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Zhejiang-Haining/144/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Huangpu/11229/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/2997/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/DistrictOfColumbia/27/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Sydney/997/2024-egg": {
+    "HA1": [
+      "A212S",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G711T",
+      "A751G"
+    ]
+  },
+  "A/Croatia/10165/RV/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Idaho/69/2023-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Croatia/10136RV/2023-egg": {
+    "HA1": [
+      "D186A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634C"
+    ]
+  },
+  "A/Netherlands/10561/2023-egg": {
+    "HA1": [
+      "S219F",
+      "Y233H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C733T",
+      "T774C"
+    ]
+  },
+  "A/Kanagawa/IC2346/2023-egg": {
+    "HA1": [
+      "N190I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A646T"
+    ]
+  },
+  "A/Canberra/302/2023-egg": {
+    "HA1": [
+      "F195Y",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A",
+      "C815A"
+    ]
+  },
+  "A/Canberra/309/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Victoria/488/2024-egg": {
+    "HA1": [
+      "S193F"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C655T"
+    ]
+  },
+  "A/Switzerland/71762/2023-egg": {
+    "HA1": [
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G760C"
+    ]
+  },
+  "A/Switzerland/8649/2023-egg": {
+    "HA1": [
+      "R92S",
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A353C",
+      "G760C"
+    ]
+  },
+  "A/Switzerland/25797/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/2776/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815G"
+    ]
+  },
+  "A/StPetersburg/RII-311/2023-egg": {
+    "HA1": [
+      "D186Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A260G",
+      "G633T",
+      "G1319A",
+      "C1337T"
+    ]
+  },
+  "A/StPetersburg/RII-351/2023-egg": {
+    "HA1": [
+      "D186Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A260G",
+      "G633T",
+      "G1319A",
+      "C1337T"
+    ]
+  },
+  "A/StPetersburg/RII-310/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G2A",
+      "G633A"
+    ]
+  },
+  "A/StPetersburg/RII-303/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G809A",
+      "T1202C"
+    ]
+  },
+  "A/Kaliningrad/RII-17/2024-egg": {
+    "HA1": [
+      "D186N",
+      "G263R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G864A"
+    ]
+  },
+  "A/StPetersburg/RII-42M/2024-egg": {
+    "HA1": [
+      "D186N",
+      "G263R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G864A"
+    ]
+  },
+  "A/StPetersburg/RII-10/2024-egg": {
+    "HA1": [
+      "D186N",
+      "G263R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G864A"
+    ]
+  },
+  "A/StPetersburg/RII-11/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/StPetersburg/RII-286/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/StPetersburg/RII-60/2024-egg": {
+    "HA1": [
+      "N159Y",
+      "I160R",
+      "A196T",
+      "I260M"
+    ],
+    "HA2": [
+      "V18M"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A552T",
+      "T556G",
+      "A645G",
+      "C647G",
+      "A649C",
+      "T651A",
+      "C653T",
+      "T654A",
+      "C655T",
+      "G663A",
+      "A857G",
+      "G1116A",
+      "T1227C",
+      "T1325C",
+      "G1553A"
+    ]
+  },
+  "A/StPetersburg/RII-1M/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/StPetersburg/RII-307/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/StPetersburg/RII-31M/2024-egg": {
+    "HA1": [
+      "D186N",
+      "G263R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "G864A"
+    ]
+  },
+  "A/StPetersburg/RII-300/2023-egg": {
+    "HA1": [
+      "D225N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G750A"
+    ]
+  },
+  "A/Wisconsin/90/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T71C",
+      "T194G",
+      "G633A"
+    ]
+  },
+  "A/Norway/11360/2023-egg": {
+    "HA1": [
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T661A"
+    ]
+  },
+  "A/Sichuan-Qingyang/11676/2023-egg": {
+    "HA1": [
+      "N246S"
+    ],
+    "HA2": [
+      "L99F"
+    ],
+    "SigPep": [],
+    "nuc": [
+      "A814G",
+      "G1007A",
+      "C1359T"
+    ]
+  },
+  "A/Jiangxi-Yushui/1109/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jiangsu-Wujin/15/2024-egg": {
+    "HA1": [
+      "D186N",
+      "S198L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "C670T",
+      "G809A"
+    ]
+  },
+  "A/Jiangsu-Jurong/1787/2024-egg": {
+    "HA1": [
+      "N159S",
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T392C",
+      "A553G",
+      "G633A",
+      "T1043C"
+    ]
+  },
+  "A/Henan-Hualong/11067/2023-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "A791G",
+      "G794A"
+    ]
+  },
+  "A/Jiangsu-Guangling/11439/2024-egg": {
+    "HA1": [
+      "D186N",
+      "F195Y"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "T661A",
+      "A791G"
+    ]
+  },
+  "A/Anhui-Huoqiu/2244/2023-egg": {
+    "HA1": [
+      "D186G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634G"
+    ]
+  },
+  "A/Ningxia-Lingwu/283/2024-egg": {
+    "HA1": [
+      "S91N",
+      "Q197T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G349A",
+      "C666A",
+      "A667C",
+      "A830G",
+      "A1235T",
+      "C1718T"
+    ]
+  },
+  "A/Shanghai/SHJA0001/2023-egg": {
+    "HA1": [
+      "P324L"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C1048T",
+      "G1109A"
+    ]
+  },
+  "A/Anhui-Guichi/1297/2024-egg": {
+    "HA1": [
+      "D186A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634C"
+    ]
+  },
+  "A/Anhui-Guichi/197/2024-egg": {
+    "HA1": [
+      "D186A"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634C"
+    ]
+  },
+  "A/Hubei-Huangzhou/198/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Hubei-Zhongxiang/2183/2024-egg": {
+    "HA1": [
+      "S145R"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T512G"
+    ]
+  },
+  "A/Yunnan-Menghai/2490/2024-egg": {
+    "HA1": [
+      "N246H",
+      "S265N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A813C",
+      "G871A"
+    ]
+  },
+  "A/Henan-Hubin/11010/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Victoria/131/2024-egg": {
+    "HA1": [
+      "S228T"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G760C"
+    ]
+  },
+  "A/Guangdong-Xiangzhou/1869/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Shandong-Huaiyin/11028/2023-egg": {
+    "HA1": [
+      "D186V"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G248A",
+      "A634T"
+    ]
+  },
+  "A/Shanghai-Minxing/1153/2024-egg": {
+    "HA1": [
+      "D186G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A634G"
+    ]
+  },
+  "A/Canberra/69/2024-egg": {
+    "HA1": [
+      "N246S"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A814G"
+    ]
+  },
+  "A/Guangdong-Dongwanbendi/2710/2024-egg": {
+    "HA1": [
+      "S9G",
+      "E83G",
+      "F195S",
+      "N246H"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A102G",
+      "A325G",
+      "T661C",
+      "A686G",
+      "A813C",
+      "C1596T"
+    ]
+  },
+  "A/Guizhou-Kaili/3137/2023-egg": {
+    "HA1": [
+      "I232V",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A771G",
+      "C815A",
+      "A980T"
+    ]
+  },
+  "A/Shanghai-Fengxian/1876/2023-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C815A"
+    ]
+  },
+  "A/Xinjiang-Kuerle/1159/2024-egg": {
+    "HA1": [
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C461A",
+      "C815A",
+      "T1148C"
+    ]
+  },
+  "A/Ningxia-Yuanzhou/129/2024-egg": {
+    "HA1": [
+      "S145N",
+      "N246K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G511A",
+      "C815A",
+      "A869G",
+      "T1211C"
+    ]
+  },
+  "A/Neimenggu-Zizhialashanzuoqi/162/2024-egg": {
+    "HA1": [
+      "S228G",
+      "P284Q"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "T188C",
+      "A759G",
+      "C928A"
+    ]
+  },
+  "A/Hunan-Wuling/1421/2024-egg": {
+    "HA1": [
+      "R92K",
+      "S144N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G352A",
+      "G508A",
+      "C1583A"
+    ]
+  },
+  "A/Shanghai-Songjiang/1878/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Shanghai-Fengxian/1912/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Henan-Changyuan/271/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A1250G",
+      "A1710C"
+    ]
+  },
+  "A/Sichuan-Dongqu/1156/2024-egg": {
+    "HA1": [
+      "K50E"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A225G",
+      "C371T"
+    ]
+  },
+  "A/Sichuan-Tongchuan/2679/2024-egg": {
+    "HA1": [
+      "V309I"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C429T",
+      "G1002A"
+    ]
+  },
+  "A/Tianjin-Baodi/1235/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jiangsu-Haizhou/3940/2023-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Jiangsu-Hailing/11583/2024-egg": {
+    "HA1": [
+      "Q57H",
+      "T65K"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G248T",
+      "C271A",
+      "G1415A"
+    ]
+  },
+  "A/Sichuan-Cuiping/1425/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Zhejiang-Yuyao/2247/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "A407G"
+    ]
+  },
+  "A/Jilin-Chaoyang/1230/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Guizhou-Nanming/1632/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G383A",
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Minxing/1785/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Shanghai-Putuo/1400/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  },
+  "A/Fujian-Chengxiang/1284/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Fujian-Siming/1939/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A",
+      "C1691T"
+    ]
+  },
+  "A/Guangdong-Qingcheng/938/2024-egg": {
+    "HA1": [
+      "L111I",
+      "D225G"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "C408A",
+      "A751G"
+    ]
+  },
+  "A/Yunnan-Mile/2277/2024-egg": {
+    "HA1": [],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": []
+  },
+  "A/Guizhou-Yilongxin/2738/2024-egg": {
+    "HA1": [
+      "D186N"
+    ],
+    "HA2": [],
+    "SigPep": [],
+    "nuc": [
+      "G633A"
+    ]
+  }
+}

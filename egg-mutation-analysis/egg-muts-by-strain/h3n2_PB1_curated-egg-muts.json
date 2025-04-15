@@ -1,0 +1,1720 @@
+{
+  "A/SouthAfrica/1147/1996-egg": {
+    "PB1": [
+      "94L",
+      "152L"
+    ],
+    "nuc": [
+      "174A",
+      "292C",
+      "467T"
+    ]
+  },
+  "A/Sydney/5/1997-egg": {
+    "PB1": [],
+    "nuc": [
+      "1557G"
+    ]
+  },
+  "A/Fujian/140/2000-egg": {
+    "PB1": [],
+    "nuc": [
+      "282A",
+      "351T",
+      "378G",
+      "1134G",
+      "1368C",
+      "1737A"
+    ]
+  },
+  "A/Mexico/InDRE2662/2003-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Moscow/10/1999-egg": {
+    "PB1": [],
+    "nuc": [
+      "2118C"
+    ]
+  },
+  "A/California/32/1999-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/UlanUde/1/2000-egg": {
+    "PB1": [],
+    "nuc": [
+      "1734T"
+    ]
+  },
+  "A/Wellington/1/2004-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Brisbane/9/2006-egg": {
+    "PB1": [],
+    "nuc": [
+      "477G",
+      "684A"
+    ]
+  },
+  "A/NewYork/55/2004-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Nepal/921/2006-egg": {
+    "PB1": [],
+    "nuc": [
+      "1068G"
+    ]
+  },
+  "A/Hanoi/TX023/2007-egg": {
+    "PB1": [
+      "740L"
+    ],
+    "nuc": [
+      "96C",
+      "1404C",
+      "2172C",
+      "2217C",
+      "2230C",
+      "2235C"
+    ]
+  },
+  "A/Netherlands/363/2006-egg": {
+    "PB1": [
+      "645M"
+    ],
+    "nuc": [
+      "682C",
+      "1194C",
+      "1945A"
+    ]
+  },
+  "A/Hanoi/Q148/2007-egg": {
+    "PB1": [
+      "746V"
+    ],
+    "nuc": [
+      "543A",
+      "1308A",
+      "1777T",
+      "2248G"
+    ]
+  },
+  "A/Hanoi/N015/2007-egg": {
+    "PB1": [
+      "387R"
+    ],
+    "nuc": [
+      "1172G"
+    ]
+  },
+  "A/Hanoi/TX058/2007-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Wyoming/3/2003-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Mexico/InDRE835/2003-egg": {
+    "PB1": [],
+    "nuc": [
+      "468A",
+      "756C",
+      "1554A",
+      "1749A"
+    ]
+  },
+  "A/Mexico/InDRE756/2003-egg": {
+    "PB1": [],
+    "nuc": [
+      "426A",
+      "981G",
+      "1749A",
+      "1923C",
+      "2088T"
+    ]
+  },
+  "A/Mexico/InDRE940/2003-egg": {
+    "PB1": [],
+    "nuc": [
+      "277T",
+      "1191A",
+      "1749A",
+      "1923C"
+    ]
+  },
+  "A/Fujian/445/2003-egg": {
+    "PB1": [
+      "372I"
+    ],
+    "nuc": [
+      "111G",
+      "657G",
+      "1063T",
+      "1128T",
+      "1626T",
+      "2055G",
+      "2103A",
+      "2112T"
+    ]
+  },
+  "A/Fujian/411/2002-egg": {
+    "PB1": [],
+    "nuc": [
+      "279A"
+    ]
+  },
+  "A/Philippines/472/2002-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Taiwan/9/2004-egg": {
+    "PB1": [],
+    "nuc": [
+      "40T",
+      "210T",
+      "1255T",
+      "1344T",
+      "1356A",
+      "1398G",
+      "2022A"
+    ]
+  },
+  "A/Mexico/InDRE2601/2003-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Mexico/InDRE2112/2005-egg": {
+    "PB1": [
+      "619K"
+    ],
+    "nuc": [
+      "462C",
+      "528G",
+      "786G",
+      "958A",
+      "1255T",
+      "1869A"
+    ]
+  },
+  "A/Mexico/InDRE2160/2005-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Taiwan/70307/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "1167G",
+      "1332A",
+      "1596G",
+      "1857G"
+    ]
+  },
+  "A/Taiwan/70002/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "277T",
+      "825C",
+      "969A",
+      "1569A"
+    ]
+  },
+  "A/Hanoi/BM38/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "783A",
+      "1938C"
+    ]
+  },
+  "A/Taiwan/70113/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "474G",
+      "2121C"
+    ]
+  },
+  "A/Taiwan/1452/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "330T",
+      "2181A"
+    ]
+  },
+  "A/Mexico/InDRE2246/2005-egg": {
+    "PB1": [
+      "433R"
+    ],
+    "nuc": [
+      "1198T",
+      "1310G",
+      "1377C"
+    ]
+  },
+  "A/Mexico/InDRE29/2006-egg": {
+    "PB1": [
+      "384L"
+    ],
+    "nuc": [
+      "967C",
+      "1163T",
+      "1554A",
+      "2061C"
+    ]
+  },
+  "A/Mexico/InDRE2227/2005-egg": {
+    "PB1": [
+      "694S"
+    ],
+    "nuc": [
+      "1290A",
+      "1551G",
+      "2093G"
+    ]
+  },
+  "A/Taiwan/2361/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "816A"
+    ]
+  },
+  "A/Wisconsin/3/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "723G"
+    ]
+  },
+  "A/Taiwan/70120/2008-egg": {
+    "PB1": [],
+    "nuc": [
+      "34T",
+      "1749T",
+      "2220A"
+    ]
+  },
+  "A/Taiwan/72106/2007-egg": {
+    "PB1": [],
+    "nuc": [
+      "792G",
+      "1749T",
+      "1827T",
+      "2220A"
+    ]
+  },
+  "A/Singapore/H2010559C/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010564C/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Hunan-Beihu/1143/2011-egg": {
+    "PB1": [],
+    "nuc": [
+      "1242T"
+    ]
+  },
+  "A/Singapore/H2011140C/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/PuertoRico/36/2012-egg": {
+    "PB1": [],
+    "nuc": [
+      "1653C",
+      "1941A",
+      "2103A"
+    ]
+  },
+  "A/Iowa/19/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Iowa/119/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Perth/10/2010-egg": {
+    "PB1": [],
+    "nuc": [
+      "1537T"
+    ]
+  },
+  "A/Kentucky/5/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Taiwan/851/2010-egg": {
+    "PB1": [],
+    "nuc": [
+      "516A",
+      "1737A"
+    ]
+  },
+  "A/ShanghaiLuwan/188/2011-egg": {
+    "PB1": [
+      "260K"
+    ],
+    "nuc": [
+      "123A",
+      "516A",
+      "791A",
+      "1734T",
+      "1737A",
+      "1848A",
+      "1926A"
+    ]
+  },
+  "A/Perth/16/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2009332C/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2009471C/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2009334C/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Philippines/2191/2009-egg": {
+    "PB1": [
+      "135K"
+    ],
+    "nuc": [
+      "416A",
+      "1314G"
+    ]
+  },
+  "A/Guangdong-Luohu/1256/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/26560/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Bangladesh/5014/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Victoria/208/2009-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010321C/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010666C/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/RhodeIsland/1/2010-egg": {
+    "PB1": [],
+    "nuc": [
+      "1407G",
+      "1419A",
+      "1545C",
+      "1926A"
+    ]
+  },
+  "A/Brisbane/11/2010-egg": {
+    "PB1": [
+      "619S"
+    ],
+    "nuc": [
+      "1476A",
+      "1512G",
+      "1868G"
+    ]
+  },
+  "A/Singapore/H2010471C/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2010370C/2010-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/C2011545C/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2011460cC/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2011704C/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2011504C/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Ohio/2/2012-egg": {
+    "PB1": [],
+    "nuc": [
+      "31T",
+      "1812C"
+    ]
+  },
+  "A/Victoria/505/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Victoria/1000/2015-egg": {
+    "PB1": [
+      "654N"
+    ],
+    "nuc": [
+      "384G",
+      "672G",
+      "1973A"
+    ]
+  },
+  "A/Newcastle/22/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Utah/7/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Washington/18/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Victoria/361/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Texas/50/2012-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Hawaii/22/2012-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Almaty/2958/2013-egg": {
+    "PB1": [],
+    "nuc": [
+      "1284A",
+      "1506G",
+      "2157A"
+    ]
+  },
+  "A/NewYork/39/2012-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kenya/118/2013-egg": {
+    "PB1": [],
+    "nuc": [
+      "45G",
+      "1021T",
+      "2175A"
+    ]
+  },
+  "A/Massachusetts/11/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Bangladesh/9334/2013-egg": {
+    "PB1": [
+      "581G"
+    ],
+    "nuc": [
+      "1416A",
+      "1754G"
+    ]
+  },
+  "A/Stockholm/6/2014-egg": {
+    "PB1": [],
+    "nuc": [
+      "1890C"
+    ]
+  },
+  "A/Arkansas/13/2013-egg": {
+    "PB1": [
+      "586K"
+    ],
+    "nuc": [
+      "39T",
+      "1769A",
+      "2211G"
+    ]
+  },
+  "A/Pennsylvania/9/2012-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/H2011808bC/2011-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/CostaRica/4700/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/CostaRica/4009/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Georgia/3/2013-egg": {
+    "PB1": [
+      "719M"
+    ],
+    "nuc": [
+      "360A",
+      "783G",
+      "1332A",
+      "1662A",
+      "2043G",
+      "2167A"
+    ]
+  },
+  "A/AmericanSamoa/4786/2013-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Victoria/506/2013-egg": {
+    "PB1": [
+      "175N"
+    ],
+    "nuc": [
+      "535A"
+    ]
+  },
+  "A/Bangladesh/9269/2013-egg": {
+    "PB1": [],
+    "nuc": [
+      "516A"
+    ]
+  },
+  "A/Victoria/5006/2014-egg": {
+    "PB1": [],
+    "nuc": [
+      "123A",
+      "756C",
+      "954T"
+    ]
+  },
+  "A/HongKong/5738/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/4801/2014-egg": {
+    "PB1": [],
+    "nuc": [
+      "585G"
+    ]
+  },
+  "A/SouthAustralia/9/2015-egg": {
+    "PB1": [
+      "75K"
+    ],
+    "nuc": [
+      "235A",
+      "318T",
+      "1428G",
+      "1737A"
+    ]
+  },
+  "A/Idaho/33/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/SouthAustralia/54/2016-egg": {
+    "PB1": [
+      "75G"
+    ],
+    "nuc": [
+      "236G"
+    ]
+  },
+  "A/Sydney/142/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Switzerland/9715293/2013-egg": {
+    "PB1": [],
+    "nuc": [
+      "807A"
+    ]
+  },
+  "A/Texas/34/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Tasmania/11/2014-egg": {
+    "PB1": [],
+    "nuc": [
+      "1719G"
+    ]
+  },
+  "A/Jiangsu-Qingpu/1660/2015-egg": {
+    "PB1": [],
+    "nuc": [
+      "2256T"
+    ]
+  },
+  "A/Jiangsu-Sucheng/1309/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "2256T"
+    ]
+  },
+  "A/Palau/6775/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/NewYork/5/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/NorthCarolina/13/2014-egg": {
+    "PB1": [],
+    "nuc": [
+      "30C"
+    ]
+  },
+  "A/SouthAustralia/55/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Texas/71/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Minnesota/1/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Canberra/82/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/NewCaledonia/71/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Saitama/103/2014-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Victoria/511/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Fiji/2/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Fiji/7/2015-egg": {
+    "PB1": [],
+    "nuc": [
+      "1776G",
+      "1818A"
+    ]
+  },
+  "A/Brisbane/82/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Nebraska/19/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Tasmania/219/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Norway/4849/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "2285G"
+    ]
+  },
+  "A/Singapore/TT1374/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Ohio/31/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "678A"
+    ]
+  },
+  "A/Singapore/KK943/2014-egg": {
+    "PB1": [],
+    "nuc": [
+      "1503C",
+      "1737A",
+      "2220A"
+    ]
+  },
+  "A/SouthAustralia/21/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Victoria/503/2015-egg": {
+    "PB1": [],
+    "nuc": [
+      "552A",
+      "588A",
+      "783C",
+      "1068G",
+      "1119G",
+      "1503C",
+      "1974C",
+      "2169T"
+    ]
+  },
+  "A/Brisbane/47/2015-egg": {
+    "PB1": [
+      "694S"
+    ],
+    "nuc": [
+      "171A",
+      "843G",
+      "1053G",
+      "2093G"
+    ]
+  },
+  "A/Alaska/240/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Alaska/232/2015-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/50/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Antananarivo/1067/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1710/2017-egg": {
+    "PB1": [
+      "317V"
+    ],
+    "nuc": [
+      "801T",
+      "870A",
+      "957T",
+      "961G",
+      "1620C"
+    ]
+  },
+  "A/Washington/16/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Brisbane/318/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "1164G"
+    ]
+  },
+  "A/Brisbane/321/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "1164G"
+    ]
+  },
+  "A/Norway/4465/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1610/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Wisconsin/19/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Switzerland/8060/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Brisbane/190/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "162G",
+      "603A",
+      "1101A",
+      "2095C"
+    ]
+  },
+  "A/Brisbane/43/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "498A",
+      "1524C",
+      "1641G",
+      "1911T",
+      "1932G",
+      "2085A"
+    ]
+  },
+  "A/HongKong/4946/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "630A",
+      "2226G"
+    ]
+  },
+  "A/Bretagne/1565/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Connecticut/25/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Slovenia/2792/2017-egg": {
+    "PB1": [
+      "624I"
+    ],
+    "nuc": [
+      "1692A",
+      "1882A"
+    ]
+  },
+  "A/Nebraska/1/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Brisbane/1/2018-egg": {
+    "PB1": [
+      "317I"
+    ],
+    "nuc": [
+      "963A"
+    ]
+  },
+  "A/RhodeIsland/1/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/KK0259/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "1311A"
+    ]
+  },
+  "A/Kanagawa/AC1709/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1718/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1739/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1734/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "2286G"
+    ]
+  },
+  "A/Kanagawa/AC1740/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "1839T"
+    ]
+  },
+  "A/Brisbane/29/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "474G"
+    ]
+  },
+  "A/Hawaii/44/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1608/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "72G"
+    ]
+  },
+  "A/SriLanka/61/2015-egg": {
+    "PB1": [
+      "464N"
+    ],
+    "nuc": [
+      "1402A"
+    ]
+  },
+  "A/Singapore/Inftt-16-0612/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "1863C"
+    ]
+  },
+  "A/SouthAustralia/135/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kalamata/540/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "277T",
+      "321C",
+      "1785C"
+    ]
+  },
+  "A/Greece/35/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "277T",
+      "321C",
+      "645A",
+      "1785C"
+    ]
+  },
+  "A/Greece/4/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Idaho/37/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "936A"
+    ]
+  },
+  "A/Norway/3806/2016-egg": {
+    "PB1": [
+      "387N",
+      "586K"
+    ],
+    "nuc": [
+      "1092A",
+      "1173T",
+      "1769A"
+    ]
+  },
+  "A/Singapore/Infimh-16-0019/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Delaware/32/2016-egg": {
+    "PB1": [],
+    "nuc": [
+      "1506G"
+    ]
+  },
+  "A/Washington/106/2016-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Brisbane/34/2018-egg": {
+    "PB1": [
+      "744I"
+    ],
+    "nuc": [
+      "108C",
+      "2244A"
+    ]
+  },
+  "A/Arkansas/18/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/SouthDakota/60/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kansas/14/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "2238A"
+    ]
+  },
+  "A/Beijing/2019-15554/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Vermont/14/2019-egg": {
+    "PB1": [],
+    "nuc": [
+      "1902T"
+    ]
+  },
+  "A/Vermont/11/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Belgium/G0023/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Paris/2572/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Fiji/60/2016-egg": {
+    "PB1": [
+      "175N"
+    ],
+    "nuc": [
+      "535A"
+    ]
+  },
+  "A/Sydney/52/2017-egg": {
+    "PB1": [],
+    "nuc": [
+      "1293G",
+      "1671G",
+      "1941G",
+      "2085A"
+    ]
+  },
+  "A/Singapore/GP2646/2016-egg": {
+    "PB1": [
+      "430R"
+    ],
+    "nuc": [
+      "1301G"
+    ]
+  },
+  "A/Kanagawa/IC1725/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/AC1704/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC1745/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/2277/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/681/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "819A",
+      "1065A",
+      "1107A",
+      "1695T"
+    ]
+  },
+  "A/SouthAustralia/4/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/SouthAustralia/2/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/ZC1841/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/2671/2019-egg": {
+    "PB1": [],
+    "nuc": [
+      "291T"
+    ]
+  },
+  "A/Darwin/726/2019-egg": {
+    "PB1": [
+      "480R"
+    ],
+    "nuc": [
+      "1451G"
+    ]
+  },
+  "A/Pennsylvania/1026/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Pennsylvania/1025/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Singapore/GP0454/2018-egg": {
+    "PB1": [
+      "175N"
+    ],
+    "nuc": [
+      "535A",
+      "1690A",
+      "1692A",
+      "1995A"
+    ]
+  },
+  "A/Sydney/22/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/AbuDhabi/240/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "678T"
+    ]
+  },
+  "A/HongKong/674/2018-egg": {
+    "PB1": [],
+    "nuc": [
+      "39T",
+      "255G",
+      "672G"
+    ]
+  },
+  "A/Netherlands/10260/2018-egg": {
+    "PB1": [
+      "111I",
+      "384L"
+    ],
+    "nuc": [
+      "345A",
+      "540A",
+      "1163T",
+      "1356A",
+      "2127C"
+    ]
+  },
+  "A/Brisbane/148/2019-egg": {
+    "PB1": [
+      "182I"
+    ],
+    "nuc": [
+      "282A",
+      "435A",
+      "528G",
+      "557T",
+      "768A",
+      "849A",
+      "1170A"
+    ]
+  },
+  "A/Beijing-Miyun/54/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Beijing-Daxin/33/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Beijing-Miyun/53/2020-egg": {
+    "PB1": [],
+    "nuc": [
+      "1879C"
+    ]
+  },
+  "A/Beijing-Miyun/51/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Beijing-Miyun/51/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Perth/20/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Paris/2554/2019-egg": {
+    "PB1": [],
+    "nuc": [
+      "1341T"
+    ]
+  },
+  "A/Norway/16606/2021-egg": {
+    "PB1": [],
+    "nuc": [
+      "117A",
+      "711G"
+    ]
+  },
+  "A/Norway/29511/2021-egg": {
+    "PB1": [
+      "62E"
+    ],
+    "nuc": [
+      "197A"
+    ]
+  },
+  "A/PuertoRico/31/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Georgia/2/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Catalonia/Nsvh161512067/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Montana/8/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Switzerland/28719/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Sichuan-Gaoxin/1138/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/HongKong/2286/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/ZC1617/2017-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Norway/3275/2018-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Newcastle/82/2018-egg": {
+    "PB1": [
+      "464N"
+    ],
+    "nuc": [
+      "1402A"
+    ]
+  },
+  "A/Sydney/53/2019-egg": {
+    "PB1": [],
+    "nuc": [
+      "291T",
+      "1722A",
+      "1929A"
+    ]
+  },
+  "A/SouthAfrica/R06421/2019-egg": {
+    "PB1": [],
+    "nuc": [
+      "1386G",
+      "1980G",
+      "1995A"
+    ]
+  },
+  "A/SouthAustralia/34/2019-egg": {
+    "PB1": [
+      "219V"
+    ],
+    "nuc": [
+      "667G"
+    ]
+  },
+  "A/Kanagawa/ZC1805/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Christchurch/515/2019-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Norway/2279/2019-egg": {
+    "PB1": [],
+    "nuc": [
+      "330A"
+    ]
+  },
+  "A/Finland/183/2020-egg": {
+    "PB1": [],
+    "nuc": [
+      "1200G"
+    ]
+  },
+  "A/Tasmania/503/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Saitama/92/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Cambodia/E0826360/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Cambodia/e0826360/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Zhejiang-Gongshu/1920/2022-egg": {
+    "PB1": [],
+    "nuc": [
+      "180T",
+      "2097A"
+    ]
+  },
+  "A/Sichuan-Fucheng/11625/2022-egg": {
+    "PB1": [
+      "212M"
+    ],
+    "nuc": [
+      "501G",
+      "646A",
+      "1815T"
+    ]
+  },
+  "A/Pennsylvania/1/2021-egg": {
+    "PB1": [],
+    "nuc": [
+      "483C"
+    ]
+  },
+  "A/Darwin/36/2021-egg": {
+    "PB1": [],
+    "nuc": [
+      "2169G"
+    ]
+  },
+  "A/Singapore/INFKK0002/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Darwin/9/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Darwin/6/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Henan-Shihe/1480/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Henan-Shihe/1977/2023-egg": {
+    "PB1": [],
+    "nuc": [
+      "960G"
+    ]
+  },
+  "A/Netherlands/7/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Slovenia/9216/2022-egg": {
+    "PB1": [],
+    "nuc": [
+      "762G",
+      "1263C"
+    ]
+  },
+  "A/Slovenia/9318/2022-egg": {
+    "PB1": [
+      "464N"
+    ],
+    "nuc": [
+      "762G",
+      "1263C",
+      "1402A",
+      "1803T"
+    ]
+  },
+  "A/RhodeIsland/4/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Iowa/7/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Delaware/1/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Michigan/173/2020-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Darwin/22/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Darwin/17/2021-egg": {
+    "PB1": [
+      "752R"
+    ],
+    "nuc": [
+      "2266A",
+      "2267G"
+    ]
+  },
+  "A/Alaska/1/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Darwin/24/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Thailand/8/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Norway/24873/2021-egg": {
+    "PB1": [],
+    "nuc": [
+      "450A",
+      "958A"
+    ]
+  },
+  "A/Florida/4/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Florida/2/2021-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/France/IDF-IPP29542/2023-egg": {
+    "PB1": [
+      "331K"
+    ],
+    "nuc": [
+      "1003A",
+      "2115C"
+    ]
+  },
+  "A/Brandenburg/15/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/California/122/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-171/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Hunan-Hecheng/1382/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Anhui-Jinan/11028/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Vladivostok/RII-1/2023-egg": {
+    "PB1": [],
+    "nuc": [
+      "174G"
+    ]
+  },
+  "A/Shanghai-Putuo/1727/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Albania/290270/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Darwin/2472/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Neimenggu-Linhe/1145/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Sichuan-Jianyang/35/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Sichuan-Gaoxin/1144/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Brisbane/837/2022-egg": {
+    "PB1": [
+      "182I"
+    ],
+    "nuc": [
+      "557T",
+      "984C"
+    ]
+  },
+  "A/Albania/290243/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Albania/289813/2022-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Guizhou-Yilongxin/2738/2024-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Jilin-Chaoyang/1230/2024-egg": {
+    "PB1": [
+      "517V"
+    ],
+    "nuc": [
+      "1413C",
+      "1561G"
+    ]
+  },
+  "A/Shanghai-Fengxian/1912/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Shanghai/SHJA0001/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Norway/11360/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Switzerland/71762/2023-egg": {
+    "PB1": [
+      "618G"
+    ],
+    "nuc": [
+      "1865G"
+    ]
+  },
+  "A/Switzerland/8649/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Switzerland/25797/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Kanagawa/IC2346/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Netherlands/10561/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Croatia/10165/RV/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-300/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/Croatia/10136RV/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-60/2024-egg": {
+    "PB1": [
+      "40I",
+      "114I",
+      "317I"
+    ],
+    "nuc": [
+      "34C",
+      "132A",
+      "352A",
+      "540A",
+      "963T",
+      "1074T",
+      "1356T",
+      "1386T",
+      "1413C",
+      "1863T",
+      "2286G"
+    ]
+  },
+  "A/StPetersburg/RII-286/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-303/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-307/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-1M/2024-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-11/2024-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-351/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-311/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-310/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  },
+  "A/StPetersburg/RII-31M/2024-egg": {
+    "PB1": [
+      "195I"
+    ],
+    "nuc": [
+      "597A"
+    ]
+  },
+  "A/Kaliningrad/RII-17/2024-egg": {
+    "PB1": [
+      "195I"
+    ],
+    "nuc": [
+      "597A"
+    ]
+  },
+  "A/StPetersburg/RII-42M/2024-egg": {
+    "PB1": [
+      "195I"
+    ],
+    "nuc": [
+      "597A"
+    ]
+  },
+  "A/StPetersburg/RII-10/2024-egg": {
+    "PB1": [
+      "195I"
+    ],
+    "nuc": [
+      "597A"
+    ]
+  },
+  "A/Lisbon/216/2023-egg": {
+    "PB1": [],
+    "nuc": []
+  }
+}
