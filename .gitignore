@@ -1,0 +1,25 @@
+# cache
+__pycache__/
+
+# Virtual environments
+.env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Secrets and environment variables
+*.env
+
+# data files
+nextstrain_builds/egg-enriched/data/
+nextstrain_builds/egg-enriched/results/
+nextstrain_builds/avian/data/
+nextstrain_builds/avian/results/
+
+# old/wip analyses
+previous/
