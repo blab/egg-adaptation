@@ -1,0 +1,152 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+egg_polytomies        8
+export                8
+total                17
+
+Select jobs to execute...
+
+[Tue Apr  8 11:35:59 2025]
+Job 1: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_ha_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 17: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_pb1_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 45: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_mp_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 38: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_ns_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 24: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_pb2_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 52: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_np_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 31: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_pa_egg-clusters.json
+
+
+[Tue Apr  8 11:35:59 2025]
+Job 9: Exporting data files for auspice
+Reason: Missing output files: auspice/yam_na_egg-clusters.json
+
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 24
+    input: results/yam/pb2/tree.nwk, data/yam/pb2/metadata.tsv, results/yam/pb2/branch-lengths.json, results/yam/pb2/muts.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_pb2_egg-clusters.json
+    log: logs/export_yam_pb2.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/pb2/tree.nwk             --metadata data/yam/pb2/metadata.tsv             --node-data results/yam/pb2/branch-lengths.json results/yam/pb2/muts.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_pb2_egg-clusters.json 2>&1 | tee logs/export_yam_pb2.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 9
+    input: results/yam/na/tree.nwk, data/yam/na/metadata.tsv, results/yam/na/branch-lengths.json, results/yam/na/muts.json, results/yam/na/glyc.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_na_egg-clusters.json
+    log: logs/export_yam_na.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/na/tree.nwk             --metadata data/yam/na/metadata.tsv             --node-data results/yam/na/branch-lengths.json results/yam/na/muts.json results/yam/na/glyc.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_na_egg-clusters.json 2>&1 | tee logs/export_yam_na.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 45
+    input: results/yam/mp/tree.nwk, data/yam/mp/metadata.tsv, results/yam/mp/branch-lengths.json, results/yam/mp/muts.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_mp_egg-clusters.json
+    log: logs/export_yam_mp.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/mp/tree.nwk             --metadata data/yam/mp/metadata.tsv             --node-data results/yam/mp/branch-lengths.json results/yam/mp/muts.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_mp_egg-clusters.json 2>&1 | tee logs/export_yam_mp.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 17
+    input: results/yam/pb1/tree.nwk, data/yam/pb1/metadata.tsv, results/yam/pb1/branch-lengths.json, results/yam/pb1/muts.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_pb1_egg-clusters.json
+    log: logs/export_yam_pb1.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/pb1/tree.nwk             --metadata data/yam/pb1/metadata.tsv             --node-data results/yam/pb1/branch-lengths.json results/yam/pb1/muts.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_pb1_egg-clusters.json 2>&1 | tee logs/export_yam_pb1.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 31
+    input: results/yam/pa/tree.nwk, data/yam/pa/metadata.tsv, results/yam/pa/branch-lengths.json, results/yam/pa/muts.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_pa_egg-clusters.json
+    log: logs/export_yam_pa.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/pa/tree.nwk             --metadata data/yam/pa/metadata.tsv             --node-data results/yam/pa/branch-lengths.json results/yam/pa/muts.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_pa_egg-clusters.json 2>&1 | tee logs/export_yam_pa.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Apr  8 11:36:02 2025]
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 52
+    input: results/yam/np/tree.nwk, data/yam/np/metadata.tsv, results/yam/np/branch-lengths.json, results/yam/np/muts.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_np_egg-clusters.json
+    log: logs/export_yam_np.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/np/tree.nwk             --metadata data/yam/np/metadata.tsv             --node-data results/yam/np/branch-lengths.json results/yam/np/muts.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_np_egg-clusters.json 2>&1 | tee logs/export_yam_np.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule export:
+    jobid: 38
+    input: results/yam/ns/tree.nwk, data/yam/ns/metadata.tsv, results/yam/ns/branch-lengths.json, results/yam/ns/muts.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_ns_egg-clusters.json
+    log: logs/export_yam_ns.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/ns/tree.nwk             --metadata data/yam/ns/metadata.tsv             --node-data results/yam/ns/branch-lengths.json results/yam/ns/muts.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_ns_egg-clusters.json 2>&1 | tee logs/export_yam_ns.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Apr  8 11:36:02 2025]
+Error in rule export:
+    jobid: 1
+    input: results/yam/ha/tree.nwk, data/yam/ha/metadata.tsv, results/yam/ha/branch-lengths.json, results/yam/ha/muts.json, results/yam/ha/glyc.json, config/yam/auspice_config.json, config/lat_longs.tsv, config/colors.tsv
+    output: auspice/yam_ha_egg-clusters.json
+    log: logs/export_yam_ha.txt (check log file(s) for error details)
+    shell:
+        
+        augur export v2             --tree results/yam/ha/tree.nwk             --metadata data/yam/ha/metadata.tsv             --node-data results/yam/ha/branch-lengths.json results/yam/ha/muts.json results/yam/ha/glyc.json             --include-root-sequence-inline             --lat-longs config/lat_longs.tsv             --auspice-config config/yam/auspice_config.json             --colors config/colors.tsv             --output auspice/yam_ha_egg-clusters.json 2>&1 | tee logs/export_yam_ha.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-08T113558.195572.snakemake.log

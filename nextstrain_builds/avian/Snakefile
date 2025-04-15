@@ -1,0 +1,297 @@
+HA_TYPE = ['H1', 'H3']
+
+configfile: "config/defaults.yaml"
+
+rule all:
+    input:
+        auspice_json = expand("auspice/{ha_type}.json", ha_type=HA_TYPE)
+
+rule files:
+    params:
+        dropped_strains = "config/dropped_strains_ha.txt",
+        reference = "config/{ha_type}/reference_{ha_type}.gb",
+        colors = "config/colors.tsv",
+        lat_longs = "config/lat_longs.tsv",
+        auspice_config = "config/auspice_config_ha.json",
+        sequences = "data/raw_avian_fluA_sequences.fasta"
+
+files = rules.files.params
+
+rule fetch_general_geolocation_rules:
+    output:
+        general_geolocation_rules="data/general-geolocation-rules.tsv",
+    params:
+        geolocation_rules_url="https://raw.githubusercontent.com/nextstrain/ncov-ingest/master/source-data/gisaid_geoLocationRules.tsv",
+    shell:
+        """
+        curl {params.geolocation_rules_url} > {output.general_geolocation_rules}
+        """
+
+rule parse_ncbi_fasta:
+    input:
+        raw_sequences = files.sequences,
+        geolocations = rules.fetch_general_geolocation_rules.output.general_geolocation_rules
+    output:
+        sequences = "data/{ha_type}_ncbi_sequences.fasta"
+    shell:
+        """
+        python3 scripts/parse_ncbi_fasta.py \
+            --fasta {input.raw_sequences} \
+            --geolocations {input.geolocations} \
+        """
+
+rule include_outgroup:
+    input:
+        sequences = rules.parse_ncbi_fasta.output.sequences
+    output:
+        sequences = "results/{ha_type}/sequences_w_outgroup.fasta",
+        include_strains = "config/{ha_type}/include_strains.txt"
+    shell:
+        """
+        python3 scripts/include_outgroup.py \
+            --ha-type {wildcards.ha_type} \
+        """
+
+
+rule parse:
+    message: "Parsing fasta into sequences and metadata"
+    input:
+        sequences = rules.include_outgroup.output.sequences
+    output:
+        sequences = "results/{ha_type}/sequences.fasta",
+        metadata = "results/{ha_type}/metadata.tsv"
+    params:
+        fasta_fields =  "strain strain_name ha_type segment segment_name date subtype species host country region",
+        prettify_fields = "region country"
+    shell:
+        """
+        augur parse \
+            --sequences {input.sequences} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} \
+            --fields {params.fasta_fields} \
+            --prettify-fields {params.prettify_fields}
+        """
+
+rule filter:
+    message:
+        """
+        Filtering to
+          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          - excluding strains in {input.exclude}
+          - only HA sequences
+          - excluding strains prior to {params.min_date}
+        """
+    input:
+        sequences = rules.parse.output.sequences,
+        metadata = rules.parse.output.metadata,
+        exclude = files.dropped_strains,
+        include = rules.include_outgroup.output.include_strains
+    output:
+        sequences = "results/{ha_type}/filtered.fasta"
+    params:
+        group_by = "year",
+        sequences_per_group = "50",
+        min_date = "1950",
+        min_length = "1600",
+        exclude_where = "segment!=4"
+
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude {input.exclude} \
+            --include {input.include} \
+            --output {output.sequences} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --min-date {params.min_date} \
+            --exclude-where {params.exclude_where} \
+            --min-length {params.min_length} \
+            --non-nucleotide
+        """
+
+rule align:
+    message:
+        """
+        Aligning sequences to {input.reference}
+          - filling gaps with N
+        """
+    input:
+        sequences = rules.filter.output.sequences,
+        reference = files.reference
+    output:
+        alignment = "results/{ha_type}/aligned.fasta",
+    shell:
+        """
+        augur align \
+            --sequences {input.sequences} \
+            --reference-sequence {input.reference} \
+            --output {output.alignment} \
+            --remove-reference \
+            --nthreads 1
+        """
+
+
+rule tree:
+    message: "Building tree"
+    input:
+        alignment = rules.align.output.alignment
+    output:
+        tree = "results/{ha_type}/tree-raw.nwk"
+    params:
+        method = "iqtree"
+    shell:
+        """
+        augur tree \
+            --alignment {input.alignment} \
+            --output {output.tree} \
+            --method {params.method} \
+            --nthreads 1
+        """
+
+rule refine:
+    message:
+        """
+        Refining tree
+          - estimate timetree
+          - use {params.coalescent} coalescent timescale
+          - estimate {params.date_inference} node dates
+        """
+    input:
+        tree = rules.tree.output.tree,
+        alignment = rules.align.output,
+        metadata = rules.parse.output.metadata
+    output:
+        tree = "results/{ha_type}/tree.nwk",
+        node_data = "results/{ha_type}/branch-lengths.json"
+    params:
+        coalescent = "const",
+        date_inference = "marginal",
+        clock_filter_iqd = 4,
+        root = lambda wildcards: config[wildcards.ha_type]["root"]
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --timetree \
+            --root {params.root:q} \
+            --coalescent {params.coalescent} \
+            --date-confidence \
+            --date-inference {params.date_inference} \
+            --clock-filter-iqd {params.clock_filter_iqd}
+        """
+
+rule export_w_outgroup:
+    message: "Exporting data files for for auspice"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.parse.output.metadata,
+        branch_lengths = rules.refine.output.node_data,
+        colors = files.colors,
+        lat_longs = files.lat_longs,
+        auspice_config = files.auspice_config
+    output:
+        auspice_json = "auspice/{ha_type}_w_outgroup.json"
+    shell:
+        """
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.branch_lengths} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
+            --auspice-config {input.auspice_config} \
+            --output {output.auspice_json}
+        """
+
+rule prune_outgroup:
+    message: "Pruning outgroup from tree"
+    input:
+        newick_tree = rules.refine.output.tree,
+        auspice_tree = rules.export_w_outgroup.output.auspice_json
+    output:
+        tree = "results/{ha_type}/tree_pruned.nwk"
+    shell:
+        """
+        python3 scripts/prune_outgroup.py \
+            --ha-type {wildcards.ha_type} \
+            --tree-w-outgroup {input.newick_tree} \
+            --auspice-w-outgroup {input.auspice_tree} \
+            --output-file {output.tree} \
+        """
+
+rule ancestral:
+    message: "Reconstructing ancestral sequences and mutations"
+    input:
+        tree = rules.prune_outgroup.output.tree,
+        alignment = rules.align.output
+    output:
+        node_data = "results/{ha_type}/nt-muts.json"
+    params:
+        inference = "joint"
+    shell:
+        """
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --output-node-data {output.node_data} \
+            --inference {params.inference}\
+            --keep-ambiguous
+        """
+
+rule translate:
+    message: "Translating amino acid sequences"
+    input:
+        tree = rules.prune_outgroup.output.tree,
+        node_data = rules.ancestral.output.node_data,
+        reference = files.reference,
+    output:
+        node_data = "results/{ha_type}/aa-muts.json"
+    shell:
+        """
+        augur translate \
+            --tree {input.tree} \
+            --ancestral-sequences {input.node_data} \
+            --reference-sequence {input.reference} \
+            --output {output.node_data}
+        """
+
+rule export:
+    message: "Exporting data files for auspice, for the pruned tree"
+    input:
+        tree = rules.prune_outgroup.output.tree,
+        metadata = rules.parse.output.metadata,
+        branch_lengths = rules.refine.output.node_data,
+        nt_muts = rules.ancestral.output.node_data,
+        aa_muts = rules.translate.output.node_data ,
+        colors = files.colors,
+        lat_longs = files.lat_longs,
+        auspice_config = files.auspice_config
+    output:
+        auspice_json = "auspice/{ha_type}.json"
+    shell:
+        """
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
+            --auspice-config {input.auspice_config} \
+            --include-root-sequence \
+            --output {output.auspice_json}
+        """
+
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"

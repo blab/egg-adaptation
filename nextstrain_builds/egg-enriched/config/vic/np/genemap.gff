@@ -1,0 +1,3 @@
+##gff-version 3
+EPI242845	feature	source	1	1842	.	+	.	gene_name="nuc"
+EPI242845	feature	gene	68	1750	.	+	.	gene_name="NP"

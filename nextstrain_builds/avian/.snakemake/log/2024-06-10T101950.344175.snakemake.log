@@ -1,0 +1,152 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                    1
+all                      1
+ancestral                1
+export                   1
+export_w_outgroup        1
+filter                   1
+include_outgroup         1
+parse                    1
+prune_outgroup           1
+refine                   1
+translate                1
+tree                     1
+total                   12
+
+Select jobs to execute...
+
+[Mon Jun 10 10:19:50 2024]
+rule include_outgroup:
+    input: data/H1_ncbi_sequences.fasta
+    output: results/H1/sequences_w_outgroup.fasta, config/H1/include_strains.txt
+    jobid: 8
+    reason: Missing output files: results/H1/sequences_w_outgroup.fasta
+    wildcards: ha_type=H1
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Mon Jun 10 10:19:51 2024]
+Finished job 8.
+1 of 12 steps (8%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:19:51 2024]
+Job 7: Parsing fasta into sequences and metadata
+Reason: Missing output files: results/H1/sequences.fasta, results/H1/metadata.tsv; Input files updated by another job: results/H1/sequences_w_outgroup.fasta
+
+[Mon Jun 10 10:19:53 2024]
+Finished job 7.
+2 of 12 steps (17%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:19:53 2024]
+Job 6: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Missing output files: results/H1/filtered.fasta; Input files updated by another job: results/H1/sequences.fasta, results/H1/metadata.tsv, config/H1/include_strains.txt
+
+[Mon Jun 10 10:19:55 2024]
+Finished job 6.
+3 of 12 steps (25%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:19:55 2024]
+Job 5: 
+        Aligning sequences to config/H1/reference_H1.gb
+          - filling gaps with N
+        
+Reason: Missing output files: results/H1/aligned.fasta; Input files updated by another job: results/H1/filtered.fasta
+
+[Mon Jun 10 10:20:37 2024]
+Finished job 5.
+4 of 12 steps (33%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:20:37 2024]
+Job 4: Building tree
+Reason: Missing output files: results/H1/tree-raw.nwk; Input files updated by another job: results/H1/aligned.fasta
+
+[Mon Jun 10 10:20:49 2024]
+Finished job 4.
+5 of 12 steps (42%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:20:49 2024]
+Job 3: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Missing output files: results/H1/branch-lengths.json, results/H1/tree.nwk; Input files updated by another job: results/H1/metadata.tsv, results/H1/tree-raw.nwk, results/H1/aligned.fasta
+
+[Mon Jun 10 10:24:31 2024]
+Finished job 3.
+6 of 12 steps (50%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:24:31 2024]
+Job 11: Exporting data files for for auspice
+Reason: Missing output files: auspice/H1_w_outgroup.json; Input files updated by another job: results/H1/branch-lengths.json, results/H1/metadata.tsv, results/H1/tree.nwk
+
+[Mon Jun 10 10:24:34 2024]
+Finished job 11.
+7 of 12 steps (58%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:24:34 2024]
+Job 2: Pruning outgroup from tree
+Reason: Missing output files: results/H1/tree_pruned.nwk; Input files updated by another job: auspice/H1_w_outgroup.json, results/H1/tree.nwk
+
+[Mon Jun 10 10:24:35 2024]
+Finished job 2.
+8 of 12 steps (67%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:24:35 2024]
+Job 12: Reconstructing ancestral sequences and mutations
+Reason: Missing output files: results/H1/nt-muts.json; Input files updated by another job: results/H1/tree_pruned.nwk, results/H1/aligned.fasta
+
+[Mon Jun 10 10:24:41 2024]
+Finished job 12.
+9 of 12 steps (75%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:24:41 2024]
+Job 13: Translating amino acid sequences
+Reason: Missing output files: results/H1/aa-muts.json; Input files updated by another job: results/H1/nt-muts.json, results/H1/tree_pruned.nwk
+
+[Mon Jun 10 10:24:42 2024]
+Finished job 13.
+10 of 12 steps (83%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:24:42 2024]
+Job 1: Exporting data files for auspice, for the pruned tree
+Reason: Missing output files: auspice/H1.json; Input files updated by another job: results/H1/nt-muts.json, results/H1/tree_pruned.nwk, results/H1/aa-muts.json, results/H1/branch-lengths.json, results/H1/metadata.tsv
+
+[Mon Jun 10 10:24:43 2024]
+Finished job 1.
+11 of 12 steps (92%) done
+Select jobs to execute...
+
+[Mon Jun 10 10:24:43 2024]
+localrule all:
+    input: auspice/H1.json
+    jobid: 0
+    reason: Input files updated by another job: auspice/H1.json
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Mon Jun 10 10:24:43 2024]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: .snakemake/log/2024-06-10T101950.344175.snakemake.log

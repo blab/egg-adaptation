@@ -1,0 +1,3 @@
+##gff-version 3
+EPI381960	feature	source	1	2208	.	+	.	gene_name="nuc"
+EPI381960	feature	gene	13	2163	.	+	.	gene_name="PA"

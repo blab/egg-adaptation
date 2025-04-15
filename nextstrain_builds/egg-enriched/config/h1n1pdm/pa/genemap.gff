@@ -1,0 +1,3 @@
+##gff-version 3
+CY121685	feature	source	1	2192	.	+	.	gene_name="nuc"
+CY121685	feature	gene	5	2155	.	+	.	gene_name="PA"

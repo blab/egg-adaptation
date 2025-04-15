@@ -1,0 +1,1854 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                   15
+all                      1
+ancestral               16
+export                  16
+export_w_outgroup       16
+filter                  15
+include_outgroup        15
+parse                   15
+prune_outgroup          16
+refine                  16
+translate               16
+tree                    15
+total                  172
+
+Select jobs to execute...
+
+[Thu Jun 13 12:53:10 2024]
+Job 112: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Code has changed since last execution; Params have changed since last execution
+
+
+[Thu Jun 13 12:53:10 2024]
+rule include_outgroup:
+    input: data/H5_ncbi_sequences.fasta
+    output: results/H5/sequences_w_outgroup.fasta, config/H5/include_strains.txt
+    jobid: 57
+    reason: Updated input files: data/H5_ncbi_sequences.fasta
+    wildcards: ha_type=H5
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Thu Jun 13 12:53:10 2024]
+rule include_outgroup:
+    input: data/H15_ncbi_sequences.fasta
+    output: results/H15/sequences_w_outgroup.fasta, config/H15/include_strains.txt
+    jobid: 177
+    reason: Updated input files: data/H15_ncbi_sequences.fasta
+    wildcards: ha_type=H15
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Thu Jun 13 12:53:10 2024]
+rule include_outgroup:
+    input: data/H14_ncbi_sequences.fasta
+    output: results/H14/sequences_w_outgroup.fasta, config/H14/include_strains.txt
+    jobid: 165
+    reason: Updated input files: data/H14_ncbi_sequences.fasta
+    wildcards: ha_type=H14
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Thu Jun 13 12:53:11 2024]
+rule include_outgroup:
+    input: data/H7_ncbi_sequences.fasta
+    output: results/H7/sequences_w_outgroup.fasta, config/H7/include_strains.txt
+    jobid: 81
+    reason: Updated input files: data/H7_ncbi_sequences.fasta
+    wildcards: ha_type=H7
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Thu Jun 13 12:53:11 2024]
+rule include_outgroup:
+    input: data/H6_ncbi_sequences.fasta
+    output: results/H6/sequences_w_outgroup.fasta, config/H6/include_strains.txt
+    jobid: 69
+    reason: Updated input files: data/H6_ncbi_sequences.fasta
+    wildcards: ha_type=H6
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Thu Jun 13 12:53:11 2024]
+rule include_outgroup:
+    input: data/H13_ncbi_sequences.fasta
+    output: results/H13/sequences_w_outgroup.fasta, config/H13/include_strains.txt
+    jobid: 153
+    reason: Updated input files: data/H13_ncbi_sequences.fasta
+    wildcards: ha_type=H13
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Thu Jun 13 12:53:11 2024]
+rule include_outgroup:
+    input: data/H1_ncbi_sequences.fasta
+    output: results/H1/sequences_w_outgroup.fasta, config/H1/include_strains.txt
+    jobid: 8
+    reason: Updated input files: data/H1_ncbi_sequences.fasta
+    wildcards: ha_type=H1
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 12:53:12 2024]
+Finished job 177.
+1 of 172 steps (1%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:12 2024]
+Job 176: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H15/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:12 2024]
+Finished job 165.
+2 of 172 steps (1%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:12 2024]
+Job 164: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H14/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:12 2024]
+Finished job 153.
+3 of 172 steps (2%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:12 2024]
+Job 152: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H13/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:12 2024]
+Finished job 8.
+4 of 172 steps (2%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:12 2024]
+Job 7: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H1/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:13 2024]
+Finished job 69.
+5 of 172 steps (3%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:13 2024]
+Job 68: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H6/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:13 2024]
+Finished job 81.
+6 of 172 steps (3%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:13 2024]
+Job 80: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H7/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:14 2024]
+Finished job 176.
+7 of 172 steps (4%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:15 2024]
+Job 175: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H15/sequences.fasta, results/H15/metadata.tsv, config/H15/include_strains.txt
+
+[Thu Jun 13 12:53:15 2024]
+Finished job 164.
+8 of 172 steps (5%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:15 2024]
+rule include_outgroup:
+    input: data/H9_ncbi_sequences.fasta
+    output: results/H9/sequences_w_outgroup.fasta, config/H9/include_strains.txt
+    jobid: 105
+    reason: Updated input files: data/H9_ncbi_sequences.fasta
+    wildcards: ha_type=H9
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 12:53:16 2024]
+Finished job 152.
+9 of 172 steps (5%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:16 2024]
+Job 151: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: config/H13/include_strains.txt, results/H13/metadata.tsv, results/H13/sequences.fasta
+
+[Thu Jun 13 12:53:16 2024]
+Finished job 7.
+10 of 172 steps (6%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:17 2024]
+Job 6: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H1/sequences.fasta, config/H1/include_strains.txt, results/H1/metadata.tsv
+
+[Thu Jun 13 12:53:18 2024]
+Finished job 57.
+11 of 172 steps (6%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:18 2024]
+Job 163: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: config/H14/include_strains.txt, results/H14/sequences.fasta, results/H14/metadata.tsv
+
+[Thu Jun 13 12:53:19 2024]
+Finished job 175.
+12 of 172 steps (7%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:20 2024]
+Job 174: 
+        Aligning sequences to config/H15/reference_H15.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H15/filtered.fasta
+
+[Thu Jun 13 12:53:20 2024]
+Finished job 68.
+13 of 172 steps (8%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:20 2024]
+Job 67: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H6/sequences.fasta, results/H6/metadata.tsv, config/H6/include_strains.txt
+
+[Thu Jun 13 12:53:21 2024]
+Finished job 80.
+14 of 172 steps (8%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:21 2024]
+Job 79: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H7/metadata.tsv, results/H7/sequences.fasta, config/H7/include_strains.txt
+
+[Thu Jun 13 12:53:22 2024]
+Finished job 151.
+15 of 172 steps (9%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:22 2024]
+Job 150: 
+        Aligning sequences to config/H13/reference_H13.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H13/filtered.fasta
+
+[Thu Jun 13 12:53:23 2024]
+Finished job 6.
+16 of 172 steps (9%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:23 2024]
+rule include_outgroup:
+    input: data/H8_ncbi_sequences.fasta
+    output: results/H8/sequences_w_outgroup.fasta, config/H8/include_strains.txt
+    jobid: 93
+    reason: Updated input files: data/H8_ncbi_sequences.fasta
+    wildcards: ha_type=H8
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 12:53:23 2024]
+Finished job 105.
+17 of 172 steps (10%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:23 2024]
+Job 104: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H9/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:24 2024]
+Finished job 163.
+18 of 172 steps (10%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:24 2024]
+Job 162: 
+        Aligning sequences to config/H14/reference_H14.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H14/filtered.fasta
+
+[Thu Jun 13 12:53:24 2024]
+Finished job 93.
+19 of 172 steps (11%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:24 2024]
+Job 92: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H8/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:27 2024]
+Finished job 92.
+20 of 172 steps (12%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:27 2024]
+Job 91: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H8/metadata.tsv, results/H8/sequences.fasta, config/H8/include_strains.txt
+
+[Thu Jun 13 12:53:28 2024]
+Finished job 174.
+21 of 172 steps (12%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:28 2024]
+rule include_outgroup:
+    input: data/H16_ncbi_sequences.fasta
+    output: results/H16/sequences_w_outgroup.fasta, config/H16/include_strains.txt
+    jobid: 189
+    reason: Updated input files: data/H16_ncbi_sequences.fasta
+    wildcards: ha_type=H16
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 12:53:30 2024]
+Finished job 67.
+22 of 172 steps (13%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:30 2024]
+Job 66: 
+        Aligning sequences to config/H6/reference_H6.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H6/filtered.fasta
+
+[Thu Jun 13 12:53:30 2024]
+Finished job 189.
+23 of 172 steps (13%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:30 2024]
+Job 188: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H16/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:30 2024]
+Finished job 79.
+24 of 172 steps (14%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:30 2024]
+Job 78: 
+        Aligning sequences to config/H7/reference_H7.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H7/filtered.fasta
+
+[Thu Jun 13 12:53:30 2024]
+Finished job 91.
+25 of 172 steps (15%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:30 2024]
+Job 90: 
+        Aligning sequences to config/H8/reference_H8.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H8/filtered.fasta
+
+[Thu Jun 13 12:53:31 2024]
+Finished job 104.
+26 of 172 steps (15%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:31 2024]
+rule include_outgroup:
+    input: data/H2_ncbi_sequences.fasta
+    output: results/H2/sequences_w_outgroup.fasta, config/H2/include_strains.txt
+    jobid: 21
+    reason: Updated input files: data/H2_ncbi_sequences.fasta
+    wildcards: ha_type=H2
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 12:53:32 2024]
+Finished job 188.
+27 of 172 steps (16%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:32 2024]
+Job 187: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H16/sequences.fasta, config/H16/include_strains.txt, results/H16/metadata.tsv
+
+[Thu Jun 13 12:53:33 2024]
+Finished job 21.
+28 of 172 steps (16%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:33 2024]
+Job 20: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H2/sequences_w_outgroup.fasta
+
+[Thu Jun 13 12:53:33 2024]
+Finished job 162.
+29 of 172 steps (17%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:33 2024]
+Job 161: Building tree
+Reason: Input files updated by another job: results/H14/aligned.fasta
+
+[Thu Jun 13 12:53:36 2024]
+Finished job 187.
+30 of 172 steps (17%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:36 2024]
+Job 186: 
+        Aligning sequences to config/H16/reference_H16.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H16/filtered.fasta
+
+[Thu Jun 13 12:53:36 2024]
+Finished job 20.
+31 of 172 steps (18%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:36 2024]
+Job 19: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H2/metadata.tsv, results/H2/sequences.fasta, config/H2/include_strains.txt
+
+[Thu Jun 13 12:53:37 2024]
+Finished job 161.
+32 of 172 steps (19%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:37 2024]
+Job 160: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H14/tree-raw.nwk, results/H14/aligned.fasta, results/H14/metadata.tsv
+
+[Thu Jun 13 12:53:40 2024]
+Finished job 19.
+33 of 172 steps (19%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:40 2024]
+Job 18: 
+        Aligning sequences to config/H2/reference_H2.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H2/filtered.fasta
+
+[Thu Jun 13 12:53:48 2024]
+Finished job 90.
+34 of 172 steps (20%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:48 2024]
+Job 89: Building tree
+Reason: Input files updated by another job: results/H8/aligned.fasta
+
+[Thu Jun 13 12:53:57 2024]
+Finished job 89.
+35 of 172 steps (20%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:53:57 2024]
+Job 88: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H8/aligned.fasta, results/H8/metadata.tsv, results/H8/tree-raw.nwk
+
+[Thu Jun 13 12:54:01 2024]
+Finished job 186.
+36 of 172 steps (21%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:01 2024]
+Job 185: Building tree
+Reason: Input files updated by another job: results/H16/aligned.fasta
+
+[Thu Jun 13 12:54:10 2024]
+Finished job 185.
+37 of 172 steps (22%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:11 2024]
+Job 184: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H16/tree-raw.nwk, results/H16/aligned.fasta, results/H16/metadata.tsv
+
+[Thu Jun 13 12:54:11 2024]
+Finished job 160.
+38 of 172 steps (22%) done
+[Thu Jun 13 12:54:11 2024]
+Finished job 150.
+39 of 172 steps (23%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:11 2024]
+Job 56: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H5/sequences_w_outgroup.fasta
+
+
+[Thu Jun 13 12:54:11 2024]
+rule include_outgroup:
+    input: data/H12_ncbi_sequences.fasta
+    output: results/H12/sequences_w_outgroup.fasta, config/H12/include_strains.txt
+    jobid: 141
+    reason: Updated input files: data/H12_ncbi_sequences.fasta
+    wildcards: ha_type=H12
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+Select jobs to execute...
+[Thu Jun 13 12:54:12 2024]
+Finished job 141.
+40 of 172 steps (23%) done
+
+[Thu Jun 13 12:54:12 2024]
+Job 167: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H14/branch-lengths.json, results/H14/tree.nwk, results/H14/metadata.tsv
+
+[Thu Jun 13 12:54:15 2024]
+Finished job 167.
+41 of 172 steps (24%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:15 2024]
+Job 159: Pruning outgroup from tree
+Reason: Input files updated by another job: results/H14/tree.nwk, auspice/H14_w_outgroup.json
+
+[Thu Jun 13 12:54:17 2024]
+Finished job 159.
+42 of 172 steps (24%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:17 2024]
+Job 149: Building tree
+Reason: Input files updated by another job: results/H13/aligned.fasta
+
+[Thu Jun 13 12:54:19 2024]
+Finished job 56.
+43 of 172 steps (25%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:19 2024]
+Job 55: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H5/metadata.tsv, results/H5/sequences.fasta, config/H5/include_strains.txt
+
+[Thu Jun 13 12:54:29 2024]
+Finished job 149.
+44 of 172 steps (26%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:29 2024]
+Job 148: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H13/aligned.fasta, results/H13/tree-raw.nwk, results/H13/metadata.tsv
+
+[Thu Jun 13 12:54:35 2024]
+Finished job 55.
+45 of 172 steps (26%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:36 2024]
+Job 54: 
+        Aligning sequences to config/H5/reference_H5.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H5/filtered.fasta
+
+[Thu Jun 13 12:54:37 2024]
+Finished job 18.
+46 of 172 steps (27%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:38 2024]
+Job 17: Building tree
+Reason: Input files updated by another job: results/H2/aligned.fasta
+
+[Thu Jun 13 12:54:55 2024]
+Finished job 17.
+47 of 172 steps (27%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:54:55 2024]
+Job 16: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H2/metadata.tsv, results/H2/aligned.fasta, results/H2/tree-raw.nwk
+
+[Thu Jun 13 12:55:27 2024]
+Finished job 78.
+48 of 172 steps (28%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:55:27 2024]
+Job 77: Building tree
+Reason: Input files updated by another job: results/H7/aligned.fasta
+
+[Thu Jun 13 12:55:37 2024]
+Finished job 66.
+49 of 172 steps (28%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:55:38 2024]
+Job 65: Building tree
+Reason: Input files updated by another job: results/H6/aligned.fasta
+
+[Thu Jun 13 12:55:53 2024]
+Finished job 88.
+50 of 172 steps (29%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:55:53 2024]
+Job 95: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H8/metadata.tsv, results/H8/tree.nwk, results/H8/branch-lengths.json
+
+[Thu Jun 13 12:55:56 2024]
+Finished job 95.
+51 of 172 steps (30%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:55:56 2024]
+Job 87: Pruning outgroup from tree
+Reason: Input files updated by another job: results/H8/tree.nwk, auspice/H8_w_outgroup.json
+
+[Thu Jun 13 12:55:58 2024]
+Finished job 87.
+52 of 172 steps (30%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:55:58 2024]
+Job 96: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H8/aligned.fasta, results/H8/tree_pruned.nwk
+
+[Thu Jun 13 12:56:02 2024]
+Finished job 96.
+53 of 172 steps (31%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:02 2024]
+Job 97: Translating amino acid sequences
+Reason: Input files updated by another job: results/H8/nt-muts.json, results/H8/tree_pruned.nwk
+
+[Thu Jun 13 12:56:02 2024]
+Finished job 77.
+54 of 172 steps (31%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:02 2024]
+Job 76: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H7/metadata.tsv, results/H7/tree-raw.nwk, results/H7/aligned.fasta
+
+[Thu Jun 13 12:56:04 2024]
+Finished job 97.
+55 of 172 steps (32%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:04 2024]
+Job 86: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H8/metadata.tsv, results/H8/nt-muts.json, results/H8/aa-muts.json, results/H8/branch-lengths.json, results/H8/tree_pruned.nwk
+
+[Thu Jun 13 12:56:07 2024]
+Finished job 86.
+56 of 172 steps (33%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:07 2024]
+Job 173: Building tree
+Reason: Input files updated by another job: results/H15/aligned.fasta
+
+[Thu Jun 13 12:56:10 2024]
+Finished job 173.
+57 of 172 steps (33%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:10 2024]
+Job 172: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H15/tree-raw.nwk, results/H15/aligned.fasta, results/H15/metadata.tsv
+
+[Thu Jun 13 12:56:19 2024]
+Finished job 65.
+58 of 172 steps (34%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:19 2024]
+Job 64: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H6/tree-raw.nwk, results/H6/metadata.tsv, results/H6/aligned.fasta
+
+[Thu Jun 13 12:56:34 2024]
+Finished job 172.
+59 of 172 steps (34%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:41 2024]
+Job 179: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H15/branch-lengths.json, results/H15/tree.nwk, results/H15/metadata.tsv
+
+[Thu Jun 13 12:56:54 2024]
+Finished job 179.
+60 of 172 steps (35%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:56:55 2024]
+Job 171: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H15_w_outgroup.json, results/H15/tree.nwk
+
+[Thu Jun 13 13:13:30 2024]
+Finished job 171.
+61 of 172 steps (35%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:13:31 2024]
+Job 180: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H15/aligned.fasta, results/H15/tree_pruned.nwk
+
+[Thu Jun 13 13:30:46 2024]
+Finished job 180.
+62 of 172 steps (36%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:30:46 2024]
+Job 181: Translating amino acid sequences
+Reason: Input files updated by another job: results/H15/nt-muts.json, results/H15/tree_pruned.nwk
+
+[Thu Jun 13 13:30:46 2024]
+Finished job 54.
+63 of 172 steps (37%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:30:46 2024]
+Job 53: Building tree
+Reason: Input files updated by another job: results/H5/aligned.fasta
+
+[Thu Jun 13 13:30:51 2024]
+Finished job 181.
+64 of 172 steps (37%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:30:51 2024]
+Job 170: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H15/metadata.tsv, results/H15/branch-lengths.json, results/H15/nt-muts.json, results/H15/aa-muts.json, results/H15/tree_pruned.nwk
+
+[Thu Jun 13 13:33:35 2024]
+Finished job 170.
+65 of 172 steps (38%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:33:37 2024]
+Job 103: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H9/sequences.fasta, config/H9/include_strains.txt, results/H9/metadata.tsv
+
+[Thu Jun 13 13:33:37 2024]
+Finished job 184.
+66 of 172 steps (38%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:33:39 2024]
+Job 191: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H16/branch-lengths.json, results/H16/metadata.tsv, results/H16/tree.nwk
+
+[Thu Jun 13 13:33:47 2024]
+Finished job 191.
+67 of 172 steps (39%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:33:47 2024]
+Job 5: 
+        Aligning sequences to config/H1/reference_H1.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H1/filtered.fasta
+
+[Thu Jun 13 13:34:05 2024]
+Finished job 103.
+68 of 172 steps (40%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:34:06 2024]
+Job 102: 
+        Aligning sequences to config/H9/reference_H9.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H9/filtered.fasta
+
+[Thu Jun 13 14:02:03 2024]
+Finished job 53.
+69 of 172 steps (40%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:02:06 2024]
+Job 52: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H5/tree-raw.nwk, results/H5/metadata.tsv, results/H5/aligned.fasta
+
+[Thu Jun 13 14:02:31 2024]
+Finished job 148.
+70 of 172 steps (41%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:02:32 2024]
+rule include_outgroup:
+    input: data/H3_ncbi_sequences.fasta
+    output: results/H3/sequences_w_outgroup.fasta, config/H3/include_strains.txt
+    jobid: 33
+    reason: Updated input files: data/H3_ncbi_sequences.fasta
+    wildcards: ha_type=H3
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 14:02:35 2024]
+Finished job 33.
+71 of 172 steps (41%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:02:36 2024]
+Job 32: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H3/sequences_w_outgroup.fasta
+
+[Thu Jun 13 14:02:47 2024]
+Finished job 5.
+72 of 172 steps (42%) done
+[Thu Jun 13 14:02:47 2024]
+Finished job 32.
+73 of 172 steps (42%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:02:51 2024]
+Job 140: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H12/sequences_w_outgroup.fasta
+
+
+[Thu Jun 13 14:02:51 2024]
+Job 168: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H14/tree_pruned.nwk, results/H14/aligned.fasta
+
+Select jobs to execute...
+[Thu Jun 13 14:02:54 2024]
+Finished job 140.
+74 of 172 steps (43%) done
+
+[Thu Jun 13 14:02:55 2024]
+Job 4: Building tree
+Reason: Input files updated by another job: results/H1/aligned.fasta
+
+[Thu Jun 13 14:02:55 2024]
+Finished job 168.
+75 of 172 steps (44%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:02:55 2024]
+Job 139: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: config/H12/include_strains.txt, results/H12/sequences.fasta, results/H12/metadata.tsv
+
+[Thu Jun 13 14:02:58 2024]
+Finished job 139.
+76 of 172 steps (44%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:02:58 2024]
+Job 138: 
+        Aligning sequences to config/H12/reference_H12.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H12/filtered.fasta
+
+[Thu Jun 13 14:03:23 2024]
+Finished job 4.
+77 of 172 steps (45%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:03:24 2024]
+Job 3: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H1/aligned.fasta, results/H1/tree-raw.nwk, results/H1/metadata.tsv
+
+[Thu Jun 13 14:03:31 2024]
+Finished job 138.
+78 of 172 steps (45%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:03:31 2024]
+Job 137: Building tree
+Reason: Input files updated by another job: results/H12/aligned.fasta
+
+[Thu Jun 13 14:03:45 2024]
+Finished job 137.
+79 of 172 steps (46%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:03:46 2024]
+Job 136: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H12/aligned.fasta, results/H12/tree-raw.nwk, results/H12/metadata.tsv
+
+[Thu Jun 13 14:03:51 2024]
+Finished job 102.
+80 of 172 steps (47%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:03:52 2024]
+Job 101: Building tree
+Reason: Input files updated by another job: results/H9/aligned.fasta
+
+[Thu Jun 13 14:04:37 2024]
+Finished job 101.
+81 of 172 steps (47%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:04:38 2024]
+Job 100: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H9/tree-raw.nwk, results/H9/aligned.fasta, results/H9/metadata.tsv
+
+[Thu Jun 13 14:04:57 2024]
+Finished job 112.
+82 of 172 steps (48%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:04:58 2024]
+Job 119: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H10/branch-lengths.json, results/H10/tree.nwk
+
+[Thu Jun 13 14:05:05 2024]
+Finished job 119.
+83 of 172 steps (48%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:05 2024]
+Job 111: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H10_w_outgroup.json, results/H10/tree.nwk
+
+[Thu Jun 13 14:05:08 2024]
+Finished job 111.
+84 of 172 steps (49%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:08 2024]
+Job 120: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H10/tree_pruned.nwk
+
+[Thu Jun 13 14:05:20 2024]
+Finished job 120.
+85 of 172 steps (49%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:21 2024]
+Job 121: Translating amino acid sequences
+Reason: Input files updated by another job: results/H10/nt-muts.json, results/H10/tree_pruned.nwk
+
+[Thu Jun 13 14:05:25 2024]
+Finished job 121.
+86 of 172 steps (50%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:25 2024]
+Job 110: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H10/branch-lengths.json, results/H10/nt-muts.json, results/H10/tree_pruned.nwk, results/H10/aa-muts.json
+
+[Thu Jun 13 14:05:28 2024]
+Finished job 110.
+87 of 172 steps (51%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:28 2024]
+Job 169: Translating amino acid sequences
+Reason: Input files updated by another job: results/H14/tree_pruned.nwk, results/H14/nt-muts.json
+
+[Thu Jun 13 14:05:30 2024]
+Finished job 169.
+88 of 172 steps (51%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:30 2024]
+Job 158: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H14/tree_pruned.nwk, results/H14/branch-lengths.json, results/H14/nt-muts.json, results/H14/aa-muts.json, results/H14/metadata.tsv
+
+[Thu Jun 13 14:05:32 2024]
+Finished job 158.
+89 of 172 steps (52%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:32 2024]
+Job 31: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H3/sequences.fasta, config/H3/include_strains.txt, results/H3/metadata.tsv
+
+[Thu Jun 13 14:05:39 2024]
+Finished job 16.
+90 of 172 steps (52%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:40 2024]
+Job 23: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H2/tree.nwk, results/H2/metadata.tsv, results/H2/branch-lengths.json
+
+[Thu Jun 13 14:05:40 2024]
+Finished job 31.
+91 of 172 steps (53%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:40 2024]
+Job 30: 
+        Aligning sequences to config/H3/reference_H3.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H3/filtered.fasta
+
+[Thu Jun 13 14:05:43 2024]
+Finished job 23.
+92 of 172 steps (53%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:43 2024]
+rule include_outgroup:
+    input: data/H11_ncbi_sequences.fasta
+    output: results/H11/sequences_w_outgroup.fasta, config/H11/include_strains.txt
+    jobid: 129
+    reason: Updated input files: data/H11_ncbi_sequences.fasta
+    wildcards: ha_type=H11
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 14:05:44 2024]
+Finished job 129.
+93 of 172 steps (54%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:44 2024]
+Job 128: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H11/sequences_w_outgroup.fasta
+
+[Thu Jun 13 14:05:47 2024]
+Finished job 128.
+94 of 172 steps (55%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:47 2024]
+Job 127: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H11/metadata.tsv, results/H11/sequences.fasta, config/H11/include_strains.txt
+
+[Thu Jun 13 14:05:51 2024]
+Finished job 127.
+95 of 172 steps (55%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:51 2024]
+rule include_outgroup:
+    input: data/H4_ncbi_sequences.fasta
+    output: results/H4/sequences_w_outgroup.fasta, config/H4/include_strains.txt
+    jobid: 45
+    reason: Updated input files: data/H4_ncbi_sequences.fasta
+    wildcards: ha_type=H4
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 14:05:54 2024]
+Finished job 45.
+96 of 172 steps (56%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:54 2024]
+Job 44: Parsing fasta into sequences and metadata
+Reason: Input files updated by another job: results/H4/sequences_w_outgroup.fasta
+
+[Thu Jun 13 14:05:59 2024]
+Finished job 44.
+97 of 172 steps (56%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:05:59 2024]
+Job 43: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Input files updated by another job: results/H4/metadata.tsv, config/H4/include_strains.txt, results/H4/sequences.fasta
+
+[Thu Jun 13 14:06:06 2024]
+Finished job 43.
+98 of 172 steps (57%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:06:06 2024]
+Job 155: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H13/branch-lengths.json, results/H13/metadata.tsv, results/H13/tree.nwk
+
+[Thu Jun 13 14:06:09 2024]
+Finished job 155.
+99 of 172 steps (58%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:06:09 2024]
+Job 147: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H13_w_outgroup.json, results/H13/tree.nwk
+
+[Thu Jun 13 14:06:12 2024]
+Finished job 147.
+100 of 172 steps (58%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:06:12 2024]
+Job 156: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H13/aligned.fasta, results/H13/tree_pruned.nwk
+
+[Thu Jun 13 14:06:20 2024]
+Finished job 156.
+101 of 172 steps (59%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:06:20 2024]
+Job 157: Translating amino acid sequences
+Reason: Input files updated by another job: results/H13/nt-muts.json, results/H13/tree_pruned.nwk
+
+[Thu Jun 13 14:06:23 2024]
+Finished job 157.
+102 of 172 steps (59%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:06:23 2024]
+Job 146: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H13/branch-lengths.json, results/H13/aa-muts.json, results/H13/nt-muts.json, results/H13/metadata.tsv, results/H13/tree_pruned.nwk
+
+[Thu Jun 13 14:06:25 2024]
+Finished job 146.
+103 of 172 steps (60%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:06:25 2024]
+Job 42: 
+        Aligning sequences to config/H4/reference_H4.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H4/filtered.fasta
+
+[Thu Jun 13 14:07:21 2024]
+Finished job 136.
+104 of 172 steps (60%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:21 2024]
+Job 143: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H12/tree.nwk, results/H12/branch-lengths.json, results/H12/metadata.tsv
+
+[Thu Jun 13 14:07:27 2024]
+Finished job 143.
+105 of 172 steps (61%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:28 2024]
+Job 15: Pruning outgroup from tree
+Reason: Input files updated by another job: results/H2/tree.nwk, auspice/H2_w_outgroup.json
+
+[Thu Jun 13 14:07:31 2024]
+Finished job 15.
+106 of 172 steps (62%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:31 2024]
+Job 24: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H2/aligned.fasta, results/H2/tree_pruned.nwk
+
+[Thu Jun 13 14:07:34 2024]
+Finished job 30.
+107 of 172 steps (62%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:34 2024]
+Job 29: Building tree
+Reason: Input files updated by another job: results/H3/aligned.fasta
+
+[Thu Jun 13 14:07:41 2024]
+Finished job 24.
+108 of 172 steps (63%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:41 2024]
+Job 25: Translating amino acid sequences
+Reason: Input files updated by another job: results/H2/tree_pruned.nwk, results/H2/nt-muts.json
+
+[Thu Jun 13 14:07:43 2024]
+Finished job 25.
+109 of 172 steps (63%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:43 2024]
+Job 14: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H2/metadata.tsv, results/H2/tree_pruned.nwk, results/H2/aa-muts.json, results/H2/nt-muts.json, results/H2/branch-lengths.json
+
+[Thu Jun 13 14:07:47 2024]
+Finished job 14.
+110 of 172 steps (64%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:47 2024]
+Job 183: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H16_w_outgroup.json, results/H16/tree.nwk
+
+[Thu Jun 13 14:07:49 2024]
+Finished job 183.
+111 of 172 steps (65%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:49 2024]
+Job 192: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H16/aligned.fasta, results/H16/tree_pruned.nwk
+
+[Thu Jun 13 14:07:54 2024]
+Finished job 192.
+112 of 172 steps (65%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:54 2024]
+Job 193: Translating amino acid sequences
+Reason: Input files updated by another job: results/H16/tree_pruned.nwk, results/H16/nt-muts.json
+
+[Thu Jun 13 14:07:57 2024]
+Finished job 193.
+113 of 172 steps (66%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:07:57 2024]
+Job 182: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H16/nt-muts.json, results/H16/aa-muts.json, results/H16/branch-lengths.json, results/H16/tree_pruned.nwk, results/H16/metadata.tsv
+
+[Thu Jun 13 14:07:59 2024]
+Finished job 182.
+114 of 172 steps (66%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:08:00 2024]
+Job 126: 
+        Aligning sequences to config/H11/reference_H11.gb
+          - filling gaps with N
+        
+Reason: Input files updated by another job: results/H11/filtered.fasta
+
+[Thu Jun 13 14:08:01 2024]
+Finished job 42.
+115 of 172 steps (67%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:08:01 2024]
+Job 41: Building tree
+Reason: Input files updated by another job: results/H4/aligned.fasta
+
+[Thu Jun 13 14:08:12 2024]
+Finished job 29.
+116 of 172 steps (67%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:08:12 2024]
+Job 28: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H3/tree-raw.nwk, results/H3/metadata.tsv, results/H3/aligned.fasta
+
+[Thu Jun 13 14:08:29 2024]
+Finished job 41.
+117 of 172 steps (68%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:08:29 2024]
+Job 135: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H12_w_outgroup.json, results/H12/tree.nwk
+
+[Thu Jun 13 14:08:31 2024]
+Finished job 135.
+118 of 172 steps (69%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:08:32 2024]
+Job 40: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H4/aligned.fasta, results/H4/metadata.tsv, results/H4/tree-raw.nwk
+
+[Thu Jun 13 14:09:13 2024]
+Finished job 126.
+119 of 172 steps (69%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:09:13 2024]
+Job 125: Building tree
+Reason: Input files updated by another job: results/H11/aligned.fasta
+
+[Thu Jun 13 14:09:37 2024]
+Finished job 125.
+120 of 172 steps (70%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:09:38 2024]
+Job 144: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H12/tree_pruned.nwk, results/H12/aligned.fasta
+
+[Thu Jun 13 14:09:44 2024]
+Finished job 144.
+121 of 172 steps (70%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:09:44 2024]
+Job 145: Translating amino acid sequences
+Reason: Input files updated by another job: results/H12/tree_pruned.nwk, results/H12/nt-muts.json
+
+[Thu Jun 13 14:09:47 2024]
+Finished job 145.
+122 of 172 steps (71%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:09:47 2024]
+Job 134: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H12/aa-muts.json, results/H12/nt-muts.json, results/H12/branch-lengths.json, results/H12/tree_pruned.nwk, results/H12/metadata.tsv
+
+[Thu Jun 13 14:09:49 2024]
+Finished job 134.
+123 of 172 steps (72%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:09:49 2024]
+Job 124: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Input files updated by another job: results/H11/metadata.tsv, results/H11/tree-raw.nwk, results/H11/aligned.fasta
+
+[Thu Jun 13 14:11:29 2024]
+Finished job 3.
+124 of 172 steps (72%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:11:29 2024]
+Job 11: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H1/tree.nwk, results/H1/branch-lengths.json, results/H1/metadata.tsv
+
+[Thu Jun 13 14:11:33 2024]
+Finished job 11.
+125 of 172 steps (73%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:11:33 2024]
+Job 2: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H1_w_outgroup.json, results/H1/tree.nwk
+
+[Thu Jun 13 14:11:35 2024]
+Finished job 2.
+126 of 172 steps (73%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:11:35 2024]
+Job 12: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H1/aligned.fasta, results/H1/tree_pruned.nwk
+
+[Thu Jun 13 14:11:45 2024]
+Finished job 12.
+127 of 172 steps (74%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:11:45 2024]
+Job 13: Translating amino acid sequences
+Reason: Input files updated by another job: results/H1/nt-muts.json, results/H1/tree_pruned.nwk
+
+[Thu Jun 13 14:11:48 2024]
+Finished job 13.
+128 of 172 steps (74%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:11:48 2024]
+Job 1: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H1/aa-muts.json, results/H1/branch-lengths.json, results/H1/tree_pruned.nwk, results/H1/metadata.tsv, results/H1/nt-muts.json
+
+[Thu Jun 13 14:11:52 2024]
+Finished job 1.
+129 of 172 steps (75%) done
+[Thu Jun 13 14:13:09 2024]
+Finished job 76.
+130 of 172 steps (76%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:09 2024]
+Job 83: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H7/branch-lengths.json, results/H7/metadata.tsv, results/H7/tree.nwk
+
+[Thu Jun 13 14:13:15 2024]
+Finished job 83.
+131 of 172 steps (76%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:15 2024]
+Job 75: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H7_w_outgroup.json, results/H7/tree.nwk
+
+[Thu Jun 13 14:13:19 2024]
+Finished job 75.
+132 of 172 steps (77%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:19 2024]
+Job 84: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H7/tree_pruned.nwk, results/H7/aligned.fasta
+
+[Thu Jun 13 14:13:19 2024]
+Finished job 64.
+133 of 172 steps (77%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:19 2024]
+Job 71: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H6/branch-lengths.json, results/H6/metadata.tsv, results/H6/tree.nwk
+
+[Thu Jun 13 14:13:24 2024]
+Finished job 71.
+134 of 172 steps (78%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:24 2024]
+Job 63: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H6_w_outgroup.json, results/H6/tree.nwk
+
+[Thu Jun 13 14:13:26 2024]
+Finished job 63.
+135 of 172 steps (78%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:26 2024]
+Job 72: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H6/aligned.fasta, results/H6/tree_pruned.nwk
+
+[Thu Jun 13 14:13:34 2024]
+Finished job 84.
+136 of 172 steps (79%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:34 2024]
+Job 85: Translating amino acid sequences
+Reason: Input files updated by another job: results/H7/tree_pruned.nwk, results/H7/nt-muts.json
+
+[Thu Jun 13 14:13:37 2024]
+Finished job 85.
+137 of 172 steps (80%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:37 2024]
+Job 74: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H7/tree_pruned.nwk, results/H7/aa-muts.json, results/H7/branch-lengths.json, results/H7/metadata.tsv, results/H7/nt-muts.json
+
+[Thu Jun 13 14:13:41 2024]
+Finished job 72.
+138 of 172 steps (80%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:41 2024]
+Job 73: Translating amino acid sequences
+Reason: Input files updated by another job: results/H6/nt-muts.json, results/H6/tree_pruned.nwk
+
+[Thu Jun 13 14:13:42 2024]
+Finished job 74.
+139 of 172 steps (81%) done
+[Thu Jun 13 14:13:44 2024]
+Finished job 73.
+140 of 172 steps (81%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:13:44 2024]
+Job 62: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H6/nt-muts.json, results/H6/metadata.tsv, results/H6/tree_pruned.nwk, results/H6/branch-lengths.json, results/H6/aa-muts.json
+
+[Thu Jun 13 14:13:47 2024]
+Finished job 62.
+141 of 172 steps (82%) done
+[Thu Jun 13 14:15:33 2024]
+Finished job 52.
+142 of 172 steps (83%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:33 2024]
+Job 59: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H5/metadata.tsv, results/H5/tree.nwk, results/H5/branch-lengths.json
+
+[Thu Jun 13 14:15:37 2024]
+Finished job 59.
+143 of 172 steps (83%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:37 2024]
+Job 51: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H5_w_outgroup.json, results/H5/tree.nwk
+
+[Thu Jun 13 14:15:39 2024]
+Finished job 51.
+144 of 172 steps (84%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:39 2024]
+Job 60: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H5/aligned.fasta, results/H5/tree_pruned.nwk
+
+[Thu Jun 13 14:15:49 2024]
+Finished job 60.
+145 of 172 steps (84%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:49 2024]
+Job 61: Translating amino acid sequences
+Reason: Input files updated by another job: results/H5/nt-muts.json, results/H5/tree_pruned.nwk
+
+[Thu Jun 13 14:15:53 2024]
+Finished job 61.
+146 of 172 steps (85%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:53 2024]
+Job 50: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H5/nt-muts.json, results/H5/metadata.tsv, results/H5/branch-lengths.json, results/H5/tree_pruned.nwk, results/H5/aa-muts.json
+
+[Thu Jun 13 14:15:54 2024]
+Finished job 100.
+147 of 172 steps (85%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:54 2024]
+Job 107: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H9/branch-lengths.json, results/H9/tree.nwk, results/H9/metadata.tsv
+
+[Thu Jun 13 14:15:59 2024]
+Finished job 107.
+148 of 172 steps (86%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:15:59 2024]
+Job 99: Pruning outgroup from tree
+Reason: Input files updated by another job: results/H9/tree.nwk, auspice/H9_w_outgroup.json
+
+[Thu Jun 13 14:16:00 2024]
+Finished job 50.
+149 of 172 steps (87%) done
+[Thu Jun 13 14:16:01 2024]
+Finished job 99.
+150 of 172 steps (87%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:01 2024]
+Job 108: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H9/tree_pruned.nwk, results/H9/aligned.fasta
+
+[Thu Jun 13 14:16:10 2024]
+Finished job 108.
+151 of 172 steps (88%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:10 2024]
+Job 109: Translating amino acid sequences
+Reason: Input files updated by another job: results/H9/nt-muts.json, results/H9/tree_pruned.nwk
+
+[Thu Jun 13 14:16:12 2024]
+Finished job 109.
+152 of 172 steps (88%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:12 2024]
+Job 98: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H9/nt-muts.json, results/H9/metadata.tsv, results/H9/branch-lengths.json, results/H9/tree_pruned.nwk, results/H9/aa-muts.json
+
+[Thu Jun 13 14:16:15 2024]
+Finished job 98.
+153 of 172 steps (89%) done
+[Thu Jun 13 14:16:18 2024]
+Finished job 124.
+154 of 172 steps (90%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:18 2024]
+Job 131: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H11/metadata.tsv, results/H11/tree.nwk, results/H11/branch-lengths.json
+
+[Thu Jun 13 14:16:19 2024]
+Finished job 131.
+155 of 172 steps (90%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:19 2024]
+Job 123: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H11_w_outgroup.json, results/H11/tree.nwk
+
+[Thu Jun 13 14:16:20 2024]
+Finished job 123.
+156 of 172 steps (91%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:20 2024]
+Job 132: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H11/tree_pruned.nwk, results/H11/aligned.fasta
+
+[Thu Jun 13 14:16:27 2024]
+Finished job 132.
+157 of 172 steps (91%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:27 2024]
+Job 133: Translating amino acid sequences
+Reason: Input files updated by another job: results/H11/tree_pruned.nwk, results/H11/nt-muts.json
+
+[Thu Jun 13 14:16:28 2024]
+Finished job 133.
+158 of 172 steps (92%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:28 2024]
+Job 122: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H11/aa-muts.json, results/H11/nt-muts.json, results/H11/metadata.tsv, results/H11/tree_pruned.nwk, results/H11/branch-lengths.json
+
+[Thu Jun 13 14:16:29 2024]
+Finished job 40.
+159 of 172 steps (92%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:29 2024]
+Job 47: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H4/metadata.tsv, results/H4/tree.nwk, results/H4/branch-lengths.json
+
+[Thu Jun 13 14:16:30 2024]
+Finished job 122.
+160 of 172 steps (93%) done
+[Thu Jun 13 14:16:31 2024]
+Finished job 47.
+161 of 172 steps (94%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:31 2024]
+Job 39: Pruning outgroup from tree
+Reason: Input files updated by another job: auspice/H4_w_outgroup.json, results/H4/tree.nwk
+
+[Thu Jun 13 14:16:32 2024]
+Finished job 39.
+162 of 172 steps (94%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:32 2024]
+Job 48: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H4/tree_pruned.nwk, results/H4/aligned.fasta
+
+[Thu Jun 13 14:16:38 2024]
+Finished job 48.
+163 of 172 steps (95%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:38 2024]
+Job 49: Translating amino acid sequences
+Reason: Input files updated by another job: results/H4/nt-muts.json, results/H4/tree_pruned.nwk
+
+[Thu Jun 13 14:16:39 2024]
+Finished job 49.
+164 of 172 steps (95%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:16:39 2024]
+Job 38: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H4/tree_pruned.nwk, results/H4/aa-muts.json, results/H4/metadata.tsv, results/H4/nt-muts.json, results/H4/branch-lengths.json
+
+[Thu Jun 13 14:16:41 2024]
+Finished job 38.
+165 of 172 steps (96%) done
+[Thu Jun 13 14:17:24 2024]
+Finished job 28.
+166 of 172 steps (97%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:17:24 2024]
+Job 35: Exporting data files for for auspice
+Reason: Input files updated by another job: results/H3/tree.nwk, results/H3/metadata.tsv, results/H3/branch-lengths.json
+
+[Thu Jun 13 14:17:26 2024]
+Finished job 35.
+167 of 172 steps (97%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:17:26 2024]
+Job 27: Pruning outgroup from tree
+Reason: Input files updated by another job: results/H3/tree.nwk, auspice/H3_w_outgroup.json
+
+[Thu Jun 13 14:17:27 2024]
+Finished job 27.
+168 of 172 steps (98%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:17:27 2024]
+Job 36: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/H3/tree_pruned.nwk, results/H3/aligned.fasta
+
+[Thu Jun 13 14:17:34 2024]
+Finished job 36.
+169 of 172 steps (98%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:17:34 2024]
+Job 37: Translating amino acid sequences
+Reason: Input files updated by another job: results/H3/tree_pruned.nwk, results/H3/nt-muts.json
+
+[Thu Jun 13 14:17:36 2024]
+Finished job 37.
+170 of 172 steps (99%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:17:36 2024]
+Job 26: Exporting data files for auspice, for the pruned tree
+Reason: Input files updated by another job: results/H3/tree_pruned.nwk, results/H3/nt-muts.json, results/H3/aa-muts.json, results/H3/metadata.tsv, results/H3/branch-lengths.json
+
+[Thu Jun 13 14:17:38 2024]
+Finished job 26.
+171 of 172 steps (99%) done
+Select jobs to execute...
+
+[Thu Jun 13 14:17:38 2024]
+localrule all:
+    input: auspice/H1.json, auspice/H2.json, auspice/H3.json, auspice/H4.json, auspice/H5.json, auspice/H6.json, auspice/H7.json, auspice/H8.json, auspice/H9.json, auspice/H10.json, auspice/H11.json, auspice/H12.json, auspice/H13.json, auspice/H14.json, auspice/H15.json, auspice/H16.json
+    jobid: 0
+    reason: Input files updated by another job: auspice/H16.json, auspice/H7.json, auspice/H13.json, auspice/H15.json, auspice/H10.json, auspice/H4.json, auspice/H14.json, auspice/H6.json, auspice/H9.json, auspice/H1.json, auspice/H8.json, auspice/H2.json, auspice/H3.json, auspice/H12.json, auspice/H11.json, auspice/H5.json
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Thu Jun 13 14:17:38 2024]
+Finished job 0.
+172 of 172 steps (100%) done
+Complete log: .snakemake/log/2024-06-13T125309.452846.snakemake.log

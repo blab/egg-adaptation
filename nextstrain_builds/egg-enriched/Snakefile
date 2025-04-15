@@ -1,0 +1,399 @@
+import datetime
+
+SEGMENTS = ['ha', 'na', 'pb1', 'pb2', 'pa', 'ns', 'mp', 'np']
+LINEAGES = ['h3n2', 'h1n1pdm', 'vic']
+
+resolution =30
+
+GENES = {
+    'ha': ['SigPep', 'HA1', 'HA2'],
+    'na': ['NA'],
+    'pb1': ['PB1'],
+    'pb2': ['PB2'],
+    'pa': ['PA'],
+    'np': ['NP'],
+    'ns': ['NS1'],
+    'mp': ['M1']
+}
+
+rule all:
+    input:
+        auspice_json = expand("auspice/{lineage}_{segment}_egg-clusters.json", lineage=LINEAGES, segment=SEGMENTS),
+        frequencies_json = expand("auspice/{lineage}_{segment}_egg_tip-frequencies.json", lineage=LINEAGES, segment=SEGMENTS),
+        egg_polys_tree = expand("auspice/{lineage}_{segment}_egg.json", lineage=LINEAGES, segment=SEGMENTS)
+
+rule files:
+    params:
+        reference = "config/{lineage}/{segment}/reference.fasta",
+        annotation = "config/{lineage}/{segment}/genemap.gff",
+        lat_longs = "config/lat_longs.tsv",
+        auspice_config = "config/{lineage}/auspice_config.json",
+        colors = "config/colors.tsv",
+        sequences = "data/{lineage}/{segment}/sequences.fasta",
+        metadata = "data/{lineage}/{segment}/metadata.tsv",
+        include_strains = "include/{lineage}/{segment}/include.txt"
+
+files = rules.files.params
+
+rule fetch_general_geolocation_rules:
+    output:
+        general_geolocation_rules="data/general-geolocation-rules.tsv",
+    params:
+        geolocation_rules_url="https://raw.githubusercontent.com/nextstrain/ncov-ingest/master/source-data/gisaid_geoLocationRules.tsv",
+    shell:
+        """
+        curl {params.geolocation_rules_url} > {output.general_geolocation_rules}
+        """
+
+### BELOW IS FROM SEASONAL-FLU NEXTSTRAIN BUILD ###
+### COPIED/EDITED ON 3.31.25 ###
+
+
+checkpoint align:
+    input:
+        sequences = files.sequences,
+        reference = files.reference,
+        annotation = files.annotation,
+    output:
+        alignment = "results/{lineage}/{segment}/aligned.fasta",
+        translations = directory("results/{lineage}/{segment}/translations"),
+    # conda: "../envs/nextstrain.yaml"
+    benchmark:
+        "benchmarks/align_{lineage}_{segment}.txt"
+    log:
+        "logs/align_{lineage}_{segment}.txt"
+    params:
+        genes = lambda w: ','.join(GENES[w.segment]),
+    threads: 8
+    resources:
+        mem_mb=16000,
+        time="0:30:00",
+    shell:
+        """
+        nextclade3 run\
+            {input.sequences} \
+            -r {input.reference} \
+            -m {input.annotation} \
+            --gap-alignment-side right \
+            --cds-selection {params.genes} \
+            --jobs {threads} \
+            --include-reference \
+            --output-fasta {output.alignment} \
+            --output-translations "{output.translations}/{{cds}}.fasta" 2>&1 | tee {log}
+        """
+
+def aggregate_translations(wildcards):
+    """The alignment rule produces multiple outputs that we cannot easily name prior
+    to running the rule. The names of the outputs depend on the segment being
+    aligned and Snakemake's `expand` function does not provide a way to lookup
+    the gene names per segment. Instead, we use Snakemake's checkpoint
+    functionality to determine the names of the output files after alignment
+    runs. Downstream rules refer to this function to specify the translations
+    for a given segment.
+
+    ** stolen from nextstrain seasonal-flu https://github.com/nextstrain/seasonal-flu/blob/master/workflow/snakemake_rules/core.smk
+    """
+    checkpoint_output = checkpoints.align.get(**wildcards).output.translations
+    return expand("results/{lineage}/{segment}/translations/{gene}.fasta",
+                  lineage=wildcards.lineage,
+                  segment=wildcards.segment,
+                  gene=GENES[wildcards.segment])
+
+rule tree:
+    """
+    from nextstrain seasonal-flu repo
+    """
+    message: "Building tree"
+    input:
+        alignment = rules.align.output.alignment,
+    output:
+        tree = "results/{lineage}/{segment}/tree_raw.nwk"
+    # conda: "../envs/nextstrain.yaml"
+    benchmark:
+        "benchmarks/tree_{lineage}_{segment}.txt"
+    log:
+        "logs/tree_{lineage}_{segment}.txt"
+    params:
+        method = "iqtree",
+        tree_builder_args = "--tree-builder-args '-ninit 10 -n 4 -czb'",
+    threads: 8
+    resources:
+        mem_mb=16000,
+        time="2:00:00",
+    shell:
+        """
+        augur tree \
+            --method {params.method} \
+            --alignment {input.alignment} \
+            {params.tree_builder_args} \
+            --output {output.tree} \
+            --nthreads {threads} 2>&1 | tee {log}
+        """
+
+rule prune_reference:
+    """
+    from nextstrain seasonal-flu repo
+    """
+    input:
+        tree = rules.tree.output.tree,
+        reference = files.reference,
+    output:
+        tree = "results/{lineage}/{segment}/tree_without_outgroup.nwk",
+    shell:
+        """
+        python3 scripts/prune_reference.py \
+            --tree {input.tree} \
+            --reference {input.reference} \
+            --output {output.tree}
+        """
+
+rule prune_outliers:
+    input:
+        tree = rules.prune_reference.output.tree,
+        aln = "results/{lineage}/{segment}/aligned.fasta",
+        metadata = files.metadata,
+        include = files.include_strains,
+    output:
+        tree = "results/{lineage}/{segment}/tree_without_outgroup_clean.nwk",
+        outliers = "results/{lineage}/{segment}/outliers.tsv"
+    shell:
+        """
+        python3 scripts/flag_outliers.py \
+            --tree {input.tree:q} \
+            --aln {input.aln} \
+            --dates {input.metadata} \
+            --cutoff 4.0 \
+            --keep-strains {input.include} \
+            --output-tree {output.tree:q} --output-outliers {output.outliers} 2>&1 | tee {log}
+        """
+
+def clock_rate(w):
+    # these rates are from 12y runs on 2019-10-18
+    rate = {
+     ('h1n1pdm', 'ha'): 0.00329,
+ 	 ('h1n1pdm', 'na'): 0.00326,
+ 	 ('h1n1pdm', 'np'): 0.00221,
+ 	 ('h1n1pdm', 'pa'): 0.00217,
+	 ('h1n1pdm', 'pb1'): 0.00205,
+ 	 ('h1n1pdm', 'pb2'): 0.00277,
+ 	 ('h3n2', 'ha'): 0.00382,
+ 	 ('h3n2', 'na'): 0.00267,
+	 ('h3n2', 'np'): 0.00157,
+ 	 ('h3n2', 'pa'): 0.00178,
+ 	 ('h3n2', 'pb1'): 0.00139,
+ 	 ('h3n2', 'pb2'): 0.00218,
+ 	 ('vic', 'ha'): 0.00145,
+ 	 ('vic', 'na'): 0.00133,
+ 	 ('vic', 'np'): 0.00132,
+ 	 ('vic', 'pa'): 0.00178,
+ 	 ('vic', 'pb1'): 0.00114,
+ 	 ('vic', 'pb2'): 0.00106,
+ 	 ('yam', 'ha'): 0.00176,
+ 	 ('yam', 'na'): 0.00177,
+ 	 ('yam', 'np'): 0.00133,
+ 	 ('yam', 'pa'): 0.00112,
+ 	 ('yam', 'pb1'): 0.00092,
+ 	 ('yam', 'pb2'): 0.00113}
+    return rate.get((w.lineage, w.segment), 0.001)
+
+def clock_std_dev(w):
+    return clock_rate(w)/5
+
+rule refine:
+    message:
+        """
+        Refining tree
+          - estimate timetree
+          - use {params.coalescent} coalescent timescale
+          - estimate {params.date_inference} node dates
+          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+        """
+    input:
+        tree = rules.prune_outliers.output.tree,
+        alignment = rules.align.output.alignment,
+        metadata = files.metadata,
+    output:
+        tree = "results/{lineage}/{segment}/tree.nwk",
+        node_data = "results/{lineage}/{segment}/branch-lengths.json"
+    params:
+        coalescent = "const",
+        date_inference = "marginal",
+        clock_filter_iqd = 4,
+        clock_rate = clock_rate,
+        clock_std_dev = clock_std_dev
+    benchmark:
+        "benchmarks/refine_{lineage}_{segment}.txt"
+    log:
+        "logs/refine_{lineage}_{segment}.txt"
+    resources:
+        mem_mb=16000,
+        time="2:00:00",
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --keep-root \
+            --stochastic-resolve \
+            --timetree \
+            --use-fft \
+            --no-covariance \
+            --clock-rate {params.clock_rate} \
+            --clock-std-dev {params.clock_std_dev} \
+            --coalescent {params.coalescent} \
+            --date-confidence \
+            --date-inference {params.date_inference} \
+            --clock-filter-iqd {params.clock_filter_iqd} 2>&1 | tee {log}
+        """
+
+rule ancestral:
+    message: "Reconstructing ancestral sequences and mutations"
+    input:
+        tree = rules.refine.output.tree,
+        alignment = rules.align.output.alignment,
+        translations = aggregate_translations,
+        reference =  files.reference,
+        annotation = files.annotation,
+    output:
+        node_data = "results/{lineage}/{segment}/muts.json",
+        translations_done = "results/{lineage}/{segment}/translations.done",
+    params:
+        inference = "joint",
+        genes = lambda w: GENES[w.segment],
+        input_translations = lambda w: f"results/{w.lineage}/{w.segment}/translations/%GENE.fasta",
+        output_translations = lambda w: f"results/{w.lineage}/{w.segment}/translations/%GENE_withInternalNodes.fasta",
+    benchmark:
+        "benchmarks/ancestral_{lineage}_{segment}.txt"
+    log:
+        "logs/ancestral_{lineage}_{segment}.txt"
+    resources:
+        mem_mb=4000
+    shell:
+        """
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --root-sequence {input.reference} \
+            --annotation {input.annotation} \
+            --genes {params.genes} \
+            --translations "{params.input_translations}" \
+            --output-node-data {output.node_data} \
+            --output-translations "{params.output_translations}" \
+            --inference {params.inference} 2>&1 | tee {log} && touch {output.translations_done}
+        """
+
+### SKIP ADDING CLADES
+glyc_gene = {'ha':'HA1', 'na':'NA'}
+
+rule glyc:
+    input:
+        tree = rules.refine.output.tree,
+        translations_done = rules.ancestral.output.translations_done,
+    output:
+        glyc = "results/{lineage}/{segment}/glyc.json"
+    params:
+        alignment = lambda w: f"results/{w.lineage}/{w.segment}/translations/{glyc_gene.get(w.segment)}_withInternalNodes.fasta",
+    benchmark:
+        "benchmarks/glyc_{lineage}_{segment}.txt"
+    log:
+        "logs/glyc_{lineage}_{segment}.txt"
+    shell:
+        """
+        python3 scripts/glyc.py \
+            --tree {input.tree} \
+            --alignment {params.alignment} \
+            --output {output.glyc} 2>&1 | tee {log}
+        """
+
+rule tip_frequencies:
+    input:
+        tree = rules.refine.output.tree,
+        metadata = files.metadata,
+    params:
+        narrow_bandwidth = 1 / 12.0,
+        wide_bandwidth = 3 / 12.0,
+        proportion_wide = 0.0,
+        min_date_arg = lambda wildcards: (datetime.datetime.today() - datetime.timedelta(days=resolution*365)).strftime("%Y-%m-%d"),
+        pivot_interval = 1
+    output:
+        tip_freq = "auspice/{lineage}_{segment}_egg_tip-frequencies.json"
+    benchmark:
+        "benchmarks/tip_frequencies_{lineage}_{segment}.txt"
+    log:
+        "logs/tip_frequencies_{lineage}_{segment}.txt"
+    shell:
+        """
+        augur frequencies \
+            --method kde \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --narrow-bandwidth {params.narrow_bandwidth} \
+            --wide-bandwidth {params.wide_bandwidth} \
+            --proportion-wide {params.proportion_wide} \
+            --pivot-interval {params.pivot_interval} \
+            --min-date {params.min_date_arg} \
+            --output {output} 2>&1 | tee {log}
+        """
+
+def _get_node_data_by_wildcards(wildcards):
+    """
+    Return a list of node data files to include for a given build's wildcards.
+    """
+    # Define inputs shared by all builds.
+    # wildcards_dict = dict(wildcards)
+    inputs = [
+        rules.refine.output.node_data,
+        rules.ancestral.output.node_data
+    ]
+
+    if wildcards.segment in ['ha', 'na']:
+        inputs.append(rules.glyc.output.glyc)
+
+    # Convert input files from wildcard strings to real file names.
+    # inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
+    return inputs
+
+rule export:
+    message: "Exporting data files for auspice"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = files.metadata,
+        node_data = _get_node_data_by_wildcards,
+        auspice_config = files.auspice_config,
+        lat_longs = files.lat_longs,
+        colors = files.colors,
+    output:
+        auspice_json = "auspice/{lineage}_{segment}_egg-clusters.json"
+    benchmark:
+        "benchmarks/export_{lineage}_{segment}.txt"
+    log:
+        "logs/export_{lineage}_{segment}.txt"
+    shell:
+        """
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.node_data} \
+            --include-root-sequence-inline \
+            --lat-longs {input.lat_longs} \
+            --auspice-config {input.auspice_config} \
+            --colors {input.colors} \
+            --output {output.auspice_json} 2>&1 | tee {log}
+        """
+
+
+rule egg_polytomies:
+    message: "Reformatting tree to show egg clusters as polytomies"
+    input:
+        tree = rules.export.output.auspice_json,
+    output:
+        tree_egg_polytomies = "auspice/{lineage}_{segment}_egg.json",
+    shell:
+        """
+        python3 scripts/egg_strain_polytomies.py \
+            --tree {input.tree} \
+            --output {output.tree_egg_polytomies}
+        """

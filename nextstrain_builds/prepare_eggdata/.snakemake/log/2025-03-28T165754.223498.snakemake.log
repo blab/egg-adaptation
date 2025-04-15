@@ -1,0 +1,103 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+all                      1
+download_egg_seqs        4
+total                    5
+
+Select jobs to execute...
+
+[Fri Mar 28 16:57:54 2025]
+rule download_egg_seqs:
+    output: data/h3n2/ha/egg-passaged-sequences.fasta
+    jobid: 1
+    reason: Missing output files: data/h3n2/ha/egg-passaged-sequences.fasta
+    wildcards: lineage=h3n2, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: ha lineage: seasonal_h3n2             --path data/seasonal_h3n2/ha             --fstem egg-passaged-sequences
+        
+
+[Fri Mar 28 16:57:54 2025]
+rule download_egg_seqs:
+    output: data/h3n2/na/egg-passaged-sequences.fasta
+    jobid: 2
+    reason: Missing output files: data/h3n2/na/egg-passaged-sequences.fasta
+    wildcards: lineage=h3n2, segment=na
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: na lineage: seasonal_h3n2             --path data/seasonal_h3n2/na             --fstem egg-passaged-sequences
+        
+
+[Fri Mar 28 16:57:54 2025]
+rule download_egg_seqs:
+    output: data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    jobid: 3
+    reason: Missing output files: data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: ha lineage: seasonal_h1n1pdm             --path data/seasonal_h1n1pdm/ha             --fstem egg-passaged-sequences
+        
+
+[Fri Mar 28 16:57:54 2025]
+rule download_egg_seqs:
+    output: data/h1n1pdm/na/egg-passaged-sequences.fasta
+    jobid: 4
+    reason: Missing output files: data/h1n1pdm/na/egg-passaged-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=na
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: na lineage: seasonal_h1n1pdm             --path data/seasonal_h1n1pdm/na             --fstem egg-passaged-sequences
+        
+[Fri Mar 28 16:57:54 2025]
+Error in rule download_egg_seqs:
+    jobid: 1
+    output: data/h3n2/ha/egg-passaged-sequences.fasta
+    shell:
+        
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: ha lineage: seasonal_h3n2             --path data/seasonal_h3n2/ha             --fstem egg-passaged-sequences
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Mar 28 16:57:54 2025]
+Error in rule download_egg_seqs:
+    jobid: 2
+    output: data/h3n2/na/egg-passaged-sequences.fasta
+    shell:
+        
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: na lineage: seasonal_h3n2             --path data/seasonal_h3n2/na             --fstem egg-passaged-sequences
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Mar 28 16:57:54 2025]
+Error in rule download_egg_seqs:
+    jobid: 3
+    output: data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    shell:
+        
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: ha lineage: seasonal_h1n1pdm             --path data/seasonal_h1n1pdm/ha             --fstem egg-passaged-sequences
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Mar 28 16:57:54 2025]
+Error in rule download_egg_seqs:
+    jobid: 4
+    output: data/h1n1pdm/na/egg-passaged-sequences.fasta
+    shell:
+        
+        python3 ../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: na lineage: seasonal_h1n1pdm             --path data/seasonal_h1n1pdm/na             --fstem egg-passaged-sequences
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-03-28T165754.223498.snakemake.log

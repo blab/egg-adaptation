@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                          count
+-------------------------  -------
+all                              1
+combine_metadata                 1
+combine_sequences                1
+download_background_seqs         1
+download_egg_seqs                1
+filter_egg_seqs                  1
+parse_background_seqs            1
+parse_egg_seqs                   1
+prune_metadata                   1
+subsample_background_seqs        1
+total                           10
+
+Select jobs to execute...
+
+[Sun Mar 30 16:13:11 2025]
+rule download_background_seqs:
+    output: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    jobid: 8
+    reason: Missing output files: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Sun Mar 30 16:13:11 2025]
+rule download_egg_seqs:
+    output: raw_data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    jobid: 4
+    reason: Missing output files: raw_data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T, concurrent_fauna=1
+
+[Sun Mar 30 16:28:44 2025]
+Finished job 4.
+1 of 10 steps (10%) done
+Select jobs to execute...
+
+[Sun Mar 30 16:28:44 2025]
+rule filter_egg_seqs:
+    input: raw_data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    output: raw_data/h1n1pdm/ha/filtered-egg-passaged-sequences.fasta
+    jobid: 3
+    reason: Missing output files: raw_data/h1n1pdm/ha/filtered-egg-passaged-sequences.fasta; Input files updated by another job: raw_data/h1n1pdm/ha/egg-passaged-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Sun Mar 30 16:28:45 2025]
+Finished job 3.
+2 of 10 steps (20%) done
+Select jobs to execute...
+
+[Sun Mar 30 16:28:45 2025]
+rule parse_egg_seqs:
+    input: raw_data/h1n1pdm/ha/filtered-egg-passaged-sequences.fasta
+    output: parsed_data/h1n1pdm/ha/egg_sequences.fasta, parsed_data/h1n1pdm/ha/egg_metadata.tsv, include_exclude/h1n1pdm/ha/include.txt
+    jobid: 2
+    reason: Missing output files: parsed_data/h1n1pdm/ha/egg_sequences.fasta, parsed_data/h1n1pdm/ha/egg_metadata.tsv, include_exclude/h1n1pdm/ha/include.txt; Input files updated by another job: raw_data/h1n1pdm/ha/filtered-egg-passaged-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+Warning: the following output files of rule parse_egg_seqs were not present when the DAG was created:
+{'include_exclude/h1n1pdm/ha/include.txt'}
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule parse_egg_seqs in file /Users/katekistler/nextstrain/egg-adaptation-manuscript/nextstrain_builds/prepare_eggdata/Snakefile, line 63:
+Job 2  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+include_exclude/h1n1pdm/ha/include.txt
+Removing output files of failed job parse_egg_seqs since they might be corrupted:
+parsed_data/h1n1pdm/ha/egg_sequences.fasta, parsed_data/h1n1pdm/ha/egg_metadata.tsv

@@ -1,0 +1,3 @@
+##gff-version 3
+EPI242848	feature	source	1	1096	.	+	.	gene_name="nuc"
+EPI242848	feature	gene	43	888	.	+	.	gene_name="NS1"

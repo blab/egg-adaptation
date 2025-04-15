@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                         count
+------------------------  -------
+all                             1
+download_background_seqs        1
+total                           2
+
+Select jobs to execute...
+
+[Sun Mar 30 15:33:03 2025]
+rule download_background_seqs:
+    output: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    jobid: 1
+    reason: Missing output files: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+

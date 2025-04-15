@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                         count
+------------------------  -------
+all                             1
+download_background_seqs        1
+total                           2
+
+Select jobs to execute...
+
+[Sun Mar 30 15:32:11 2025]
+rule download_background_seqs:
+    output: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    jobid: 1
+    reason: Missing output files: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    wildcards: lineage=h1n1pdm, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+Terminating processes on user request, this might take some time.
+[Sun Mar 30 15:32:52 2025]
+Error in rule download_background_seqs:
+    jobid: 1
+    output: raw_data/h1n1pdm/ha/raw_background-sequences.fasta
+    shell:
+        
+        python3 ../../../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method split_passage             --select passage_category:unpassaged,cell,undetermined locus:ha lineage:seasonal_h1n1pdm             --path raw_data/h1n1pdm/ha             --fstem raw_background-sequences
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-03-30T153211.316956.snakemake.log

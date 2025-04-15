@@ -1,0 +1,3 @@
+##gff-version 3
+EPI51828	feature	source	1	1793	.	+	.	gene_name="nuc"
+EPI51828	feature	gene	29	1711	.	+	.	gene_name="NP"

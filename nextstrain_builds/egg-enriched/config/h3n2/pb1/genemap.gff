@@ -1,0 +1,3 @@
+##gff-version 3
+EPI381961	feature	source	1	2316	.	+	.	gene_name="nuc"
+EPI381961	feature	gene	13	2286	.	+	.	gene_name="PB1"

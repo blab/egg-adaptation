@@ -1,0 +1,286 @@
+"""
+Downloads all egg-passaged sequences, then picks one per strain
+(the one with the highest number of egg passages).
+Downloads all non-egg-passaged sequences and subsamples evenly over the past 30 years,
+force including any paired strains (aka non-egg-passaged sequences of the include egg-passaged strains)
+Concatenates the sequences and metadata files of egg and non-egg to use as input for a seasonal-flu build
+
+Run on aws-batch or it takes forever
+nextstrain build --aws-batch --cpus 16 --memory 64GiB --detach .
+Just download "data/**"
+"""
+
+import datetime
+
+SEGMENTS = ['ha', 'na', 'pb1', 'pb2', 'pa', 'ns', 'mp', 'np']
+VIRUSES = ['yam']
+resolution =30
+
+# path_to_fauna = '../../../fauna'
+path_to_fauna = '../fauna'
+
+rule all:
+    input:
+        combined_metadata= expand("data/{lineage}/{segment}/metadata.tsv", lineage=VIRUSES, segment=SEGMENTS),
+        combined_seqs= expand("data/{lineage}/{segment}/sequences.fasta", lineage=VIRUSES, segment=SEGMENTS)
+
+
+
+rule download_egg_seqs:
+    output:
+        egg_sequences = "raw_data/{lineage}/{segment}/egg-passaged-sequences.fasta",
+    params:
+        select_string = "passage_category:egg locus:{segment} lineage:seasonal_{lineage}",
+        filename = "egg-passaged-sequences",
+        save_path = "raw_data/{lineage}/{segment}",
+    resources:
+        concurrent_fauna = 1,
+    shell:
+        """
+        python3 {path_to_fauna}/vdb/download.py \
+            --database vdb \
+            --virus flu \
+            --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender \
+            --resolve_method keep_duplicates \
+            --select {params.select_string} \
+            --path {params.save_path} \
+            --fstem {params.filename}
+        """
+
+rule select_egg_seqs:
+    input:
+        egg_sequences = rules.download_egg_seqs.output,
+        exclude_strains = "exclude/{lineage}/outliers.txt"
+    output:
+        selected_egg_seqs = "raw_data/{lineage}/{segment}/selected-egg-passaged-sequences.fasta"
+    shell:
+        """
+        python3 scripts/get_highest_egg_passage.py \
+            --lineage {wildcards.lineage} \
+            --segment {wildcards.segment} \
+            --input-seqs {input.egg_sequences} \
+            --exclude {input.exclude_strains} \
+            --output-seqs {output.selected_egg_seqs}
+        """
+
+rule parse_egg_seqs:
+    input:
+        selected_egg_seqs = rules.select_egg_seqs.output.selected_egg_seqs
+    output:
+        egg_fasta = "parsed_data/{lineage}/{segment}/all_egg_sequences.fasta",
+        egg_metadata = "parsed_data/{lineage}/{segment}/all_egg_metadata_raw.tsv",
+    params:
+        fasta_fields = "strain virus lineage locus accession date date_submitted region country division location passage passage_category originating_lab submitting_lab age gender",
+    shell:
+        """
+        augur parse \
+            --sequences {input.selected_egg_seqs} \
+            --output-sequences {output.egg_fasta} \
+            --output-metadata {output.egg_metadata} \
+            --fields {params.fasta_fields} \
+        """
+
+rule fix_passage_category:
+    input:
+        egg_metadata = rules.parse_egg_seqs.output.egg_metadata,
+    output:
+        metadata = "parsed_data/{lineage}/{segment}/all_egg_metadata.tsv",
+    shell:
+        """
+        python3 scripts/fix_passage_category.py \
+            --input-metadata {input.egg_metadata} \
+            --output-metadata {output.metadata}
+        """
+
+rule filter_egg_seqs:
+    input:
+        egg_sequences = rules.parse_egg_seqs.output.egg_fasta,
+        egg_metadata = rules.fix_passage_category.output.metadata,
+    output:
+        egg_fasta = "parsed_data/{lineage}/{segment}/egg_sequences.fasta",
+    params:
+        min_date= lambda wildcards: (datetime.datetime.today() - datetime.timedelta(days=resolution*365)).strftime("%Y-%m-%d"),
+    shell:
+        """
+        augur filter \
+            --sequences {input.egg_sequences} \
+            --metadata {input.egg_metadata} \
+            --output {output.egg_fasta} \
+            --min-date {params.min_date}
+        """
+
+rule make_include_file:
+    input:
+        egg_fasta = rules.filter_egg_seqs.output.egg_fasta,
+    output:
+        include_file = "include/{lineage}/{segment}/include.txt",
+    shell:
+        """
+        python3 scripts/make_include_file.py \
+            --filtered-seqs {input.egg_fasta} \
+            --output {output.include_file}
+        """
+
+
+rule download_background_seqs:
+    output:
+        background_sequences = "raw_data/{lineage}/{segment}/raw_background-sequences.fasta",
+    params:
+        select_string = "passage_category:unpassaged,cell,undetermined locus:{segment} lineage:seasonal_{lineage}",
+        # select_string = "locus:{segment} lineage:seasonal_{lineage}",
+        save_path = "raw_data/{lineage}/{segment}",
+        filename = "raw_background-sequences",
+    shell:
+        """
+        python3 {path_to_fauna}/vdb/download.py \
+            --database vdb \
+            --virus flu \
+            --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender \
+            --resolve_method split_passage \
+            --select {params.select_string} \
+            --path {params.save_path} \
+            --fstem {params.filename}
+        """
+
+
+rule parse_background_seqs:
+    input:
+        background_sequences = rules.download_background_seqs.output,
+    output:
+        background_fasta = "parsed_data/{lineage}/{segment}/background_sequences.fasta",
+        background_metadata = "parsed_data/{lineage}/{segment}/background_metadata.tsv",
+    params:
+        fasta_fields = "strain virus lineage locus accession date date_submitted region country division location passage passage_category originating_lab submitting_lab age gender",
+    shell:
+        """
+        augur parse \
+            --sequences {input.background_sequences} \
+            --output-sequences {output.background_fasta} \
+            --output-metadata {output.background_metadata} \
+            --fields {params.fasta_fields} \
+        """
+
+max_sequences_by_segment = {
+    "ha": 10000,
+    "na": 4000,
+    "pb1": 4000,
+    "pb2": 4000,
+    "pa": 4000,
+    "np": 4000,
+    "ns": 4000,
+    "mp": 4000
+}
+
+min_length_by_segment = {
+    "ha": 1500,
+    "na": 1200,
+    "pb1": 2100,
+    "pb2": 2100,
+    "pa": 2000,
+    "np": 1300,
+    "ns": 600,
+    "mp": 800
+}
+
+rule subsample_background_seqs:
+    input:
+        sequences = rules.parse_background_seqs.output.background_fasta,
+        metadata = rules.parse_background_seqs.output.background_metadata,
+        include = rules.make_include_file.output.include_file,
+        exclude = "exclude/{lineage}/outliers.txt", # copied from first egg build
+    output:
+        sequences = "parsed_data/{lineage}/{segment}/subsampled-background-sequences.fasta",
+    params:
+        min_date= lambda wildcards: (datetime.datetime.today() - datetime.timedelta(days=resolution*365)).strftime("%Y-%m-%d"),
+        max_sequences = lambda wildcards: max_sequences_by_segment[wildcards.segment],
+        min_length = lambda wildcards: min_length_by_segment[wildcards.segment],
+        group_by = "region year",
+        # no egg-passaged sequences
+        exclude_where = "passage_category=egg",
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            --output {output.sequences} \
+            --exclude-where {params.exclude_where} \
+            --min-length {params.min_length} \
+            --group-by {params.group_by} \
+            --subsample-max-sequences {params.max_sequences} \
+            --min-date {params.min_date} \
+            --subsample-seed 1 \
+        """
+
+rule prune_egg_metadata:
+    input:
+        filtered_egg_sequences = rules.filter_egg_seqs.output.egg_fasta,
+        egg_metadata = rules.fix_passage_category.output.metadata,
+    output:
+        pruned_metadata = "parsed_data/{lineage}/{segment}/egg-metadata.tsv",
+    shell:
+        """
+        python3 scripts/prune_metadata.py \
+            --unpruned-meta {input.egg_metadata} \
+            --filtered-seqs {input.filtered_egg_sequences} \
+            --output {output.pruned_metadata}
+        """
+
+
+rule prune_background_metadata:
+    input:
+        filtered_background_sequences = rules.subsample_background_seqs.output.sequences,
+        background_metadata = rules.parse_background_seqs.output.background_metadata,
+    output:
+        pruned_metadata = "parsed_data/{lineage}/{segment}/subsampled-background-metadata.tsv",
+    shell:
+        """
+        python3 scripts/prune_metadata.py \
+            --unpruned-meta {input.background_metadata} \
+            --filtered-seqs {input.filtered_background_sequences} \
+            --output {output.pruned_metadata}
+        """
+
+rule combine_sequences:
+    input:
+        egg_sequences= rules.filter_egg_seqs.output.egg_fasta,
+        background_sequences = rules.subsample_background_seqs.output.sequences,
+    output:
+        combined_sequences= "data_temp/{lineage}/{segment}/sequences.fasta",
+    shell:
+        r"""
+        cat {input.egg_sequences} {input.background_sequences} > {output.combined_sequences}
+        """
+
+rule combine_metadata:
+    input:
+        egg_metadata= rules.prune_egg_metadata.output,
+        background_metadata= rules.prune_background_metadata.output,
+    output:
+        combined_metadata= "data_temp/{lineage}/{segment}/metadata.tsv",
+    shell:
+        r"""
+        augur merge \
+            --metadata egg={input.egg_metadata} background={input.background_metadata}\
+            --output-metadata {output.combined_metadata}
+        """
+
+rule remove_outliers:
+    input:
+        # sequences = rules.combine_sequences.output.combined_sequences,
+        sequences = "data_temp/{lineage}/{segment}/sequences.fasta",
+        # metadata = rules.combine_metadata.output.combined_metadata,
+        metadata = "data_temp/{lineage}/{segment}/metadata.tsv",
+        outliers = "exclude/{lineage}/outliers.txt",
+    output:
+        final_seqs = "data/{lineage}/{segment}/sequences.fasta",
+        final_metadata= "data/{lineage}/{segment}/metadata.tsv",
+    shell:
+        """
+        python3 scripts/remove_outliers.py \
+            --outliers {input.outliers} \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --out-sequences {output.final_seqs} \
+            --out-metadata {output.final_metadata}
+        """

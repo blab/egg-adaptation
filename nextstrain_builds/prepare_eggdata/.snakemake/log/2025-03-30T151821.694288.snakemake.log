@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+combine_metadata        1
+total                   2
+
+Select jobs to execute...
+
+[Sun Mar 30 15:18:22 2025]
+rule combine_metadata:
+    input: parsed_data/h3n2/ha/egg_metadata.tsv, parsed_data/h3n2/ha/subsampled-background-metadata.tsv
+    output: data/h3n2/ha/metadata.tsv
+    jobid: 1
+    reason: Missing output files: data/h3n2/ha/metadata.tsv
+    wildcards: lineage=h3n2, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Sun Mar 30 15:18:28 2025]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Sun Mar 30 15:18:28 2025]
+localrule all:
+    input: data/h3n2/ha/metadata.tsv
+    jobid: 0
+    reason: Input files updated by another job: data/h3n2/ha/metadata.tsv
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Sun Mar 30 15:18:28 2025]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2025-03-30T151821.694288.snakemake.log

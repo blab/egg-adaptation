@@ -1,0 +1,3 @@
+##gff-version 3
+EPI51835	feature	source	1	2328	.	+	.	gene_name="nuc"
+EPI51835	feature	gene	1	2259	.	+	.	gene_name="PB1"

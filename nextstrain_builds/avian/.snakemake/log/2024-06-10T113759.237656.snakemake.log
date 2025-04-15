@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+all                      1
+ancestral                1
+export                   1
+export_w_outgroup        1
+prune_outgroup           1
+refine                   1
+translate                1
+total                    7
+
+Select jobs to execute...
+
+[Mon Jun 10 11:38:00 2024]
+Job 3: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Missing output files: results/H11/branch-lengths.json, results/H11/tree.nwk; Updated input files: results/H11/tree-raw.nwk, results/H11/aligned.fasta, results/H11/metadata.tsv
+
+[Mon Jun 10 11:39:36 2024]
+Error in rule refine:
+    jobid: 3
+    input: results/H11/tree-raw.nwk, results/H11/aligned.fasta, results/H11/metadata.tsv
+    output: results/H11/tree.nwk, results/H11/branch-lengths.json
+    shell:
+        
+        augur refine             --tree results/H11/tree-raw.nwk             --alignment results/H11/aligned.fasta             --metadata results/H11/metadata.tsv             --output-tree results/H11/tree.nwk             --output-node-data results/H11/branch-lengths.json             --timetree             --coalescent const             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-06-10T113759.237656.snakemake.log

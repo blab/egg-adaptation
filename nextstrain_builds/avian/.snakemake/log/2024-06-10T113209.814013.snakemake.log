@@ -1,0 +1,105 @@
+Building DAG of jobs...
+Using shell: /Users/katekistler/.nextstrain/runtimes/conda/env/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                    1
+all                      1
+ancestral                1
+export                   1
+export_w_outgroup        1
+filter                   1
+include_outgroup         1
+parse                    1
+prune_outgroup           1
+refine                   1
+translate                1
+tree                     1
+total                   12
+
+Select jobs to execute...
+
+[Mon Jun 10 11:32:10 2024]
+rule include_outgroup:
+    input: data/H11_ncbi_sequences.fasta
+    output: results/H11/sequences_w_outgroup.fasta, config/H11/include_strains.txt
+    jobid: 8
+    reason: Missing output files: results/H11/sequences_w_outgroup.fasta; Updated input files: data/H11_ncbi_sequences.fasta
+    wildcards: ha_type=H11
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Mon Jun 10 11:32:11 2024]
+Finished job 8.
+1 of 12 steps (8%) done
+Select jobs to execute...
+
+[Mon Jun 10 11:32:11 2024]
+Job 7: Parsing fasta into sequences and metadata
+Reason: Missing output files: results/H11/sequences.fasta, results/H11/metadata.tsv; Input files updated by another job: results/H11/sequences_w_outgroup.fasta
+
+[Mon Jun 10 11:32:12 2024]
+Finished job 7.
+2 of 12 steps (17%) done
+Select jobs to execute...
+
+[Mon Jun 10 11:32:12 2024]
+Job 6: 
+        Filtering to
+          - 50 sequence(s) per year
+          - excluding strains in config/dropped_strains_ha.txt
+          - only HA sequences
+          - excluding strains prior to 1950
+        
+Reason: Missing output files: results/H11/filtered.fasta; Input files updated by another job: results/H11/sequences.fasta, config/H11/include_strains.txt, results/H11/metadata.tsv
+
+[Mon Jun 10 11:32:14 2024]
+Finished job 6.
+3 of 12 steps (25%) done
+Select jobs to execute...
+
+[Mon Jun 10 11:32:14 2024]
+Job 5: 
+        Aligning sequences to config/H11/reference_H11.gb
+          - filling gaps with N
+        
+Reason: Missing output files: results/H11/aligned.fasta; Input files updated by another job: results/H11/filtered.fasta
+
+[Mon Jun 10 11:32:54 2024]
+Finished job 5.
+4 of 12 steps (33%) done
+Select jobs to execute...
+
+[Mon Jun 10 11:32:54 2024]
+Job 4: Building tree
+Reason: Missing output files: results/H11/tree-raw.nwk; Input files updated by another job: results/H11/aligned.fasta
+
+[Mon Jun 10 11:33:08 2024]
+Finished job 4.
+5 of 12 steps (42%) done
+Select jobs to execute...
+
+[Mon Jun 10 11:33:08 2024]
+Job 3: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Missing output files: results/H11/tree.nwk, results/H11/branch-lengths.json; Input files updated by another job: results/H11/tree-raw.nwk, results/H11/aligned.fasta, results/H11/metadata.tsv
+
+[Mon Jun 10 11:34:46 2024]
+Error in rule refine:
+    jobid: 3
+    input: results/H11/tree-raw.nwk, results/H11/aligned.fasta, results/H11/metadata.tsv
+    output: results/H11/tree.nwk, results/H11/branch-lengths.json
+    shell:
+        
+        augur refine             --tree results/H11/tree-raw.nwk             --alignment results/H11/aligned.fasta             --metadata results/H11/metadata.tsv             --output-tree results/H11/tree.nwk             --output-node-data results/H11/branch-lengths.json             --timetree             --coalescent const             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-06-10T113209.814013.snakemake.log

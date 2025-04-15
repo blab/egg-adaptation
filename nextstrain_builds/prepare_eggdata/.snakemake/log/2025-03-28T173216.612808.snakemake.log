@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+all                      1
+download_egg_seqs        1
+total                    2
+
+Select jobs to execute...
+
+[Fri Mar 28 17:32:17 2025]
+rule download_egg_seqs:
+    output: raw_data/h3n2/ha/egg-passaged-sequences.fasta
+    jobid: 1
+    reason: Missing output files: raw_data/h3n2/ha/egg-passaged-sequences.fasta
+    wildcards: lineage=h3n2, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T, concurrent_fauna=1
+
+[Fri Mar 28 17:32:18 2025]
+Error in rule download_egg_seqs:
+    jobid: 1
+    output: raw_data/h3n2/ha/egg-passaged-sequences.fasta
+    shell:
+        
+        python3 ../../../fauna/vdb/download.py             --database vdb             --virus flu             --fasta_fields strain virus lineage locus accession collection_date virus_inclusion_date region country division location passage passage_category originating_lab submitting_lab age gender             --resolve_method keep_duplicates             --select passage_category:egg locus: ha lineage: h3n2             --path data/h3n2/ha             --fstem egg-passaged-sequences
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-03-28T173216.612808.snakemake.log

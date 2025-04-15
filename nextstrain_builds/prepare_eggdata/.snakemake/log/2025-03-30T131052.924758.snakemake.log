@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                          count
+-------------------------  -------
+all                              1
+subsample_background_seqs        1
+total                            2
+
+Select jobs to execute...
+
+[Sun Mar 30 13:10:53 2025]
+rule subsample_background_seqs:
+    input: data/h3n2/ha/background_sequences.fasta, data/h3n2/ha/background_metadata.tsv, include_exclude/h3n2/ha/include.txt, include_exclude/h3n2/outliers.txt
+    output: data/h3n2/ha/subsampled-background-sequences.fasta
+    jobid: 6
+    reason: Missing output files: data/h3n2/ha/subsampled-background-sequences.fasta
+    wildcards: lineage=h3n2, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Sun Mar 30 13:11:14 2025]
+Finished job 6.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Sun Mar 30 13:11:14 2025]
+localrule all:
+    input: data/h3n2/ha/egg_metadata.tsv, data/h3n2/ha/background_metadata.tsv, data/h3n2/ha/subsampled-background-sequences.fasta
+    jobid: 0
+    reason: Input files updated by another job: data/h3n2/ha/subsampled-background-sequences.fasta
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Sun Mar 30 13:11:14 2025]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2025-03-30T131052.924758.snakemake.log

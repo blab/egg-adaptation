@@ -1,0 +1,61 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+all                      1
+combine_metadata         1
+combine_sequences        1
+total                    3
+
+Select jobs to execute...
+
+[Sun Mar 30 14:09:06 2025]
+rule combine_metadata:
+    input: parsed_data/h3n2/ha/egg_metadata.tsv, parsed_data/h3n2/ha/subsampled-background-metadata.tsv
+    output: data/h3n2/ha/metadata.tsv
+    jobid: 8
+    reason: Missing output files: data/h3n2/ha/metadata.tsv
+    wildcards: lineage=h3n2, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+
+[Sun Mar 30 14:09:06 2025]
+rule combine_sequences:
+    input: parsed_data/h3n2/ha/egg_sequences.fasta, parsed_data/h3n2/ha/subsampled-background-sequences.fasta
+    output: data/h3n2/ha/sequences.fasta
+    jobid: 9
+    reason: Missing output files: data/h3n2/ha/sequences.fasta
+    wildcards: lineage=h3n2, segment=ha
+    resources: tmpdir=/var/folders/g_/6938g_6s199gxxswt2nf7w500000gn/T
+
+[Sun Mar 30 14:09:06 2025]
+Error in rule combine_sequences:
+    jobid: 9
+    input: parsed_data/h3n2/ha/egg_sequences.fasta, parsed_data/h3n2/ha/subsampled-background-sequences.fasta
+    output: data/h3n2/ha/sequences.fasta
+    shell:
+        
+        cat parsed_data/h3n2/ha/egg_sequences.fasta parsed_data/h3n2/ha/subsampled-background-sequences.fasta >
+        data/h3n2/ha/sequences.fasta
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 30 14:09:07 2025]
+Error in rule combine_metadata:
+    jobid: 8
+    input: parsed_data/h3n2/ha/egg_metadata.tsv, parsed_data/h3n2/ha/subsampled-background-metadata.tsv
+    output: data/h3n2/ha/metadata.tsv
+    shell:
+        
+        augur merge \
+            --metadata egg=parsed_data/h3n2/ha/egg_metadata.tsv background=parsed_data/h3n2/ha/subsampled-background-metadata.tsv \
+            --output-metadata data/h3n2/ha/metadata.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-03-30T140905.998296.snakemake.log

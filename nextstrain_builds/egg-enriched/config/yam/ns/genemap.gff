@@ -1,0 +1,3 @@
+##gff-version 3
+EPI51830	feature	source	1	1045	.	+	.	gene_name="nuc"
+EPI51830	feature	gene	10	855	.	+	.	gene_name="NS1"
