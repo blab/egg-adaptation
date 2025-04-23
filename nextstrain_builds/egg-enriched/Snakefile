@@ -1,7 +1,7 @@
 import datetime
 
-SEGMENTS = ['ha', 'na', 'pb1', 'pb2', 'pa', 'ns', 'mp', 'np']
-LINEAGES = ['h3n2', 'h1n1pdm', 'vic']
+SEGMENTS = ['ha', 'na', 'pa', 'pb1', 'pb2', 'np', 'ns', 'mp']
+LINEAGES = ['h3n2','h1n1pdm', 'vic', 'yam']
 
 resolution =30
 
@@ -99,13 +99,47 @@ def aggregate_translations(wildcards):
                   segment=wildcards.segment,
                   gene=GENES[wildcards.segment])
 
+def sites_to_mask(wildcards):
+    """
+    Return a list 1-based nuc sites to mask, depending on subtype.
+    """
+    if wildcards.segment in ['ha']:
+        mask_by_subtype = {'h3n2': [556, 633, 634, 658, 750, 751], 'h1n1pdm': [642,631,735,736,739], 'vic': [665,666,670,671], 'yam': [645,646,647,651,652]}
+    else:
+        mask_by_subtype = {'h3n2': [], 'h1n1pdm': [], 'vic': [], 'yam': []}
+
+    return mask_by_subtype.get(wildcards.lineage, [])
+
+rule mask:
+    """
+    mask major nt sites of egg-adaptation, so that they don't influence topology
+    """
+    input:
+        alignment = rules.align.output.alignment,
+    output:
+        masked_alignment = "results/{lineage}/{segment}/aligned_masked.fasta",
+    params:
+        sites_to_mask = sites_to_mask
+    benchmark:
+        "benchmarks/mask_{lineage}_{segment}.txt"
+    log:
+        "logs/mask_{lineage}_{segment}.txt"
+    shell:
+        """
+        augur mask \
+            --sequences {input.alignment} \
+            --mask-sites {params.sites_to_mask} \
+            --output {output.masked_alignment}
+        """
+
+
 rule tree:
     """
     from nextstrain seasonal-flu repo
     """
     message: "Building tree"
     input:
-        alignment = rules.align.output.alignment,
+        alignment = rules.mask.output.masked_alignment,
     output:
         tree = "results/{lineage}/{segment}/tree_raw.nwk"
     # conda: "../envs/nextstrain.yaml"
