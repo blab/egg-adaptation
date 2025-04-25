@@ -1,7 +1,8 @@
 import datetime
 
-SEGMENTS = ['ha', 'na', 'pa', 'pb1', 'pb2', 'np', 'ns', 'mp']
-LINEAGES = ['h3n2','h1n1pdm', 'vic', 'yam']
+# SEGMENTS = ['ha', 'na', 'pa', 'pb1', 'pb2', 'np', 'ns', 'mp']
+SEGMENTS = ['ns']
+LINEAGES = ['h3n2']
 
 resolution =30
 
@@ -106,7 +107,7 @@ def sites_to_mask(wildcards):
     if wildcards.segment in ['ha']:
         mask_by_subtype = {'h3n2': [556, 633, 634, 658, 750, 751], 'h1n1pdm': [642,631,735,736,739], 'vic': [665,666,670,671], 'yam': [645,646,647,651,652]}
     else:
-        mask_by_subtype = {'h3n2': [], 'h1n1pdm': [], 'vic': [], 'yam': []}
+        mask_by_subtype = {'h3n2': [1], 'h1n1pdm': [1], 'vic': [1], 'yam': [1]}
 
     return mask_by_subtype.get(wildcards.lineage, [])
 

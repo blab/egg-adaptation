@@ -12,8 +12,9 @@ Just download "data/**"
 
 import datetime
 
-SEGMENTS = ['ha', 'na', 'pb1', 'pb2', 'pa', 'ns', 'mp', 'np']
-VIRUSES = ['yam']
+# SEGMENTS = ['ha', 'na', 'pb1', 'pb2', 'pa', 'ns', 'mp', 'np']
+SEGMENTS = ['ns']
+VIRUSES = ['h3n2']
 resolution =30
 
 # path_to_fauna = '../../../fauna'
@@ -182,6 +183,17 @@ min_length_by_segment = {
     "mp": 800
 }
 
+subsample_seed_by_segment = {"ha": 1,
+    "na": 1,
+    "pb1": 1,
+    "pb2": 1,
+    "pa": 1,
+    "np": 1,
+    "ns": 2,
+    "mp": 1
+    }
+
+
 rule subsample_background_seqs:
     input:
         sequences = rules.parse_background_seqs.output.background_fasta,
@@ -195,6 +207,7 @@ rule subsample_background_seqs:
         max_sequences = lambda wildcards: max_sequences_by_segment[wildcards.segment],
         min_length = lambda wildcards: min_length_by_segment[wildcards.segment],
         group_by = "region year",
+        subsample_seed = lambda wildcards: subsample_seed_by_segment[wildcards.segment],
         # no egg-passaged sequences
         exclude_where = "passage_category=egg",
     shell:
@@ -209,7 +222,7 @@ rule subsample_background_seqs:
             --group-by {params.group_by} \
             --subsample-max-sequences {params.max_sequences} \
             --min-date {params.min_date} \
-            --subsample-seed 1 \
+            --subsample-seed {params.subsample_seed} \
         """
 
 rule prune_egg_metadata:
