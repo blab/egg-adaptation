@@ -1,0 +1,104 @@
+LOCUS       KP658040                1701 bp    cRNA    linear   VRL 31-JAN-2016
+DEFINITION  Influenza A virus (A/duck/Fujian/83/2013(H1N8)) segment 4
+            hemagglutinin (HA) gene, complete cds.
+ACCESSION   KP658040
+VERSION     KP658040.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/duck/Fujian/83/2013(H1N8))
+  ORGANISM  Influenza A virus (A/duck/Fujian/83/2013(H1N8))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1701)
+  AUTHORS   Liu,X., Liu,S., Wang,S., Zhuang,Q., Jiang,W., Hou,G., Yu,J.,
+            Wang,K. and Li,J.
+  TITLE     Molecular Epidemiological Surveys of H1 Subtype Avian Influenza
+            Viruses in China during 2011-2014
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1701)
+  AUTHORS   Liu,X., Liu,S., Wang,S., Zhuang,Q., Jiang,W., Hou,G., Yu,J.,
+            Wang,K. and Li,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2015) The Laboratory of Avian Disease
+            Surveillance, China Animal Health and Epidemiology Center, Nanjing
+            Road 369, Qingdao, Shangdong 266032, China
+COMMENT     GenBank Accession Numbers KP657995, KP658010, KP658025, KP658040,
+            KP658055, KP658070, KP658085, KP658100 represent sequences from the
+            8 segments of Influenza A virus (A/duck/Fujian/83/2013(H1N8)).
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SeqMan v. 7.1.0
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1701
+                     /organism="Influenza A virus
+                     (A/duck/Fujian/83/2013(H1N8))"
+                     /mol_type="viral cRNA"
+                     /strain="A/duck/Fujian/83/2013"
+                     /serotype="H1N8"
+                     /host="duck"
+                     /db_xref="taxon:1602712"
+                     /segment="4"
+                     /country="China"
+                     /collection_date="2013"
+                     /note="passage details: E1"
+     gene            1..1701
+                     /gene="HA"
+     actual_CDS      1..1701
+                     /gene="HA"
+                     /function="receptor binding and fusion protein"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="AJJ98649.1"
+                     /translation="MEAKLLVLFCMFAVLKADTICIGYHANNSTDTVGTVLEKNVTVT
+                     HSVNLLENNHNGKLCKLNGIAPLQLGKCNVAGWLLGNPECDLLLTASSWSYIIETSNS
+                     ENGTCYPGEFIDYEELREQLSSVSSFEKFEIFPKASSWPNHETTKGVTAACSYSGASS
+                     FYRNLLWITKKGNSYPKLSKSYTNNKGKEVLVLWGVHHPPTTNEQQTLYQNTGAYVSV
+                     GSSKYNRRFTPEIAARPKVRGQAGRMNYHWTLLDQGDTITFEATGNLIAPWYAFALNK
+                     GSDSGIITSDAPVHDCETKCQTPHGAINSSLPFQNVHPITIGECPKYVKSTKLRMATG
+                     LRNIPSVQSRGLFGAIAGFIEGGWTGMIDGWYGYHHQNEQGSGYAADQKSTQNAIDGI
+                     TNKVNSVIEKMNIQFTAVGKEFNNLERRIENLNKKVDDGFLDIWTYNAELLVLLENER
+                     TLDFHDSNVRNLYEKVKSQLRNNAKEIGNGCFEFYHKCDNECMESVKNGTYDYPKYSE
+                     ESKLNREEIDGVKLESMGVYQILAIYSTVASSLVLLVSLGAISFWMCSNGSLQCRICI
+                     "
+     CDS             1..51
+                     /gene="SigPep"
+     CDS             52..1032
+                     /gene="HA1"
+                     /product="HA1"
+     CDS             1033..1698
+                     /gene="HA2"
+                     /product="HA2"
+ORIGIN      
+        1 atggaagcca aactactcgt actattctgc atgttcgctg tgctaaaagc cgacaccatc
+       61 tgtataggct accatgcaaa caattctaca gacactgtcg gcacagtact agaaaagaat
+      121 gtaacagtga ctcactcagt caatttgctt gaaaacaacc ataatggaaa actctgcaag
+      181 ctgaacggga tagccccatt acaactaggg aagtgcaacg tagcgggatg gctcctcggc
+      241 aatccagaat gtgacctgct gctcactgcg agttcatggt cctatataat agaaacttca
+      301 aattcagaaa atggaacgtg ctaccccggg gaattcattg attatgaaga attgcgagaa
+      361 caactaagtt cagtgtcttc atttgagaag tttgaaattt tcccaaaggc aagctcgtgg
+      421 ccaaaccatg agacaaccaa aggtgtcacg gctgcatgct cttactctgg agctagcagt
+      481 ttttatcgaa atttgctgtg gataacaaag aagggaaatt cctatcctaa actcagtaaa
+      541 tcatacacaa acaacaaggg aaaagaagta cttgtgctct ggggagtgca tcatcctcca
+      601 accacaaatg aacagcagac tctctatcaa aatactggcg catatgtctc agtaggatca
+      661 tcaaagtaca accggaggtt cacacctgaa atagcggcca gacctaaagt cagaggacaa
+      721 gctggtagga tgaactatca ttggacacta ttggatcaag gagacacaat aacatttgaa
+      781 gcaacaggga acttaatagc gccatggtat gctttcgcac taaataaggg ctctgattct
+      841 ggtattataa catcagatgc tccggttcat gattgtgaga caaagtgcca aacccctcat
+      901 ggtgccatta acagtagtct ccctttccag aatgtgcacc ctatcactat cggagaatgc
+      961 cctaaatatg ttaaaagcac caaactaagg atggcaacag gtctgaggaa cattccttcc
+     1021 gttcaatcca gaggactctt tggagcaatt gctggattca ttgaaggagg atggactgga
+     1081 atgatagatg ggtggtatgg gtaccatcac cagaatgagc aaggttctgg ttatgcagct
+     1141 gatcagaaga gcacacaaaa tgcgatcgat ggaataacca acaaggtgaa ctcagtaatt
+     1201 gagaaaatga acattcaatt cactgcagta ggcaaagagt tcaacaatct ggagaggaga
+     1261 attgagaatc tgaataaaaa agttgacgat gggtttctgg acatctggac atataatgca
+     1321 gaattactcg ttttgctcga gaacgaaagg accttggatt tccatgactc caatgtgagg
+     1381 aacctgtatg aaaaggtcaa gtcacaattg aggaataatg ccaaagaaat tggaaatggg
+     1441 tgcttcgagt tctatcacaa atgtgacaac gagtgcatgg agagtgtgaa gaacggaaca
+     1501 tatgactatc ccaagtactc agaggagtcc aaactaaaca gagaagaaat agacggggta
+     1561 aaattggaat caatgggggt ttatcagatt ttggcgatct actccacagt cgccagttcc
+     1621 ctggttctgt tagtctccct gggggcaatc agtttctgga tgtgttctaa tgggtcattg
+     1681 caatgcagaa tatgcattta g
+//

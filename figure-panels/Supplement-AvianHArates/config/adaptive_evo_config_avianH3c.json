@@ -1,0 +1,27 @@
+{
+  "virus": "avianH3c",
+  "virus_family": "orthomyxovirus",
+  "genome_type": "Negative-sense RNA, segmented",
+  "enveloped": "True",
+  "transmission": "Respiratory",
+  "cellular_receptor": "Sialic acid",
+  "fusion_protein_class": "Class I",
+  "subtype": "False",
+  "legible_name": "Avian Influenza A/H3Nx, lineage c",
+  "color": "#01927C",
+  "alignment_file": "../../nextstrain_builds/avian-separate-lineages/results/H3c/aligned.fasta",
+  "meta_file": "../../nextstrain_builds/avian-separate-lineages/data/H3c_metadata.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../../nextstrain_builds/avian-separate-lineages/config/H3c/reference.gb",
+  "root_seq_file": "../../nextstrain_builds/avian-separate-lineages/auspice/H3c_root-sequence.json",
+  "tree_file": "../../nextstrain_builds/avian-separate-lineages/auspice/H3c.json",
+  "tree_type": "gene-specific",
+  "nextstrain_tree_url": "", 
+  "genes_for_divergence": ["HA"],
+  "genes": ["ha1", "ha2", "ha"],
+  "ha_protein": {"virus_gene": "ha"},
+  "receptor_binding": {"virus_gene": "ha1"},
+  "membrane_fusion": {"virus_gene": "ha2"},
+  "nonantigenic_gene": "ha"
+
+}

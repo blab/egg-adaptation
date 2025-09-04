@@ -1,0 +1,5 @@
+##sequence-region KP658040 1 1701
+KP658040	feature	source	1	1701	.	+	.	gene=nuc
+KP658040	feature	gene	1	51	.	+	.	gene_name=SigPep
+KP658040	feature	gene	52	1032	.	+	.	gene_name=HA1
+KP658040	feature	gene	1033	1698	.	+	.	gene_name=HA2

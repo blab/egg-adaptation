@@ -30,5 +30,5 @@ nextstrain_builds/human-influenza-freqs/alltime-ha1-alignments/
 # old/wip analyses
 previous/
 figure_panels/WIP/
-figure_panels/WIP/**
+**/WIP/
 figure_panels/figure6/old:wip/

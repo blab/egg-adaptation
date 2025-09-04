@@ -1,0 +1,100 @@
+LOCUS       KP767641                1701 bp    cRNA    linear   VRL 05-FEB-2016
+DEFINITION  Influenza A virus (A/duck/Jiangsu/JF356/2014(H3)) segment 4
+            hemagglutinin (HA) gene, complete cds.
+ACCESSION   KP767641
+VERSION     KP767641.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/duck/Jiangsu/JF356/2014(H3))
+  ORGANISM  Influenza A virus (A/duck/Jiangsu/JF356/2014(H3))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1701)
+  AUTHORS   Li,Z., Liu,S., Hou,G., Wang,S., Li,J., Zhang,X., Wang,D. and
+            Chen,J.
+  TITLE     Variation of the prevalence of low pathogenic avian influenza
+            viruses in live poultry markets
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1701)
+  AUTHORS   Li,Z., Liu,S., Hou,G., Wang,S., Li,J., Zhang,X., Wang,D. and
+            Chen,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-FEB-2015) Laboratory of Avian Disease Surveillance,
+            China Animal Health and Epidemiology Center, 369 Nanjing Road,
+            Qingdao, Shangdong 266032, China
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SeqMan v. 7.1.0
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1701
+                     /organism="Influenza A virus
+                     (A/duck/Jiangsu/JF356/2014(H3))"
+                     /mol_type="viral cRNA"
+                     /strain="A/duck/Jiangsu/JF356/2014"
+                     /serotype="H3"
+                     /host="duck"
+                     /db_xref="taxon:1614449"
+                     /segment="4"
+                     /country="China"
+                     /collection_date="06-Nov-2014"
+                     /note="passage details: E1"
+     gene            1..1701
+                     /gene="HA"
+     actual_CDS      1..1701
+                     /gene="HA"
+                     /function="receptor binding and fusion protein"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="AJS17976.1"
+                     /translation="MKTVIALSYIFCLAVGQDLPGNDNSTATLCLGHHAVPNGTIVKT
+                     ITDDQIEVTNATELVQSSSTGKICNNPHRVLDGRDCALIDALLGDPHCDVFQDETWDL
+                     FVERSNAFSNCYPYDVPNYASLRSLVASSGTLEFITEGFTWTGVTQNGGSGACKRGPT
+                     NGFFSRLNWLTKSGNAYPVLNVTMPNNDNFDKLYIWGVHHPSTNQEQTNLYVQASGRV
+                     TVSTRRSQQTIIPNIGSRPWVRGQSGRISIYWTIVKPGDVLVINSNGNLIAPRGYFKM
+                     RTGKSSIMRSDAPIDTCVSECITPNGSIPNDKPFQNVNKITYGACPKYVKQNTLKLAT
+                     GMRNVPEKQTRGLFGAIAGFIENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQ
+                     INGKLNRVIEKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLIALENQ
+                     HTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHRCDNACIESIRNGTYNHDIYR
+                     DEALNNRFQIKGVELKSGYKDWILWISFAISCFLLCVVLLGFIMWACQRGNIRCNICI
+                     "
+     CDS             1..48
+                     /gene="SigPep"
+     CDS             49..1035
+                     /gene="HA1"
+                     /product="HA1"
+     CDS             1036..1698
+                     /gene="HA2"
+                     /product="HA2"
+ORIGIN      
+        1 atgaagaccg tcatcgcttt aagctacatt ttctgtctgg ctgtcggtca ggaccttcca
+       61 gggaatgaca acagtacagc aacactgtgc ctgggacatc atgcagtacc gaatggaaca
+      121 atagtaaaga caatcacaga tgatcaaatt gaggtaacta atgctactga gctggttcaa
+      181 agctcctcaa cagggaaaat atgcaacaac ccccacaggg tcctcgatgg aagagactgt
+      241 gcactaatag acgccctatt gggggatccc cactgtgatg tctttcaaga tgaaacatgg
+      301 gacctttttg tggaacggag caatgctttc agcaactgtt acccttatga tgtaccaaac
+      361 tatgcatccc ttcgatcctt agtcgcatca tcaggcacat tggagttcat cactgaaggc
+      421 ttcacttgga caggagtaac tcagaatggg ggaagcggtg cctgcaaaag gggacccact
+      481 aatggttttt tcagtagatt gaactggttg actaaatcag gaaatgcgta tccagtattg
+      541 aatgtgacaa tgccgaacaa tgacaatttt gacaagctat acatctgggg agttcaccac
+      601 ccaagcacaa atcaagaaca aaccaacctg tatgttcaag catcaggaag agtcactgtc
+      661 tctaccagga gaagtcaaca gactataatc ccaaacattg gatctagacc ctgggtaagg
+      721 ggccaatctg gcagaataag catctattgg acaatagtca aacctggaga cgtactagta
+      781 atcaatagta atggaaacct aatcgcccct cgaggttact tcaagatgcg cactgggaaa
+      841 agctcaataa tgagatcaga tgcacctatt gacacctgcg tttctgagtg catcactcca
+      901 aatggaagca ttcccaatga caaacccttt caaaatgtaa acaagatcac atacggagca
+      961 tgtcccaaat atgtgaagca gaacactctg aaattggcaa caggaatgag gaatgtgcct
+     1021 gagaaacaaa ccagaggcct attcggtgca atagcaggtt ttatagaaaa tggatgggaa
+     1081 gggatgatag atggttggta tggtttcagg caccaaaatt ccgaaggtac aggacaagca
+     1141 gcagacctta aaagcactca ggcagccatt gatcagatca atgggaaatt gaacagagta
+     1201 attgaaaaaa cgaatgagaa attccatcaa attgaaaagg aattctctga agtagaaggg
+     1261 aggatccagg accttgagaa atatgttgaa gacacaaaga tagacctctg gtcttacaat
+     1321 gcggagcttc ttattgccct agaaaatcaa catacaattg atttgactga ttcagaaatg
+     1381 aacaaattgt ttgaaaagac caggaggcaa ttgagagaaa atgctgagga tatgggcaac
+     1441 ggttgtttca agatatacca cagatgtgac aatgcttgca tagaatcaat tagaaacggg
+     1501 acttacaatc atgacatata cagagatgag gcattgaaca atcgattcca gatcaagggt
+     1561 gttgagctaa aatctggata caaagactgg atcctgtgga tttcctttgc catatcatgc
+     1621 tttttgcttt gtgttgtttt gctggggttc attatgtggg cctgccagag aggcaacatt
+     1681 aggtgcaaca tttgcatttg a
+//
