@@ -23,8 +23,12 @@ nextstrain_builds/egg-enriched/data/
 nextstrain_builds/egg-enriched/results/
 nextstrain_builds/avian/data/
 nextstrain_builds/avian/results/
+nextstrain_builds/avian-separate-lineages/data/
+nextstrain_builds/avian-separate-lineages/results/
+nextstrain_builds/human-influenza-freqs/alltime-ha1-alignments/
 
 # old/wip analyses
 previous/
 figure_panels/WIP/
+figure_panels/WIP/**
 figure_panels/figure6/old:wip/
